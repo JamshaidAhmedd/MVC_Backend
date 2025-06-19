@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "The way of Professor is teaching is fabulous !! \nContent of the course is amazing.\nHe has planned the course in such a way that new students can also understand the concepts.",
+        "name": "By Rutuja W",
+        "date": "Sep 8, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "The course material (lecture slides) for \"Computer Architecture\" is almost identical to that of the other top universities, so you can be confident in its quality. Professor is clearly experienced in both teaching and the subject. I really enjoyed the lectures. I'm really grateful for the opportunity to take this course. \nAll in all, it was a very satisfying experience.",
+        "name": "By Savo P",
+        "date": "Aug 24, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "Quite intense but also quite rewarding. Dr. Wentzlaff's class are captivating and well prepared. The exames are a little bit exhausting, but effectively measure what was learned.",
+        "name": "By Pedro P B d O",
+        "date": "May 8, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "This course was a very helpful for filling in gaps in my knowledge between high level software development and details of processor architecture and instruction sets (MIPS mainly). I didn\u2019t have the exact prerequisites for this advanced course so it was hard work especially at the beginning (hadn\u2019t done the earlier architecture course recommended and am not an electrical engineer,  but have trained and worked in software development and physical sciences). The concepts are not unduly difficult but the course is VERY detailed and the sheer volume of recommended reading somewhat overwhelming: I got by with buying a Kindle version of the Hennessy and Patterson text book (plus a few peeks into a digital logic book). I appreciated Prof Wentzlaff\u2019s insights: he was clearly teaching from experience.\nThe course is however not really designed bottom-up for online teaching. The lectures are videos of actual Princeton lectures, with a few multiple choice questions hacked in. It helps to keep a copy of the slides when watching as when the camera pans out it is difficult to read the diagrams on the board.The course homework was quite difficult, even after the brief solutions were given. The mid-term and final tests exams were however well constructed and instructive and much clearer as to what was required. So all in all a real bargain for the cost of a text book!",
+        "name": "By Duncan E",
+        "date": "Dec 15, 2016",
+        "stars": 4
+    },
+    {
+        "review_text": "Excellent course! It was really nice to have a high-level course, and I feel like this course makes a great substitute for the Computer Architecture course offered in my university.",
+        "name": "By Ido G",
+        "date": "Oct 12, 2016",
+        "stars": 5
+    },
+    {
+        "review_text": "The course presents advanced material, not easily found elsewhere. Labs would have definitely facilitated the learning in this case and I hope they will be added in the future.",
+        "name": "By Ry A",
+        "date": "Apr 8, 2018",
+        "stars": 5
+    },
+    {
+        "review_text": "the course is extremely useful in giving an overview of the existing technologies and introducing needed terminology and basic blocks.\nIt is tightly bounded to existing technologies and is very valuable.",
+        "name": "By Artem P",
+        "date": "Nov 25, 2018",
+        "stars": 5
+    },
+    {
+        "review_text": "Excellent. The best COURSE very formal.",
+        "name": "By Franco V F",
+        "date": "Aug 8, 2016",
+        "stars": 5
+    },
+    {
+        "review_text": "Nice course, learnt a lot of new information. If practical part is also included in this course, this this course will even be more good.",
+        "name": "By Vishal G",
+        "date": "Aug 24, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "Very well-structured Computer Architecture course.\nAs it says at the beginning, this course is an advanced computer architecture course. The first 3 lectures revision really helps refresh the basic knowledge and the later parts dive deeply in professional computer architecture areas as well as their applications.\nI think the most excellent thing of this course is that in every part, the instructor lists down the corresponding pages from the textbook. This really helps me find the relevant knowledge from the book so that I can understand the lectures notes better.\nProf. David Wentzlaff's instruction style is very engaging. Hope to learn from from him : )",
+        "name": "By CHEN Y",
+        "date": "Aug 26, 2019",
+        "stars": 5
+    }
+]

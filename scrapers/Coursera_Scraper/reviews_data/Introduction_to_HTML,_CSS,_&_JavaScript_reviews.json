@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "On my way to completing the IBM The Front-End Developer Professional Certificate, I have been learning a ton and enjoying the journey until I got to this course. I was even looking forward to it but I felt that it did not cater to people who are absolutely beginners with absolutely no previous knowledge of coding. In the videos, quizzes and labs, concepts were launched into often skipping crucial \"basic\" level info, this was especially true in the Hands-on labs. I encountered more than a few moments of sheer frustration trying to figure things out on my own which I eventually did by sheer grit, determination and Google. It takes a very special type of teacher to teach a subject like coding to the masses, especially if those masses are coming from industries and fields that are outside of Computer Science. Also, knowing these three programs well is mandatory for this career. My suggestion to these instructors is to please \"assume nothing\" as you plan this course curriculum - explain things in baby steps and then every baby step in the most BASIC and CLEAR way possible and try, try very hard to make it fun and engaging - think \"Coding for Kids\" - I think then, this can be more beneficial to the learners. ALSO - the labs are very\" glitchy\" - multiple server errors, errors with not being able to save edits, screenshots were of outdated program versions, etc. It was just an extremely messy experience for me. I hope that you guys will review these comments (and the comments of other reviewers that I saw, that had similar feedback) and make the relevant changes.",
+        "name": "By Saycred B D",
+        "date": "Apr 23, 2024",
+        "stars": 2
+    },
+    {
+        "review_text": "This course is very good for the learner who wants to learn HTMl, CSS and JavaScript from scratch.",
+        "name": "By Haroon",
+        "date": "Nov 6, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Really difficult to get into from a total beginner standpoint. So much complicated jargon that I relied on ChatGPT for most of my learning, as i had to look up definitions and examples of what the instructor was talking about. Never have felt more lost in a course. Massive waste of the money that i spent for 2 months of this subscription. I dont feel confident at all using HTML, CSS or JS as I feel the course throws so much unecessary theory without enough practical. More work in JSFiddle to see what making a website is about wouldve been infinitely helpful. Despite getting high grading scores for this course, I am in no place to create a website of my own. Too much theory, way too little practical.",
+        "name": "By Arhan B",
+        "date": "Aug 14, 2024",
+        "stars": 2
+    },
+    {
+        "review_text": "This course  is not free but it showing that it is free.",
+        "name": "By Raj V",
+        "date": "Sep 4, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "the AI grading on the final project was not good and the feedback was not very helpful",
+        "name": "By Eric R",
+        "date": "Aug 6, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "This was a very thorough course. I have a staggering number of notes, and I feel like I have a solid understanding of the content. They did an excellent job of explaining all of the concepts and terms in very specific detail, so I knew what was happening on multiple levels when I implemented the knowledge in the hands-on modules.",
+        "name": "By Andrew W",
+        "date": "Dec 12, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Must take frontend course, gives good knowledge on HTML, CSS and. Javascript",
+        "name": "By Twisha",
+        "date": "Nov 6, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Positives\n\n1. This course contained short but informative videos.\n2. Overall, the course was helpful in progressing my front-end development knowledge.\n\nNegatives\n\nA. Quizzes\n1. Poor scrolling experience on quiz pages may cause users to unintentionally select a different answer.\n2. Quiz submission confirmation dialog boxes seem to be unnecessary.\n3. The Coursera Honors Code should only be mentioned for graded quizzes.\n4. Some of the questions and answers in multiple quizzes came off as confusing and inaccurate, so they have to be reviewed.\n\nB. Labs\n1. At least a couple of programming examples from the labs contain code errors when run in a browser and don't look professional.\n2. Lab completion time is underestimated due to the following:\n   - Labs only functioned properly in the Firefox browser.\n   - Edge's 'Read aloud' voice kept getting stuck due to poor text formatting.\n   - Cloud IDE's slow & unstable connections caused some delay.\n\nC. Reading \n1. The audio option didn't work in a few reading material sections, so this technical issue needs to be fixed.\n2. This course is full of spelling errors, especially in the lab instructions.\n\nD. Design\n1. This course should encourage students to design something on their own rather than follow lots of boring Copy & Paste steps.\n2. The final project of this course contains duplicate lab instructions that need to be removed.\n3. It's not students' job to review someone else's work, and my assignment was not graded correctly by someone.",
+        "name": "By Roman S",
+        "date": "Nov 3, 2024",
+        "stars": 2
+    },
+    {
+        "review_text": "The videos are informational and are a great resource for someone who hasn't touched a programming language in his life and wants to start now and learn. The final project though is a joke. Its more writing about a fictional person and less about building a website. Basically there is no building.",
+        "name": "By Stergios N",
+        "date": "Jun 27, 2024",
+        "stars": 2
+    },
+    {
+        "review_text": "Too much pressed into one course. If the whole course would have been set up like the final exam (praxis oriented with direct support) instead of only showing uncomprehensive videos, the course would have been helpful.",
+        "name": "By Max E v E",
+        "date": "Jul 4, 2024",
+        "stars": 2
+    }
+]

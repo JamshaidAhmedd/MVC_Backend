@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Great specialization, as close to a real university course series as possible in this online setting.",
+        "name": "By Tamas K",
+        "date": "Aug 12, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Very difficult and maybe irrelevent",
+        "name": "By Muhammad A G Q",
+        "date": "May 24, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "This is a highly valuable course for learning the basics of quantum algorithms. The difficulty adjustments of programming tasks, which require serious consideration to pass, are also exquisite.",
+        "name": "By Yukihiro F",
+        "date": "May 24, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Labs were perhaps the only helpful part of the course.",
+        "name": "By Prakash Y",
+        "date": "Mar 11, 2025",
+        "stars": 2
+    },
+    {
+        "review_text": "The concepts taught in this course are very challenging. The programming assignments will similarly require a lot of thought to solve, particularly the last few Programming Assignments. It is a fitting end to the specialization and leaves room for further exploration in Security and Quantum Computing.",
+        "name": "By Romel A M V",
+        "date": "Jul 9, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Amazing teaching, well made tasks and assessments. However, some computing task takes quite a while, a lot of code to familiarize with before you can solve the problems.",
+        "name": "By Henrique B",
+        "date": "Nov 25, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Very hard but very good information!",
+        "name": "By Daniel M",
+        "date": "Jan 17, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Highly recommended course!",
+        "name": "By Akshay V S",
+        "date": "Nov 11, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "exceptional,",
+        "name": "By Jos\u00e9 L D O",
+        "date": "Nov 17, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "This course was truly insightful and well-structured. It provided a great blend of advanced data structures and cryptography concepts, especially RSA, along with an introductory view into quantum algorithms. The explanations were clear, and the examples helped in understanding even the complex topics like GCD, Bezout\u2019s Identity, and RSA's mathematical foundation. The part on quantum computing sparked a lot of curiosity\u2014it\u2019s complex but exciting! Definitely recommended for anyone interested in both classical and modern algorithmic techniques.",
+        "name": "By Priyanka M",
+        "date": "Jun 8, 2025",
+        "stars": 4
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Google needs to either change the course from ' Getting Started in Python' or lower the steep difficulty level of course that starts with when you finish the module of dictionary, tuples, and so on. The reason is that the lectures emphasize on the basics of data structure but the questions of the same lectures of much higher difficulty and doesn't even explain the relevant functions / techniques and such strategy leaves students like me to be frustrated & disappointed.\n\nSo, please if the questions (especially the dictionary & tuples) ones bound to be difficult then share the relevant techniques in the lectures before prompting us to do the exercises.",
+        "name": "By Farrukh N A",
+        "date": "Jun 22, 2023",
+        "stars": 1
+    },
+    {
+        "review_text": "Great courses for a beginner, but the labs are so difficult, you cannot finishi them based on those video and readings without any previous knowldge about Python",
+        "name": "By \u5305\u6657",
+        "date": "Jun 30, 2023",
+        "stars": 2
+    },
+    {
+        "review_text": "Too basic to \"Advanced\"",
+        "name": "By Ilia B",
+        "date": "Apr 21, 2023",
+        "stars": 4
+    },
+    {
+        "review_text": "The materials and presentations are excellent, but I am not a fan of the busy work involved in the end of course PACE portfolio work. Professional presentation is certainly important, but you end up diluting the course by including so much of this material. Furthermore, having worked on many projects, I can tell you that the workflow process is so iterative that trying to \"shoe horn\" the process into a four letter acronym -- which is better than the six letter acronym in the previous specialization -- is both reductionistic and frankly artificial.  My suggestions are as follows: remove this excess material and \"re-factor\" the PACE/portfolio material into one course, perhaps the capstone course. Otherwise, I learned quite a bit.",
+        "name": "By John E",
+        "date": "Apr 26, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "This course covers the essentials for data analytics well, introduction(short) to python basics and pandas.\nGood amount of labs practice with data frames and the functions and methods that come with it, however, this course is not sufficient if you have little to none experience or knowledge of the python language.\nI would highly recommend a full basic course on python for data science before proceeding any further in the certification because every other course in this program uses python extensively and you do not want to limit your understanding due to the technical aspect. Take your time, review the course material, take regular breaks to realign your mindset and most importantly - practice, practice, practice.",
+        "name": "By Kyle E",
+        "date": "Aug 9, 2023",
+        "stars": 3
+    },
+    {
+        "review_text": "Although I have not completed this course by now and am halfway done, I feel extremely disappointed with this advanced course. \n\nIn this advanced course, course 1 is the intro, and courses 2 and 3 discuss fundamental Python analysis and visualization using numpy, pandas, matplotlib, and seaborn. By viewing content, courses 4 - 6 are advanced Python analysis, such as Introduction to Machine Learning and Regression Analysis. \n\nLet's start talking about courses 2 and 3. They throw you everything, and you must figure it out alone. It's just like you haven't learned Allegra yet, and they throw you calculus staff. How can you learn how to run if you don't know how to walk? It feels like impossible. If you have no previous Python experience, don't take this course! It will keep and keep confusing you. \n\nLet's have an example by looking at course content. In course 3, they taught you data analysis, visualization, and data cleaning afterward. This does not make any sense. If you aren't familiar with data analysis yet, data analysis should follow the steps in order(the steps might differ, but the structure is the same): Ask questions, data collect, data clean, analyze, and visualize. They don't teach in order, which is ridiculous, in my opinion. \n\nI learned content similar to this course about two years ago and recently re-picked it up for review. But for sure, if you have yet to gain experience with Python, don't take this course; find something better, I promise. At least, it confused me more.",
+        "name": "By Islands",
+        "date": "Dec 31, 2023",
+        "stars": 2
+    },
+    {
+        "review_text": "This was a very good course for people just starting out with Python.  The instructor was well spoken and did a nice job explaining the topics.  If you have never been exposed to any sort of computer programming language than this course may take you a little bit longer to get up to speed, but the resources provided should be enough to get you started.",
+        "name": "By Jeremiah M",
+        "date": "Jul 20, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "I'm exited with this course, i learn python from scratch and pyhton libraries such as numpy and pandas are easy to learn. tutorial video are effictive,  lab are so effictive, thanks a lot.",
+        "name": "By manjineshwaran g",
+        "date": "Jun 22, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "I really enjoyed this course. There was a wide range of things covered and even though I had no experience with Python at the start I now feel confident enough to do the basics.",
+        "name": "By Corey F",
+        "date": "Nov 29, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "Exceptionally well-designed course! I just loved it. I knew Python before but from this course, I learned the ways to communicate results. Lastly, The instructor was amazing.",
+        "name": "By Muhammad B",
+        "date": "Jun 5, 2023",
+        "stars": 5
+    }
+]

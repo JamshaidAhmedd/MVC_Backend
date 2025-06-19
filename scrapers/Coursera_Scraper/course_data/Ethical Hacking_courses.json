@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Certified Ethical Hacking (v12)",
+        "link": "https://www.coursera.org/specializations/certified-ethical-hacking-v12-cehv12-exam-prep-course",
+        "description": "Skills you'll gain: Cloud Security, Penetration Testing, Distributed Denial-Of-Service (DDoS) Attacks, Network Security, Malware Protection, Cybersecurity, Threat Modeling, Cloud Computing, Mobile Security, Cyber Security Assessment, Cyber Attacks, Security Testing, Cloud Services, Threat Detection, Cloud Infrastructure, Information Systems Security, Intrusion Detection and Prevention, Cyber Threat Intelligence, Firewall, Incident Response",
+        "rating": "4.7",
+        "reviews": "203 reviews"
+    },
+    {
+        "title": "The Complete Ethical Hacking Bootcamp: Beginner To Advanced",
+        "link": "https://www.coursera.org/specializations/packt-the-complete-ethical-hacking-bootcamp-beginner-to-advanced",
+        "description": "Skills you'll gain: Linux Commands, Linux, Penetration Testing, Open Web Application Security Project (OWASP), Vulnerability Scanning, Command-Line Interface, Scripting, Vulnerability Assessments, Cyber Security Assessment, General Networking, Python Programming, Network Security, Cybersecurity, Firewall, Application Security, Web Applications, Data Ethics, Email Security, Computer Security Awareness Training, Malware Protection",
+        "rating": "4.3",
+        "reviews": "29 reviews"
+    },
+    {
+        "title": "Introduction to Ethical Hacking",
+        "link": "https://www.coursera.org/specializations/introduction-to-ethical-hacking",
+        "description": "Skills you'll gain: Penetration Testing, MITRE ATT&CK Framework, Open Web Application Security Project (OWASP), Public Key Infrastructure, Cyber Threat Intelligence, Threat Modeling, Cybersecurity, Distributed Denial-Of-Service (DDoS) Attacks, Cryptography, Mobile Security, Security Testing, Application Security, Vulnerability Scanning, Vulnerability Assessments, Network Security, Operating Systems, Encryption, Web Applications, Malware Protection, Wireless Networks",
+        "rating": "3.4",
+        "reviews": "12 reviews"
+    },
+    {
+        "title": "Ethical Hacking Essentials (EHE)",
+        "link": "https://www.coursera.org/learn/ethical-hacking-essentials-ehe",
+        "description": "Skills you'll gain: Penetration Testing, Cloud Security, Vulnerability Assessments, Network Security, Threat Detection, Security Awareness, Cybersecurity, Application Security, Mobile Security, Internet Of Things, Authentications, Encryption, Wireless Networks",
+        "rating": "4.6",
+        "reviews": "552 reviews"
+    },
+    {
+        "title": "The Complete Ethical Hacking Course",
+        "link": "https://www.coursera.org/specializations/packt-the-complete-ethical-hacking-course",
+        "description": "Skills you'll gain: Penetration Testing, OSI Models, Network Security, Open Web Application Security Project (OWASP), TCP/IP, Cybersecurity, Malware Protection, Cyber Attacks, Wireless Networks, Application Security, Network Monitoring, Linux, Object Oriented Programming (OOP), Vulnerability Assessments, General Networking, Security Awareness, Intrusion Detection and Prevention, Command-Line Interface, Large Language Modeling, Prompt Engineering",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "IBM Ethical Hacking with Open Source Tools",
+        "link": "https://www.coursera.org/professional-certificates/ibm-ethical-hacking-with-open-source-tools",
+        "description": "Skills you'll gain: Penetration Testing, Linux, Incident Response, Vulnerability Scanning, Threat Detection, Vulnerability Management, Vulnerability Assessments, Network Security, Intrusion Detection and Prevention, Security Strategy, Bash (Scripting Language), Network Monitoring, Cyber Threat Hunting, Scripting, Cybersecurity, Threat Management, Cyber Threat Intelligence, Incident Management, Data Ethics, Information Systems Security",
+        "rating": "4.7",
+        "reviews": "9 reviews"
+    },
+    {
+        "title": "Ethical Hacking Fundamentals",
+        "link": "https://www.coursera.org/learn/certified-ethical-hacking-v12-ethical-hacking-fundamentals",
+        "description": "Skills you'll gain: Penetration Testing, Cybersecurity, Cyber Attacks, Network Security, Security Testing, Information Systems Security, Cyber Threat Intelligence, Application Security, Security Engineering, Vulnerability Assessments, Network Administration, Data Ethics, Security Awareness, Web Servers, Web Applications",
+        "rating": "4.6",
+        "reviews": "148 reviews"
+    },
+    {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "link": "https://www.coursera.org/learn/introduction-to-ai",
+        "description": "Skills you'll gain: Large Language Modeling, Artificial Intelligence, OpenAI, Generative AI, Data Ethics, Artificial Intelligence and Machine Learning (AI/ML), ChatGPT, Deep Learning, Business Transformation, Artificial Neural Networks, Digital Transformation, Prompt Engineering, Automation, Machine Learning, Governance, Business Technologies, Natural Language Processing, Computer Vision, Ethical Standards And Conduct, Applied Machine Learning",
+        "rating": "4.7",
+        "reviews": "19K reviews"
+    },
+    {
+        "title": "Ethical Hacking",
+        "link": "https://www.coursera.org/learn/ethical-hacking",
+        "description": "Skills you'll gain: Penetration Testing, Vulnerability Scanning, Vulnerability Assessments, Cybersecurity, Information Systems Security, Network Security, Security Testing, General Networking, Network Protocols",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Cybersecurity Attack and Defense Fundamentals",
+        "link": "https://www.coursera.org/specializations/cybersecurity-attack-and-defense",
+        "description": "Skills you'll gain: Penetration Testing, Network Security, Mobile Security, Cloud Security, Public Key Infrastructure, Vulnerability Assessments, Cryptography, Security Controls, Threat Detection, Cybersecurity, Authorization (Computing), Security Awareness, Encryption, Malware Protection, Identity and Access Management, Wireless Networks, Data Security, Intrusion Detection and Prevention, Computer Security Awareness Training, Cyber Threat Intelligence",
+        "rating": "4.6",
+        "reviews": "717 reviews"
+    },
+    {
+        "title": "Generative AI Fundamentals",
+        "link": "https://www.coursera.org/specializations/generative-ai-for-everyone",
+        "description": "Skills you'll gain: Prompt Engineering, Generative AI, ChatGPT, OpenAI, Data Ethics, Large Language Modeling, Leadership and Management, Business Leadership, Strategic Leadership, Business Ethics, Legal Risk, IBM Cloud, Google Cloud Platform, Artificial Intelligence, Program Development, Artificial Neural Networks, Business Development, Deep Learning, Content Creation, Business Transformation",
+        "rating": "4.7",
+        "reviews": "7.1K reviews"
+    },
+    {
+        "title": "Kali Linux",
+        "link": "https://www.coursera.org/learn/kali-linux",
+        "description": "Skills you'll gain: Vulnerability Assessments, Network Monitoring, Penetration Testing, Virtual Private Networks (VPN), Cyber Security Assessment, Command-Line Interface, Cybersecurity, Linux, Network Security, Intrusion Detection and Prevention, Software Installation, Network Analysis, Encryption",
+        "rating": "4.2",
+        "reviews": "189 reviews"
+    }
+]

@@ -55,6 +55,10 @@ course aggregation, JWT authentication, sentiment analysis, favorites, notificat
 ├── category\_tagger.py
 
 └── unify\_data.py
+├── scrapers/                  ← **NEW** top‐level directory you should create
+│   ├── alison/                ← move your existing `Alison_scraper/` here
+│   └── coursera/              ← move your existing `Coursera_Scraper/` here
+│
 
 **app/main.py**
 

@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Introduction to Computer Science and Programming",
+        "link": "https://www.coursera.org/specializations/introduction-computer-science-programming",
+        "description": "Skills you'll gain: Computer Science, Debugging, Development Environment, Computer Systems, Web Applications, Arithmetic, Javascript, Computer Networking, Computational Thinking, Theoretical Computer Science, Human Computer Interaction, Hardware Architecture, Program Development, Computer Graphics, Operating Systems, Cybersecurity, Computer Programming, Problem Management, General Mathematics, Applied Mathematics",
+        "rating": "4.2",
+        "reviews": "1.5K reviews"
+    },
+    {
+        "title": "Computer Communications",
+        "link": "https://www.coursera.org/specializations/computer-communications",
+        "description": "Skills you'll gain: TCP/IP, Local Area Networks, Routing Protocols, Network Routing, Digital Communications, OSI Models, Network Protocols, Dynamic Host Configuration Protocol (DHCP), Network Security, Network Planning And Design, Network Architecture, Network Performance Management, Computer Networking, Network Model, Network Infrastructure, Wireless Networks, Telecommunications, Software-Defined Networking, Algorithms, System Programming",
+        "rating": "4.6",
+        "reviews": "3.3K reviews"
+    },
+    {
+        "title": "Computer Networks and Network Security",
+        "link": "https://www.coursera.org/learn/network-security-database-vulnerabilities",
+        "description": "Skills you'll gain: Networking Hardware, TCP/IP, Network Security, Network Protocols, Endpoint Detection and Response, Network Routing, Cybersecurity, Local Area Networks, Dynamic Host Configuration Protocol (DHCP), Firewall, General Networking, Information Systems Security, Intrusion Detection and Prevention, Endpoint Security, Network Infrastructure, Network Planning And Design, Wireless Networks, Security Information and Event Management (SIEM), Network Analysis, Data Loss Prevention",
+        "rating": "4.7",
+        "reviews": "3.4K reviews"
+    },
+    {
+        "title": "IBM Data Science",
+        "link": "https://www.coursera.org/professional-certificates/ibm-data-science",
+        "description": "Skills you'll gain: Dashboard, Data Visualization Software, Data Wrangling, Data Visualization, SQL, Supervised Learning, Feature Engineering, Plotly, Interactive Data Visualization, Jupyter, Data Literacy, Exploratory Data Analysis, Data Mining, Data Cleansing, Matplotlib, Data Analysis, Unsupervised Learning, Generative AI, Pandas (Python Package), Professional Networking",
+        "rating": "4.6",
+        "reviews": "143K reviews"
+    },
+    {
+        "title": "Computer Vision Basics",
+        "link": "https://www.coursera.org/learn/computer-vision-basics",
+        "description": "Skills you'll gain: Computer Vision, Image Analysis, Computer Graphics, Visualization (Computer Graphics), Data Processing, Digital Design, Artificial Intelligence, Matlab, Linear Algebra, Algorithms, Calculus, Probability & Statistics",
+        "rating": "4.2",
+        "reviews": "1.8K reviews"
+    },
+    {
+        "title": "Introduction to Software Engineering",
+        "link": "https://www.coursera.org/learn/introduction-to-software-engineering",
+        "description": "Skills you'll gain: Software Development Life Cycle, Development Environment, Software Engineering, Software Development Tools, Software Development Methodologies, Software Architecture, Software Design, Programming Principles, Unified Modeling Language, Agile Methodology, Software Development, Scrum (Software Development), Application Development, Back-End Web Development, Front-End Web Development, Computer Programming, Python Programming, Git (Version Control System)",
+        "rating": "4.7",
+        "reviews": "3.3K reviews"
+    },
+    {
+        "title": "MathWorks Computer Vision Engineer",
+        "link": "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer",
+        "description": "Skills you'll gain: Computer Vision, Image Analysis, Anomaly Detection, Deep Learning, Applied Machine Learning, Artificial Neural Networks, Matlab, Application Deployment, PyTorch (Machine Learning Library), Machine Learning, Motion Graphics, Data Visualization, Automation, Data Mapping, Artificial Intelligence and Machine Learning (AI/ML), Machine Learning Methods, Spatial Data Analysis, Predictive Modeling, Visualization (Computer Graphics), Data Synthesis",
+        "rating": "4.7",
+        "reviews": "300 reviews"
+    },
+    {
+        "title": "Computer Vision for Engineering and Science",
+        "link": "https://www.coursera.org/specializations/computer-vision",
+        "description": "Skills you'll gain: Computer Vision, Image Analysis, Deep Learning, Matlab, Applied Machine Learning, Machine Learning, Motion Graphics, Data Mapping, Artificial Intelligence and Machine Learning (AI/ML), Visualization (Computer Graphics), Geospatial Information and Technology, Feature Engineering, Medical Imaging, Machine Learning Algorithms, Data Validation, Geometric Dimensioning And Tolerancing, Performance Testing, Algorithms",
+        "rating": "4.6",
+        "reviews": "85 reviews"
+    },
+    {
+        "title": "Fundamentals of Computing",
+        "link": "https://www.coursera.org/specializations/computer-fundamentals",
+        "description": "Skills you'll gain: Computational Thinking, Event-Driven Programming, Algorithms, Combinatorics, Graph Theory, Programming Principles, Application Development, Object Oriented Programming (OOP), Data Structures, Probability, Computer Programming, Bioinformatics, Interactive Design, Program Development, Big Data, Python Programming, Mathematical Software, Data Analysis, Theoretical Computer Science, Computer Science",
+        "rating": "4.8",
+        "reviews": "4.1K reviews"
+    },
+    {
+        "title": "The Bits and Bytes of Computer Networking",
+        "link": "https://www.coursera.org/learn/computer-networking",
+        "description": "Skills you'll gain: Computer Networking, Network Troubleshooting, Network Administration, TCP/IP, Network Protocols, Network Routing, Dynamic Host Configuration Protocol (DHCP), Virtual Private Networks (VPN), Network Security, Wireless Networks, Network Model, Data Integrity",
+        "rating": "4.7",
+        "reviews": "51K reviews"
+    },
+    {
+        "title": "First Principles of Computer Vision",
+        "link": "https://www.coursera.org/specializations/firstprinciplesofcomputervision",
+        "description": "Skills you'll gain: Computer Vision, Image Analysis, Computer Graphics, Dimensionality Reduction, 3D Modeling, Photography, Artificial Neural Networks, Virtual Reality, Medical Imaging, Visualization (Computer Graphics), Color Theory, Unsupervised Learning, Deep Learning, Graph Theory, Automation Engineering, Mathematical Modeling, Machine Learning Algorithms, Estimation, Electronic Components, Algorithms",
+        "rating": "4.7",
+        "reviews": "212 reviews"
+    },
+    {
+        "title": "Google UX Design",
+        "link": "https://www.coursera.org/professional-certificates/google-ux-design",
+        "description": "Skills you'll gain: Storyboarding, Wireframing, Responsive Web Design, User Experience Design, Design Thinking, User Research, UI/UX Research, Information Architecture, Figma (Design Software), Usability Testing, User Story, Web Design, Design Reviews, Usability, Presentations, User Experience, Design Research, Ideation, User Centered Design, Mockups",
+        "rating": "4.8",
+        "reviews": "90K reviews"
+    }
+]

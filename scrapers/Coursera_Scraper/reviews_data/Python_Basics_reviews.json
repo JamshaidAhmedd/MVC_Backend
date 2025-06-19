@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Can't participate in assignments unless you pay",
+        "name": "By Roque G G",
+        "date": "May 16, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "Far too slow for experienced programmers who want to learn Python. This course is actually teaching Python as a first programming language.",
+        "name": "By Jacques L C",
+        "date": "Feb 26, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "This is best introductory programming course in python. Mentors are planting every concept in our head in very fluent ways. You must take take this course as a begineer python programmer like me.",
+        "name": "By Kamesh D",
+        "date": "Sep 15, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "I have no reason to rate it a star less than 5! The practice exercises and modes of teaching were on point. Also enjoyed the jokes at the end of each section (lol). Sending love and light from here.",
+        "name": "By grey",
+        "date": "Oct 28, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "This course offers excellent external tools for learning, like the Interactive Textbook and that makes it much more fun and relax to learn. Also Mr Resnick adds his charisma which you cannot forget.",
+        "name": "By Jaime B",
+        "date": "Aug 12, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "It's a must join course for the people who want to deep dive into the world of Python. I really loving this course very much.  I wanna explore more hence opting for other parts of this specialization.",
+        "name": "By NITESH R",
+        "date": "Oct 18, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "In itself, a good course. If you want to take this course, I recommend it. If you are, however, taking this entire  specialization I suggest you walk away. The final course (course 5) is a  course by someone who has not been lecturing in the course, presenting  something they obviously are very fond of. The course work is, and I  quote, \"a project with minimal scaffolding. Expect to use the the  discussion forums to gain insights! It\u2019s not cheating to ask others for  opinions or perspectives\". In other words, part of the learning target  is to work through bad or incomplete documentation and to solve an  exercise that is stated without providing the information you need to  solve it. Unless someone else already went through the moves, the  lecturer fully expects you to fail by yourself. \nIf I wanted to feel the pain of learning without help or instructions, I would have just worked with the online manuals ... which is what this exercise openly tells you they want you to do. Its a shame for the other 4 courses, which are well done and have passionate lecturers.",
+        "name": "By Hanno H",
+        "date": "Apr 20, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "course_wks = [1, 2, 3, 4] \nreview_5stars = input(\"Worth it?: \") \nif  review_5stars == \"Yes definetly!\": \n    for week in course_wks: \n        print(\"The week {} was awesome!\".format(week)) \n    print(\"The course was\" + \" great!\".upper()) \nelse: \n    print(\"Keep studying!, you're gonna love it\")",
+        "name": "By Benjamin H",
+        "date": "May 30, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "I took this course after completing four of the five courses from \u2018Python for Everybody\u2019 specialisation offered by University of Michigan. Python for Everybody Specialisation is a kind of overview of the Python. But this course (Python Basics) is an in-depth course that gives great insight into the Python language. I would say that this course has taught me many new and basic things that were missing in Python fir Everybody specialisation.",
+        "name": "By Waqas U R",
+        "date": "Nov 7, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Coursera has improved my practical skill in programming due a lot of practices and guidance. Taking Python basics has really helped me gain confidence to take over  so many programming challenges.",
+        "name": "By Carlos M",
+        "date": "Aug 9, 2019",
+        "stars": 5
+    }
+]

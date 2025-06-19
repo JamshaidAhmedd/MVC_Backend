@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Python for Data Science, AI & Development",
+        "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+        "description": "Skills you'll gain: Jupyter, Automation, Web Scraping, Python Programming, Data Manipulation, Data Import/Export, Scripting, Data Structures, Data Processing, Data Collection, Application Programming Interface (API), Pandas (Python Package), Programming Principles, NumPy, Object Oriented Programming (OOP), Computer Programming",
+        "rating": "4.6",
+        "reviews": "41K reviews"
+    },
+    {
+        "title": "IBM Data Science",
+        "link": "https://www.coursera.org/professional-certificates/ibm-data-science",
+        "description": "Skills you'll gain: Dashboard, Data Visualization Software, Data Visualization, Predictive Modeling, SQL, Supervised Learning, Feature Engineering, Plotly, Interactive Data Visualization, Exploratory Data Analysis, Jupyter, Data Wrangling, Data Literacy, Data Analysis, Data Mining, Matplotlib, Unsupervised Learning, Generative AI, Pandas (Python Package), Professional Networking",
+        "rating": "4.6",
+        "reviews": "143K reviews"
+    },
+    {
+        "title": "DeepLearning.AI Data Analytics",
+        "link": "https://www.coursera.org/professional-certificates/data-analytics",
+        "description": "Skills you'll gain: Data Storytelling, Web Scraping, Google Sheets, Data Visualization, Data Presentation, Spreadsheet Software, Large Language Modeling, Tableau Software, Data Literacy, Pandas (Python Package), Time Series Analysis and Forecasting, Probability & Statistics, Extract, Transform, Load, Statistical Analysis, Statistics, Statistical Modeling, Matplotlib, Data Visualization Software, Data Validation, Data Processing",
+        "rating": "4.7",
+        "reviews": "92 reviews"
+    },
+    {
+        "title": "Microsoft Data Visualization",
+        "link": "https://www.coursera.org/professional-certificates/microsoft-data-visualization",
+        "description": "Skills you'll gain: Data Storytelling, Data Analysis Expressions (DAX), Data Presentation, Power BI, Data Ethics, Dashboard, Data Visualization Software, Data Modeling, Data Governance, Extract, Transform, Load, Interactive Data Visualization, Business Intelligence, Data Analysis, Statistical Analysis, Data Architecture, Correlation Analysis, Data Cleansing, Data Transformation, Database Design, Statistical Visualization",
+        "rating": "4.7",
+        "reviews": "67 reviews"
+    },
+    {
+        "title": "What is Data Science?",
+        "link": "https://www.coursera.org/learn/what-is-datascience",
+        "description": "Skills you'll gain: Data Literacy, Data Mining, Big Data, Cloud Computing, Data Analysis, Data Science, Digital Transformation, Data-Driven Decision-Making, Deep Learning, Machine Learning, Artificial Intelligence",
+        "rating": "4.7",
+        "reviews": "76K reviews"
+    },
+    {
+        "title": "Databases and SQL for Data Science with Python",
+        "link": "https://www.coursera.org/learn/sql-data-science",
+        "description": "Skills you'll gain: SQL, Relational Databases, Stored Procedure, Databases, Query Languages, Jupyter, Data Manipulation, Data Analysis, Pandas (Python Package), Transaction Processing",
+        "rating": "4.7",
+        "reviews": "22K reviews"
+    },
+    {
+        "title": "Applied Data Science with Python",
+        "link": "https://www.coursera.org/specializations/data-science-python",
+        "description": "Skills you'll gain: Matplotlib, Network Analysis, Feature Engineering, Data Visualization Software, Interactive Data Visualization, Scientific Visualization, Pandas (Python Package), Applied Machine Learning, Supervised Learning, Text Mining, Scikit Learn (Machine Learning Library), Network Model, Jupyter, NumPy, Graph Theory, Data Manipulation, Natural Language Processing, Data Analysis, Data Processing, Unstructured Data",
+        "rating": "4.5",
+        "reviews": "34K reviews"
+    },
+    {
+        "title": "Foundations of Data Science",
+        "link": "https://www.coursera.org/learn/foundations-of-data-science",
+        "description": "Skills you'll gain: Data Storytelling, Data Ethics, Data Analysis, Workflow Management, Data-Driven Decision-Making, Analytical Skills, Data Science, Project Design, Communication, Business, Business Workflow Analysis, Stakeholder Communications, Machine Learning",
+        "rating": "4.7",
+        "reviews": "3.2K reviews"
+    },
+    {
+        "title": "Data Science",
+        "link": "https://www.coursera.org/specializations/jhu-data-science",
+        "description": "Skills you'll gain: Shiny (R Package), Rmarkdown, Exploratory Data Analysis, Regression Analysis, Leaflet (Software), Version Control, Statistical Analysis, R Programming, Data Manipulation, Data Cleansing, Data Science, Statistical Inference, Predictive Modeling, Statistical Hypothesis Testing, Data Wrangling, Data Visualization, Plotly, Machine Learning Algorithms, Plot (Graphics), Knitr",
+        "rating": "4.5",
+        "reviews": "51K reviews"
+    },
+    {
+        "title": "Introduction to Data Science",
+        "link": "https://www.coursera.org/specializations/introduction-data-science",
+        "description": "Skills you'll gain: SQL, Jupyter, Data Literacy, Data Mining, Peer Review, Data Modeling, Relational Databases, Stored Procedure, Databases, Data Science, Big Data, Query Languages, Data Cleansing, Data Visualization Software, GitHub, Business Analysis, Cloud Computing, Data Analysis, Digital Transformation, R Programming",
+        "rating": "4.6",
+        "reviews": "99K reviews"
+    },
+    {
+        "title": "Python Project for Data Science",
+        "link": "https://www.coursera.org/learn/python-project-for-data-science",
+        "description": "Skills you'll gain: Dashboard, Pandas (Python Package), Data Visualization Software, Web Scraping, Jupyter, Matplotlib, Data Analysis, Data Science, Data Processing, Data Manipulation, Python Programming, Data Collection",
+        "rating": "4.5",
+        "reviews": "4.6K reviews"
+    },
+    {
+        "title": "Google Data Analytics",
+        "link": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "description": "Skills you'll gain: Data Storytelling, Rmarkdown, Data Literacy, Data Visualization, Data Presentation, Data Ethics, Interactive Data Visualization, Interviewing Skills, Data Cleansing, Data Validation, Ggplot2, Professional Networking, Tableau Software, Presentations, Spreadsheet Software, Data Analysis, Data Visualization Software, Stakeholder Communications, Dashboard, Sampling (Statistics)",
+        "rating": "4.8",
+        "reviews": "168K reviews"
+    }
+]

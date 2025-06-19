@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "I think this course was too difficult so those 6 weeks became much longer for me - maybe timeconsumption was 12 weeks. So that is my only criticism. This course could in my opinion have been divided into \"Cryptography basics\" and \"Cryptography 1\". On the other hand, I know Stanford is a good university, I just wish I had been informed about a course that could more easily have introduced me to the topic. This is/was my first cryptography course, so it was a very hard task for me to go through... But the instructor seems very good in his research field and many people recommend this course, thanks.",
+        "name": "By Martin F J",
+        "date": "Oct 12, 2017",
+        "stars": 3
+    },
+    {
+        "review_text": "Professor is very knowledgable but he is fast... Even before i can understand the first line. he is on the fourth line. i find Hard to keep up with him. I am dropping this course.",
+        "name": "By Naresh B D",
+        "date": "Apr 5, 2017",
+        "stars": 1
+    },
+    {
+        "review_text": "I really enjoyed this course!\nI was glad to work on prime numbers and RSA, even if it was quite late in the course.\nI would not recommend it for everyone, though. It is definitely not for beginners; you need a mathematical mind and a solid maths knowledge. So, overall more difficult than what I expected. \nSome things could be improved:\n- the description of the course could go into more details (maybe with an entertaining short video?), especially regarding the requirements level mentioned above and the overall difficulty level you can expect\n- a *formatted* transcript would be awesome\n- sometimes, Dan speaks too fast or his writing is not 'top-notch'\n- repeating the major concepts, and repeating them in a different way each time, could be done more frequently\n- the audio track has been edited and can be 'bumpy' sometimes + do not hesitate to insert more pauses!!\n- the course is a bit theoretical and could use more real-life, very concrete applications\nFurthermore, at some stages of the course, it is hard to see the 'big picture'. We get the latter at the very end.\nAlso, keep in mind that the tests are not way easier than the corresponding lessons... quite the contrary actually.\nI must highlight two very useful things during the course: recaps at the beginning of some videos, and 'graphical' explanations.\nFinally, I had some good laughs hearing Dan state 'it's not that hard', 'it's not that difficult to see' or 'this is a pretty straightforward proof'... Reminded me of my old advanced maths classes.",
+        "name": "By Camille G",
+        "date": "Feb 9, 2018",
+        "stars": 4
+    },
+    {
+        "review_text": "It requires knowledge of how cryptography works and the terms used to describe cryptography. I would not recommend it as a beginner course.",
+        "name": "By Sophia L",
+        "date": "Mar 19, 2020",
+        "stars": 3
+    },
+    {
+        "review_text": "This isn't a beginners course.  I dropped out in first week.  I took every note I could and reviewed again and again.  I really think the instructor is an intelligent man, but I'm not quite sure he understands how to teach well.  I'm really disappointed that I didn't get to take anything away from this class.",
+        "name": "By Jewellia H",
+        "date": "Dec 22, 2016",
+        "stars": 2
+    },
+    {
+        "review_text": "Cutting edge cryptography topics. Good explanations and slides, but pause button is highly recommended. Can be a bit too mathematical for the general public, and not very formal for mathematicians.",
+        "name": "By Bernardo C d A C",
+        "date": "Mar 11, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "There were too many repititions of tautological proofs.  Should have been covered in 1/2 or more of a single session:  this is how we reason about cryptography.  Too much focus on low-level primitives which doesn't make sense if we are to never implement our own cryptography. Finally, as a general point it would be amazing if there were ungraded \"practice sets\" that came with answers:  you work it work them out and look at the answers and if you don't understand you try to figure out what you can't get.  You can ask questions on the forum without revealing anything. The focus should be on working problems. Then, the quiz needn't permit infinite retrials:  working through the practice sets is where the learning would occur.  As it is now, you listen to the lecture, read over the notes several times, and then try the quiz.  I did the programming before taking the quiz:  that was a chance to actual work with the crypto algorithms.",
+        "name": "By Lewis C L",
+        "date": "May 8, 2017",
+        "stars": 2
+    },
+    {
+        "review_text": "There should be examples regarding to assignment questions i.e. there should be examples similar to assignment questions",
+        "name": "By nikhil g",
+        "date": "Jul 7, 2018",
+        "stars": 4
+    },
+    {
+        "review_text": "Very theoretical and mathematical and not enough real examples.",
+        "name": "By Richard K",
+        "date": "Jan 6, 2017",
+        "stars": 2
+    },
+    {
+        "review_text": "Only theory No practicals or solved questions",
+        "name": "By Ashwani K",
+        "date": "Aug 4, 2019",
+        "stars": 2
+    }
+]

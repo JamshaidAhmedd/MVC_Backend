@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "This course is very close to being excellent in many respects, but it has some very serious issues that make it a frustrating experience.  The production quality is very good and the course includes some material that most Python courses completely overlook.  In particular, I am very impressed that the course dedicates a week to talking about different programming paradigms.  \nHere are the issues. The single greatest problem I have is the speed at which very technical and complex aspects of Python get introduced.  You'll have a 3-4 minute video that gives one or two quickly glossed over examples of something without any serious explanation and then the video will conclude with \"and now you know how X works.\"  If any of this is even remotely new to you, you'll have points where the course glosses over crucial information without providing you serious explanations about how and why something is done a certain way.  You won't progress easily by just rewatching the videos over and over because they don't tell you very much.  It's also a serious flaw of the course that really important information just gets dumped into the readings for the course when a lot of that material deserves to be in video form.  When you get stuck, the suggestion is to just go and read more elsewhere, but there's a point at which this gets ridiculous--the course itself should be suffient to learn the material.  \nSecond, I think the programming exercises are overcomplicated and needlessly so.  I never felt prepared for what I was tackling in these exercises because they often involved doing things that were more complicated than any of the examples given in any of the videos.  There's a difficulty gap here, and I think it's a serious flaw of the course. The exercises are also pretty long, and usually involve writing lots of functions based on pseudocode directions that are ambiguous enough that you may very well misinterpret what is expected of you, do a bunch of unnecessary work, and then have to redo it all once you realize that you mistook what the intended problem was.  This is so frustrating.  It feels like you lose a lot of time and it doesn't really help you learn anything.  \nThird, when you get stuck because you can't figure out how to do something that wasn't explained very clearly, you'll inevitably turn to the forum.  But the forum for every exercise is filled with people posting the answers.  Most of these posts have been up for weeks or months, and nobody maintaining the course seems to care.  Once you've seen any of these posts (which are unavoidable), it feels like the challenge of the exercise is wasted and it's no longer a serious learning opportunity.  I'm personally pretty torn by this.  If you aren't prepared to do the exercise because the material wasn't sufficient for you to understand what you are doing, it seems like it's the course designer's fault that you are stuck and you can't get any meaningful feedback.  It sort of pushes people to just go looking for the answers to the exercises to figure out why they are stuck.  It may still be a valuable learning experience if the learner really tries to understand and does adequate research, but the easy path of just copying and pasting things from the course forum will probably undermine the effectiveness of the exercises for most people.  When was the last time anyone you knew in school learned anything in a class when they had access to the answer key the whole time?  Again, the exercises can be designed better so that people aren't steered into the direction of just looking for the answers.  \nFinally, I think there are noticeable errors in the videos.  The forums are filled with people pointing them out.  One noticeable one was the palindrome example in the video.  The code in the video doesn't actually check if the word is a palindrome because it doesn't iterate through the whole string.  It simply just checks the first and last characters. The problem is that it is presented as if it is a solution to a problem and it's just not.  This kind of stuff is really annoying to anyone who has programmed before, but it's seriously confusing to new programmers and people will waste tons of time trying to figure out what is going on.  \nYou can make this course a lot better.  Fix the mistakes and provide more video content with worked out examples.  You can even make it optional content.  Doing this would very much fill in the gap between the videos and the exercises.",
+        "name": "By Richard C",
+        "date": "Sep 16, 2022",
+        "stars": 3
+    },
+    {
+        "review_text": "i was thinking of giving it 2 stars at least, as this course does cover a wide variety of topics. However, there are so many mistakes here. idk how its so highly rated, maybe people just watch the videos without trying the code out for themselves. Because a lot of information/code shown is just plain wrong.\nDon't enroll in this course if your primary objective is to learn python as there are many far better python introductory courses out there. However, if you already know basic python, this course is a great way of getting introduced to new and advanced concepts (enumeration, map, filter, tests etc).\nAll in all, i'm disappointed as the previous course (introduction to back end development) was quite good",
+        "name": "By Vikas R",
+        "date": "Feb 11, 2023",
+        "stars": 1
+    },
+    {
+        "review_text": "The assignments in this course were not well matched to the content. Many of the coding assignments required knowledge of commands that were not taught until later in the course, or in some cases not taught at all. For example an assignment in week 2 required a list reversal, but reversals were not taught until week 3. In week 1, there was a list datatype with a nested dictionary datatype that required a specific syntax to loop into that was not covered by any of the lessons.",
+        "name": "By John M",
+        "date": "Nov 14, 2022",
+        "stars": 2
+    },
+    {
+        "review_text": "this course is great for covering many aspects of python, but it requires more study form other resources as well. the lab was a little challenging. overall it was great experience.",
+        "name": "By Ahmed H",
+        "date": "Nov 15, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "This course was too advance for beginner. i'm very tech savy and fast learner but i can't fully understand the concept",
+        "name": "By Ken L",
+        "date": "Oct 6, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "This course is good well detailed and elaborate, the labs are challenging but worth the hard-work put into it for success. I recommend it for anyone who needs to learn python programming.",
+        "name": "By John A",
+        "date": "Dec 9, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "DISCLAIMER: Rating from the point of view of someone on the Database Engineer Certificate.\nWhere to begin with this? If I were taking this course as part of the Developer certificate I would have given it a higher punctuation, but coming from the Database Engineering one it is a complete mess. You can tell the course was designed for developers and then added to the other certificate. \nMost of the content is focused on development, and there is very little information regarding Python for data. Also, the explanations were lacking. It gives a lot of good insight into paradigms and other theoretical concepts behind Python, but when it comes to the code itself it gives very little to no explanation of them. You will need to find yourself other sources of information for that. Also, the lab assignments are too difficult most of the times expecting you to know things from outside the course.\nIf you are a complete beginner in Python you'll be lost most of the time, this is definitely not beginner-friendly. I am just glad I finished it so I can move on to different topics and hopefully learn Python somewhere else.\nThis course is a necessary evil to obtain the certificate, this is the only reason I can think of recommending someone to take it.",
+        "name": "By Brisa P",
+        "date": "Apr 27, 2023",
+        "stars": 2
+    },
+    {
+        "review_text": "very badly explained, NOT for beginners",
+        "name": "By Filip E",
+        "date": "Sep 22, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "Thanks Meta for a very comprehensive course.\nNot only are fundamental computer science topics taught, but the job-ready skills needed for Python by covering it in breadth, but also depth.",
+        "name": "By dale g",
+        "date": "Aug 4, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "The very basics of Python and programming are covered in this course, but it lacks any in-depth explanation regarding core concepts and Python specific features. There's not much info in this course about what goes on \"under the hood\" and that can leave you wanting for more and better explanation. I had to buy a Python book to really get some of these concepts, and that's okay, but I think people looking to take this course should know that there are some serious gaps here and this course alone won't really prepare you to build anything on your own.\nFor $50 a month, I would have expected this course to be more detailed and at least offer some kind of guidance in the discussion forums for those seeking help to complete the assignments, but unfortunately there is no support in the discussion forums, but there are plenty of 'learners' giving away answers to assignments, which I don't think should be tolerated. \nWhat I do like about the course is that its a great roadmap for self-taught programmers regarding what they need to learn about Python and in what order, and the instruction provided here can serve as a nice starting point provided you're want a simple and broad overview of a particular subject.",
+        "name": "By Maliik M",
+        "date": "Aug 30, 2022",
+        "stars": 3
+    }
+]

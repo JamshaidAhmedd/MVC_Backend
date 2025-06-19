@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Course can only be completed with a IBM Cloud account. If you don't have access to a corporate email address and internet access with a corporate IP address, you will be probably blocked by the IBM Cloud spam filter. I constantly got the following error message:\nError Your account cannot be created at this time.\nCode: 46487425-4f61-4825-b987-a9174d2febc3\nI tried to open a support case with IBM, but you can only open a support case if you have a customer number. \nI was only able to sign up with IBM Cloud and finish the course with my corporate email address and corporate IP address.",
+        "name": "By Roland S",
+        "date": "Feb 13, 2021",
+        "stars": 3
+    },
+    {
+        "review_text": "It is more advertisement of IBM than course. Music in background is annoying, and IBM use cases clips (poorly edited) just make you believe that you are on IBM site.",
+        "name": "By Igor D",
+        "date": "Jan 29, 2021",
+        "stars": 2
+    },
+    {
+        "review_text": "Wasn't impressed with this format. There was too much time dedicated to the videos and not enough practical work. ie. the chance to demonstrate more understanding of the content.",
+        "name": "By Ryan F",
+        "date": "Sep 23, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "The practical part is too litter and the course is not interactive.",
+        "name": "By Khaled U A",
+        "date": "Oct 10, 2020",
+        "stars": 3
+    },
+    {
+        "review_text": "It was so so grateful being here , I loved it course so much , as it provided all the concepts very clearly , I would also recommend all other to have this course and gain knowledge provided by IBM.",
+        "name": "By Siddhi b",
+        "date": "May 20, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Amazing course by IBM. They teach the subject with simplicity and purpose, that makes you study with zeal. \nI recommend this course for all those who want a basic understanding of cloud computing.",
+        "name": "By Ramna V",
+        "date": "Nov 10, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "The only good part was the videos where someone explained on a board, everything is kind of marketing for IBM Cloud, even the final exam is on IBM Cloud, where if your trial expired they will ask for your credit card, in my case they don't accept my credit card, declined by some error, the solution create another email, the thing is that is like my 3rd course from IBM and I'm out of emails, learning should be free, and if I already paid coursera, then they should not try to charge you additional or ask for credit card on another section of the course, it's like \"pay for your certificate\" and also like \"hopefully you forget all the things you create on IBM cloud so I can charge you later for that\".",
+        "name": "By Jonathan V C",
+        "date": "May 4, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "Unfortunately this mostly felt like an ad for IBM cloud computing. Uneven delivery, concepts are too vague, overreliance on jargon rather than solid concepts. Redone ADR for certain sections, yet the woman couldnt be bothered to prononce correctly for those sections. Woman can not pronounce \"ing.\" Therefore I had to hear \"computeeen\" and \"executeeeen\" and \"starteeen\" repeatedly which is a huge pet peeve. Only completed as part of larger IBM devops course. useless on its own.",
+        "name": "By Nate R",
+        "date": "Feb 17, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "This topic about cloud computing is really informative and insightful. Appreciate it! A lot of information I have gained from this course. Indeed, help me a for cloud development in my institution",
+        "name": "By Alfa N",
+        "date": "Apr 4, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "Great review for Cloud concepts that I needed. Probably would use it once I start studying for some AWS content since not many people use IBM but still a great way to get started in cloud computing.",
+        "name": "By Deleted A",
+        "date": "Oct 29, 2022",
+        "stars": 5
+    }
+]
