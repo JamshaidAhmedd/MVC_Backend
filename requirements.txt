@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-jose[cryptography]
+passlib[bcrypt]
+apscheduler
+python-dotenv
+textblob
+pydantic
+pydantic-settings
