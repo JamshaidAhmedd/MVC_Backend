@@ -1,65 +1,149 @@
-"""Course data ingestion pipeline."""
+#!/usr/bin/env python3
+"""
+ingestion.py
 
+Phase 1 – Scrape, unify, ingest, and categorize courses.
+
+Pipeline steps:
+  1) Scrape new keywords from keyword_queue
+  2) Unify raw JSON via unify.py
+  3) Bulk-upsert unified docs into MongoDB
+  4) Retag all courses per category using category_tagger.retag_all()
+"""
+
+import sys
+import subprocess
+import json
 import logging
+from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Tuple
+from pymongo import MongoClient, UpdateOne, TEXT
+from pymongo.errors import PyMongoError
 
-from pymongo import UpdateOne
+import category_tagger,keyword_queue, notifications
 
-from core.config import db
-from utils import category_tagger, keyword_queue, unify_data
-from . import sentiment, notification_service
+# ── CONFIG ───────────────────────────────────────────────────────────────────
+BASE_DIR        = Path(__file__).parent.resolve()
+ALISON_SCRIPT   = BASE_DIR / "Alison_scraper"   / "main.py"
+COURSERA_SCRIPT = BASE_DIR / "Coursera_Scraper" / "Coursera.py"
+UNIFY_SCRIPT    = BASE_DIR / "unify.py"
+UNIFIED_DIR     = BASE_DIR / "unified_data"
+MONGO_URI       = "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
+LOG_DIR         = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+LOG_FILE        = LOG_DIR / "ingest.log"
+# ── END CONFIG ───────────────────────────────────────────────────────────────
 
-log = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, encoding="utf-8"),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+log = logging.getLogger("ingestion")
 
 
-# Placeholder scraper logic -------------------------------------------------
+def run_step(name, cmd, cwd):
+    log.info(f"→ {name}: {' '.join(cmd)}")
+    proc = subprocess.Popen(
+        cmd, cwd=cwd,
+        stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True
+    )
+    for line in proc.stdout or []:
+        log.info(f"[{name}] {line.rstrip()}")
+    if proc.wait() != 0:
+        log.error(f"✗ {name} failed")
+        return False
+    log.info(f"✓ {name} succeeded")
+    return True
 
-def _scrape_provider(keyword: str) -> Tuple[List[dict], Dict[str, List[dict]]]:
-    """Dummy scraper returning empty data."""
-    return [], {}
 
+def step_scrapers():
+    """Run scrapers for each pending keyword."""
+    try:
+        import keyword_queue as kq
+    except ImportError:
+        log.warning("keyword_queue not found; skipping scrapers")
+        return True
 
-# ---------------------------------------------------------------------------
-
-def run_scrapers_for_pending() -> Dict[str, Dict[str, List]]:
-    """Run scrapers for keywords not yet processed."""
-    pending = keyword_queue.get_pending_keywords()
+    pending = kq.get_pending_keywords()
     if not pending:
-        log.info("No new keywords to scrape")
-        return {}
-    all_data: Dict[str, Dict[str, List]] = {}
+        log.info("✔ No pending keywords to scrape.")
+        return True
+
     for kw in pending:
-        log.info("Scraping courses for '%s'", kw)
-        courses, reviews = _scrape_provider(kw)
-        keyword_queue.mark_scraped(kw)
-        all_data.setdefault("dummy", {"courses": [], "reviews": {}})
-        all_data["dummy"]["courses"].extend(courses)
-        for slug, rv in reviews.items():
-            all_data["dummy"]["reviews"].setdefault(slug, []).extend(rv)
-    return all_data
+        log.info(f"\n=== Scraping '{kw}' ===")
+        if not run_step("Alison scraper", ["python", str(ALISON_SCRIPT), "--keyword", kw], cwd=ALISON_SCRIPT.parent):
+            return False
+        if not run_step("Coursera scraper", ["python", str(COURSERA_SCRIPT), "--keyword", kw], cwd=COURSERA_SCRIPT.parent):
+            return False
+        try:
+            kq.mark_scraped(kw)
+        except Exception as e:
+            log.warning(f"Could not mark '{kw}' scraped: {e}")
+    return True
 
 
-def unify_and_ingest(scraped: Dict[str, Dict[str, List]]) -> None:
-    unified = unify_data.unify_all({provider: (data["courses"], data["reviews"]) for provider, data in scraped.items()})
-    if not unified:
-        log.info("No new courses to ingest")
-        return
-    ops = [UpdateOne({"course_id": c["course_id"]}, {"$set": c}, upsert=True) for c in unified]
-    if ops:
-        res = db["courses"].bulk_write(ops)
-        log.info("Upserted %s courses", res.upserted_count + res.modified_count)
+def step_unify():
+    """Merge raw JSON into unified_data/ via unify.py."""
+    return run_step("Data unification", ["python", str(UNIFY_SCRIPT)], cwd=BASE_DIR)
 
 
-def run_ingestion_pipeline() -> None:
-    """Execute the full ingestion process."""
-    log.info("Starting ingestion pipeline")
-    start = datetime.utcnow()
-    scraped = run_scrapers_for_pending()
-    if scraped:
-        unify_and_ingest(scraped)
-        category_tagger.retag_all()
-        notification_service.process_search_requests()
-        sentiment.aggregate_course_metrics()
-    elapsed = (datetime.utcnow() - start).total_seconds()
-    log.info("Ingestion pipeline finished in %.2f seconds", elapsed)
+def step_ingest():
+    """Bulk-upsert unified JSON docs into MongoDB."""
+    log.info("→ Connecting to MongoDB")
+    client     = MongoClient(MONGO_URI)
+    collection = client["course_app"]["courses"]
+
+    files = sorted(UNIFIED_DIR.glob("*.json"))
+    if not files:
+        log.warning("⚠ No unified JSON files found.")
+        return False
+
+    ops = []
+    for path in files:
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+            ops.append(UpdateOne(
+                {"course_id": doc["course_id"]},
+                {"$set": doc},
+                upsert=True
+            ))
+        except Exception as e:
+            log.error(f"Failed to parse {path.name}: {e}")
+
+    if not ops:
+        log.error("✗ No documents to ingest.")
+        return False
+
+    try:
+        res = collection.bulk_write(ops)
+        log.info(f"✓ Upsert: inserted={res.upserted_count}, modified={res.modified_count}")
+        return True
+    except PyMongoError as e:
+        log.error(f"MongoDB bulk write error: {e}")
+        return False
+
+
+def main():
+    log.info("=== Ingestion Pipeline Start ===")
+    start = datetime.now()
+
+    if not step_scrapers():  sys.exit(1)
+    if not step_unify():     sys.exit(1)
+    if not step_ingest():    sys.exit(1)
+
+    # Retag all courses according to categories
+    category_tagger.retag_all()
+
+    elapsed = datetime.now() - start
+    notifications.process_all()
+
+    log.info(f"🎉 Pipeline finished in {elapsed}")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

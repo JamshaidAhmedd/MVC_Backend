@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "I'll start with the positive. There were some lectures (Pinhole Camera Model) which were effective. However, this course was extremely superficial.\nI'm not sure what the intention of this course was. All the material in the entire course could have been presented over the course of one week. The lectures were mere minutes long and extremely superficial. There was no practical guidance whatsoever with respect to the assignments. I passed the assignments through a lot of trial and error and by relying on prior knowledge of computer-vision and programming.\nThere were times when the lecturer would mention that certain algorithms would be covered in the next lecture, only to jump to another topic altogether. Not sure if the course content was accidentally uploaded like this.",
+        "name": "By Dhritiman S",
+        "date": "Apr 26, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "This course should have a zero star.  TA's are not answering the questions on the forum discussion.  Both lectures and assignments are very poor in quality.  It's a BIG SHAME that the University of Buffalo has such a crappy material and expects people to pay for it.  It's a waste of time!!! The professors and the school should be really embarrassed to put such poor quality material and charge people for it!",
+        "name": "By An C",
+        "date": "May 26, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "One of the worst courses on Coursera. Very superficial. What is the point of this? For example you mentioned Least Squares. In a 1 minute video. Great, what is it? How do I apply it? Nothing, instead in the optional material you send me to a pdf from a University of Puget Sound (what?!) that mentions I was supposed to learn in the class. Huh? And this happens with every concept, some names and terms are being thrown, even the quizes that are being asked right after don't always correlate with it, and in most cases you have to use your intuition, as what is being asked was not explained. The whole course can be finished in 2 evenings (which I did) and I learned absolutely nothing except very basic usage of Matlab.",
+        "name": "By Dmitry F",
+        "date": "Jul 23, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "I personally do not feel the course is up to the mark.",
+        "name": "By Harsahib S",
+        "date": "Jun 27, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "The course was full of theoretical concepts. No practical concepts were taught by the instructors. If they didn't taught any practical concepts then why they are asking in assignments. They didn't even tell ABCD about Matlab and aspect us to solve assignments in Matlab. This is ridiculous. They should have given at least some examples  to solve the assignments. I am highly disappointed with the assignment part. Rest theoretical part was good and  to the point but could be more detailed.",
+        "name": "By ashish k",
+        "date": "Jul 11, 2019",
+        "stars": 3
+    },
+    {
+        "review_text": "Almost no help in the discussion forums. We are supposed to learn matlab on our own without any assistance(even in the discussion forums) from the instructors and no intimation of the fact is given anywhere. A matlab based assignment is provided without any prompt or any introduction to matlab except for a video just telling us to read the documentation in the event of an error.",
+        "name": "By ANSHUMAN A",
+        "date": "Mar 29, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "This course is so basic, it should be rather called \"Basic Image Processing in Matlab for dummies\". The lecturer gives whole bunch of names of complex algorithms without giving even tiny details. The entire course can be finished in one day. The matlab assignments are of poor quality and without any indications or advices on how to proceed them better.",
+        "name": "By Boris G",
+        "date": "Nov 1, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "Probably the 2nd worst Coursera/edX class I have ever taken (part 2 of this specialization is even worse!).  Why do I say that?  Well a typical week consists of watching a few videos where the Indian bloke waves his right hand around in a very annoying/distracting manner, followed by some multiple choice quizzes that have little to do with the video you just watched, and that the videos do not necessarily prepare you to answer.  Then they want you to read some Wikipedia pages, and finally there's a problem that has to be solved with MATLAB.  Again, there is little to nothing in the material presented in the lectures to help you solve the graded problems.  At best, this course reminded me of stuff I mostly already knew, and enabled me to brush up on my rusty MATLAB programming skills.  This is an interesting topic, and the course could have been so much better.  Definitely not good value for the money.  On the plus side, it only takes a few hours a week for 4 weeks to complete the whole thing, and they don't make you grade your fellow students' homework - the grading is automated.  Which was nice.",
+        "name": "By Peter R",
+        "date": "Sep 19, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "This is a very badly structured course. The lectures only give us the topic heading, no explanations or practical is given. The programming assignment is a nightmare. Instead of MatLab, they could have used python/OpenCV. Also, there is no helps for the Matlab assignments, you are on your own. I don't recommend anyone this course. What you could learn from this course could be learned in 30 minutes reading randing blogs. Save yourselves some time.",
+        "name": "By Amal J",
+        "date": "Mar 29, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "Plain awful",
+        "name": "By Mikael B",
+        "date": "Sep 13, 2019",
+        "stars": 1
+    }
+]

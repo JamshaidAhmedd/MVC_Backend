@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "As a complete and utter beginner to IT, I feel like all of the information presented in this course is in a backward and awkward way. Everything feels so segmented that I'm having a lot of trouble putting it all together in the correct way. There doesn't seem to be a natural flow to any of the lessons and it feels more like a professional stating something than actually teaching it. I've had to completely use outside sources for how to actually do the Peer Review assignment. I feel like all the learning I've done is from hearing about it here and researching it elsewhere.",
+        "name": "By Kelley F",
+        "date": "Oct 26, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "Poor designed course with lots of meaningless talk, lack of example and practice, key to pass the test is memorize terms.",
+        "name": "By YongYi W",
+        "date": "Feb 21, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "The course videos are so awkwardly robotic. Maybe if the instructors were not made to read it like that and say it in a more relaxed manner it would be better.",
+        "name": "By Saurabh",
+        "date": "Dec 15, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "I don't usually submit reviews, but it was very surprising to see so many negative reviews for this course. I want to clarify this for the others who are skeptical about taking this course. Please go ahead and take the course, because this course is THE BEST in Networking for beginners. Yes, the course does involve the instructor talking a lot, but it also has animated slides representing whatever he explains and practical tests to implement whatever knowledge you have gained. It is very important to TAKE NOTES and revise, and not simply watch the videos because nothing is going to get into your head by doing so. It is an entire subject and has been taught in an excellent way, you can't expect yourself to remember everything just by simply watching the videos. I was very scared of Networking until I landed up in this course. I love it now. It just takes some interest, patience, understanding skills and taking notes to complete this course successfully. \nI did not get an opportunity to study Networking in college, but really needed to learn it as a Computer Science student. I am very grateful to Coursera and Google for offering this amazing course, that taught all the basics that is needed for an undergraduate student to know. Learning the same syllabus in college would have taken an entire semester, but I got done with it in a week during this quarantine period. I wasn't planning on taking the entire specialisation because my aim was to just learn Networking. But now I am very eager to learn the remaining stuff too!\nI would like to specially thank the instructor Mr. Victor Escobedo, who is the best course instructor I have ever come across on Coursera! The eternal smile on his face, friendly tone and frequent Networking puns make the course all the more interesting and easy. All the other Google employees who made special appearances in this course also seemed so cool, that made me wonder what an amazing experience it would be to work with such people around everyday.\nThanks a lot to my instructor Mr. Victor, Google and Coursera!",
+        "name": "By Dheeraja K",
+        "date": "Apr 15, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Reading a teleprompter is not exactly teaching.  \nI find myself using other sources since everything is so badly explained. \nThe quizzes have questions about things we are told about in passing.\nMany of the workshops do not work at all or require a special work around to get working at all.\nVery disappointed in this course. \nDo not pay for this.",
+        "name": "By MR D",
+        "date": "Mar 9, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "The delivery format needs dire quality control. I don't want to see some random guy talking and would rather see some actual slide to show calculations and step by step guide",
+        "name": "By yat l",
+        "date": "Apr 7, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "While I think that I have learnt a great deal of acronyms in this course, I feel that it has in NO WAY prepared me to be able to troubleshoot network issues.  There is absolutely no practical knowledge & no virtual hands-on troubleshooting.  There is no \"steps\" on how to do anything.  For example:  a section on Host Files.  I spent 10 minutes trying to find host files on my home computer.  nothing!  All these tools were are told about, but the information on how to use them is sorely lacking.  I was hoping after the vague knowledge that was given to us in the first course, that the second would be more in depth.  Not.  This has been a big disappointment thus far.",
+        "name": "By Lee A B",
+        "date": "May 11, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "Not explained well and could use more visual aids to help explain.",
+        "name": "By Devon G",
+        "date": "Sep 17, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "SUPER dense material, compressed down into bite sized videos make this a very tough course to pass. There was a lot of explanations with very few examples and visual aid. To pass, i did A LOT of research on my own because what was being taught to me didn't make sense or it wasn't sinking in. The concepts they present to you are very poorly explained. While the topic as a whole has gotten me very intrigued, this class could have been constructed and presented better.",
+        "name": "By Stephen G",
+        "date": "Mar 5, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "I understand that the material was dense and so they tried to break it down into smaller chunks, but everything was so poorly explained that fitting the parts together was next to impossible. There were not enough good examples given and almost no tie in to how we actually experience the internet, just an endless wave of acronyms, numbers, and technical terms that may or may not have been relevant to the quizzes. I hope the other courses in this program are not as scatterbrained as this one.",
+        "name": "By Robert M",
+        "date": "Feb 22, 2020",
+        "stars": 1
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "review_text": "Best of Best\nGreat project driven course.",
+        "name": "By MIN H",
+        "date": "Dec 13, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "best course and a lot hands-on practice",
+        "name": "By vaishnavi G",
+        "date": "Apr 26, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "very good course",
+        "name": "By JOE A E 2",
+        "date": "May 1, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Great course, nicely explained concepts & great hands-on Labs!",
+        "name": "By ASHISH D",
+        "date": "Apr 24, 2025",
+        "stars": 4
+    },
+    {
+        "review_text": "Very good, but it could explore more the spring framework",
+        "name": "By Daniel P K",
+        "date": "Feb 28, 2025",
+        "stars": 4
+    }
+]

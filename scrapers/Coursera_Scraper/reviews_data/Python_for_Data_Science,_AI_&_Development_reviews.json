@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Course focuses more on forcing you to sign up for various IBM cloud tools than learning python.  The final assignment has a 300+ reply thread in the discussion forum because you are graded on the ability to integrate your IBM Watson Notebook with IBM cloud storage, but the instructions have multiple errors, such as not working if you provision your storage in the wrong region.\n\nThis class is a shameless excuse for making you sign up for products you don't want, and then grading you on your ability to use them, not your ability to write python code.",
+        "name": "By David J",
+        "date": "Apr 20, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "Still I don't understand the relation of the course' content and the final assignment. \nIn addition, I would like to see how should have been done the final assignment, i.e an example corrected and done correctly.\nthis is the 4th course and still I can't understand anything of python. I haven't learn anything... my money is going to the waste. \nIBM says that you don't need previous knowledge of python or programming...that is a lie. I am biochemist and I have a MSc in One health, and during mi years we had lessons of R and R deducer. During that lessons, the materials given by the professors were clear and easy to follow. But this course has been awful..... I am feel like if I were an idiot but I know for sure that  I am not. The problem is this rubbish course.",
+        "name": "By Ruben F",
+        "date": "Nov 26, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "The worst course I took. I couldn't believe the course is provided by IBM. The slide is completely unclear and there are some small mistakes in that. And the final project is aimless, I don't know why you come up with such a project for the beginner. Anyway, I'm so disappointed with IBM and this course.",
+        "name": "By Jiayang Z",
+        "date": "Feb 12, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "It is amazing how bad this is considering that it is marketed as an IBM product. This is not the level of quality people expect when they hear the name IBM! You'd be better off paying 9.99 for a Udemy course than taking this course. It is not in depth at all and does a stunningly poor job at building real understanding and competency. The videos and labs are full of sloppiness and errors... again, not living up to the IBM name. I don't know about y'all, but I'm probably never going to pay money for a coursera course again... not really worth it.",
+        "name": "By Julian G",
+        "date": "Jan 3, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "I had a lot of problems with the Peer Assignment, which had nothing to do with Python Programming. The Watson environment has changed a lot compared to the learning materials.\n\nI should not recommend this Specialization, because of the difficulties with the Watson environment. I am willing to help solving the problems.",
+        "name": "By Robert I",
+        "date": "May 10, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "Every course has offered something interesting, challenging, and surprising.  I am glad I have spent the time with this class.  I would strongly recommend it to others with an interest in data science.",
+        "name": "By William B L",
+        "date": "Mar 14, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "As in the other parts of the certificate, the tasks are simply too easy. The content in the videos (many typos!!!!) are really valuable but the tasks man... Only the surface of the surface will be discussed, no deeping down into the wild. In this course the libraries numpy and pandas are presented but in the final assignment we actually don't needed the libs... When I read the description of the final assignment, I was excited because I assumed we will need to code EVERYTHING ourselves. So really do the thinking of how to solve the requirements, testing it in a notebook out, reading the docs, discovering new cool stuff... But unfortunately my dream did not come true. The most exciting function was already provided and some of the answers were little bit of copy and paste instead of really recalling newly learned knowledge. Before this review I really wanted to give 4 out of 5 stars but after writing this review I will now give only 2 stars. Actually, 2 stars are in my opinion unfair, since the creators have put a lot of time and love in the course content. Unfortunately, so much potential is thrown away",
+        "name": "By Aykut \u00d6",
+        "date": "Mar 4, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "The course content is good. However, the instructions for the final peer graded assignment are unclear. It appears to me that we were graded on our ability to interact with IBM cloud and Watson service not so much python skills also. Although I completed, I would not recommend to other until changes are made. It seems I'm not the only one that is unhappy or who had difficulties, just look at the week 5 discussion forum!",
+        "name": "By Declan H M G",
+        "date": "May 22, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "(5 stars):  Course was great!!  \nbut,\n(0 stars):  Instructions for IBM Watson and how to setup the assignments are outdated/incorrect.  It took me less time to finish the course, and a lot more time just to figure out how to setup Watson based on the instructions (website & course material do not match).  This is something that IBM can greatly improve without a lot of effort, imho.\nThe final assignment was an exercise in Watson, and barely on the course material :-(",
+        "name": "By Asim I",
+        "date": "May 21, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "it becomes easier wand clearer when one gets to complete the assignments as to how to utilize what has been learned. Practical work is a great way to learn, which was a fundamental part of the course.",
+        "name": "By Thabo M",
+        "date": "Nov 18, 2019",
+        "stars": 5
+    }
+]

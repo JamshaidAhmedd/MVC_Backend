@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Introduction to HTML, CSS, & JavaScript",
+        "link": "https://www.coursera.org/learn/introduction-html-css-javascript",
+        "description": "Skills you'll gain: HTML and CSS, Bootstrap (Front-End Framework), Web Design, Cascading Style Sheets (CSS), Front-End Web Development, Hypertext Markup Language (HTML), Web Development, Responsive Web Design, Javascript, Web Applications, Full-Stack Web Development, Scripting, Browser Compatibility, Application Programming Interface (API)",
+        "rating": "4.5",
+        "reviews": "503 reviews"
+    },
+    {
+        "title": "Introduction to Front-End Development",
+        "link": "https://www.coursera.org/learn/introduction-to-front-end-development",
+        "description": "Skills you'll gain: HTML and CSS, Bootstrap (Front-End Framework), Responsive Web Design, Front-End Web Development, User Interface (UI), JavaScript Frameworks, Web Design and Development, Web Applications, React.js, Javascript",
+        "rating": "4.8",
+        "reviews": "13K reviews"
+    },
+    {
+        "title": "Meta Front-End Developer",
+        "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+        "description": "Skills you'll gain: Jest (JavaScript Testing Framework), Version Control, UI/UX Research, Usability Testing, Responsive Web Design, Data Structures, Unix Commands, HTML and CSS, Git (Version Control System), Persona (User Experience), GitHub, Interaction Design, User Experience Design, User Interface and User Experience (UI/UX) Design, Bootstrap (Front-End Framework), React.js, Mobile Development, Front-End Web Development, Algorithms, Javascript",
+        "rating": "4.7",
+        "reviews": "22K reviews"
+    },
+    {
+        "title": "Python for Data Science, AI & Development",
+        "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+        "description": "Skills you'll gain: Jupyter, Automation, Web Scraping, Python Programming, Data Manipulation, Data Import/Export, Scripting, Data Structures, Data Processing, Data Collection, Application Programming Interface (API), Pandas (Python Package), Programming Principles, NumPy, Object Oriented Programming (OOP), Computer Programming",
+        "rating": "4.6",
+        "reviews": "41K reviews"
+    },
+    {
+        "title": "Web Design for Everybody: Basics of Web Development & Coding",
+        "link": "https://www.coursera.org/specializations/web-design",
+        "description": "Skills you'll gain: Wireframing, Responsive Web Design, HTML and CSS, Web Content Accessibility Guidelines, Cascading Style Sheets (CSS), Web Design, Hypertext Markup Language (HTML), Browser Compatibility, Bootstrap (Front-End Framework), Javascript, Front-End Web Development, User Interface (UI), Web Development Tools, Verification And Validation, Interactive Design, Application Frameworks, Code Review, Web Design and Development, Event-Driven Programming, Usability",
+        "rating": "4.7",
+        "reviews": "35K reviews"
+    },
+    {
+        "title": "Introduction to Web Development",
+        "link": "https://www.coursera.org/learn/web-development",
+        "description": "Skills you'll gain: Version Control, Hypertext Markup Language (HTML), GitHub, Git (Version Control System), HTML and CSS, Cascading Style Sheets (CSS), Web Design and Development, Web Development, Web Design, Web Content, Front-End Web Development, Web Servers, Image Analysis, Semantic Web, Cloud Hosting, Browser Compatibility",
+        "rating": "4.7",
+        "reviews": "3.7K reviews"
+    },
+    {
+        "title": "Build a Portfolio Website with HTML, CSS, and JavaScript",
+        "link": "https://www.coursera.org/projects/showcase-build-a-portfolio-website-html-css-javascript",
+        "description": "Skills you'll gain: Cascading Style Sheets (CSS), Hypertext Markup Language (HTML), Web Development, HTML and CSS, Web Design and Development, Javascript, Front-End Web Development, Web Content, Web Design",
+        "rating": "4.2",
+        "reviews": "95 reviews"
+    },
+    {
+        "title": "Meta Web Development Fundamentals",
+        "link": "https://www.coursera.org/specializations/meta-web-development-fundamentals",
+        "description": "Skills you'll gain: Django (Web Framework), Responsive Web Design, HTML and CSS, Relational Databases, Object Oriented Programming (OOP), Database Management Systems, Bootstrap (Front-End Framework), SQL, Database Design, Databases, Front-End Web Development, Unit Testing, MySQL, Debugging, User Interface (UI), Web Development, Web Servers, Test Driven Development (TDD), Web Applications, Programming Principles",
+        "rating": "4.7",
+        "reviews": "16K reviews"
+    },
+    {
+        "title": "IBM Full Stack Software Developer",
+        "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer",
+        "description": "Skills you'll gain: Prompt Engineering, Istio, HTML and CSS, Node.JS, Software Development Life Cycle, Software Architecture, Unit Testing, Cloud Computing Architecture, Server Side, Application Deployment, React Redux, Kubernetes, Cloud Services, Django (Web Framework), Object-Relational Mapping, Git (Version Control System), Full-Stack Web Development, Cloud Computing, Jupyter, Interviewing Skills",
+        "rating": "4.6",
+        "reviews": "55K reviews"
+    },
+    {
+        "title": "Drug Development and Pharmacoepidemiology",
+        "link": "https://www.coursera.org/specializations/drug-development-and-pharmacoepidemiology",
+        "description": "Skills you'll gain: Clinical Trials, Pharmaceuticals, Pharmacology, Medication Therapy Management, Pharmacotherapy, Clinical Research, Patient Safety, Medical Prescription, Epidemiology, Health Policy, Safety Assurance, Research Design, Drug Interaction, Research Methodologies, Health Care Procedure and Regulation, Statistical Analysis, Research, Continuous Monitoring, Regulatory Compliance, Real Time Data",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Full Stack Web Development",
+        "link": "https://www.coursera.org/learn/fullstack-web-development",
+        "description": "Skills you'll gain: Full-Stack Web Development, Restful API, Front-End Web Development, Web Services, Application Deployment, Web Development, Spring Framework, Amazon Web Services, HTML and CSS, Application Programming Interface (API), Server Side, Web Applications, Back-End Web Development, Spring Boot, Model View Controller, Responsive Web Design, Javascript",
+        "rating": "4.5",
+        "reviews": "12 reviews"
+    },
+    {
+        "title": "Fundamentals of Web Development",
+        "link": "https://www.coursera.org/learn/illinois-tech-fundamentals-of-web-development",
+        "description": "Skills you'll gain: Javascript and jQuery, Responsive Web Design, Web Development, Version Control, Web Design, HTML and CSS, Web Applications, JavaScript Frameworks, Web Development Tools, Infrastructure Architecture, Browser Compatibility, Application Programming Interface (API), Animations",
+        "rating": "4.6",
+        "reviews": "14 reviews"
+    }
+]

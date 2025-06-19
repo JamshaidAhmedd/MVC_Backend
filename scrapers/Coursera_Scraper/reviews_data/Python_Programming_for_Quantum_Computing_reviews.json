@@ -1,0 +1,14 @@
+[
+    {
+        "review_text": "Excellent Course",
+        "name": "By Luis R M B",
+        "date": "Jun 8, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Nothing related to Quantum Computing just basic python ???",
+        "name": "By Zuber S",
+        "date": "Nov 25, 2024",
+        "stars": 1
+    }
+]

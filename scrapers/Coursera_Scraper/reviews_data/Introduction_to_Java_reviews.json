@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "My rating on this couses is based on a couple of issues, I experienced while attending. \nFirst, most of the testing was based on instruction, not yet taught for the class. It would be nice to have been instructed on information prior to being tested for it. Secondly, I experienced a couple of issues with the \"Eclipse\" IDE. When I could not figure it out, I attempted to reach out to the instructor for assistance. First, there was not way to contact the instructor. i had to contact the Coursera support services to attempt to reach them. i was  told I had to wait 10 days for the issues I reported on the discussion board, if I did not get a reply, then i could reach to the support dividion again and they would reach out to the instructors. In the meantime I was falling behind on my class work. On both ocassiona, I never got a response from the instructors at all.",
+        "name": "By Florence W",
+        "date": "May 9, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "Amazing training!\nClear and detailed explanations, very good interface to practice with Eclipse. \nThe sound can be improved, but it's ok !\nhighly recommended",
+        "name": "By Giancarlo M",
+        "date": "Dec 1, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "Although I have experience in coding language, I'm still overwhelmed with all the strange terms and theory from the lecturer. Those theory should be introduced briefly, or can be introduced shortly after learners've already had a taste of writing code in Java. \nAlso, slides are full of words, not well optimized and look like 2000s style while it's made in 2020",
+        "name": "By Derek T",
+        "date": "Mar 9, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "enjoyed it!  I'm sorry but the instructor voice got a bit annoying",
+        "name": "By Mark J H",
+        "date": "Feb 21, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "This is very good for beginners to learn it easily and quickly.",
+        "name": "By RITHIK P K 1",
+        "date": "Apr 18, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "This course is easy if you've had programing before but I did learn about the open source Java application eclipse which is really cool",
+        "name": "By Cy L",
+        "date": "Aug 10, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "This course is really very helpful. It has helped me a lot to understand the basics of Java programming.",
+        "name": "By Ayoushri B",
+        "date": "Sep 9, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "Great intro to Java programming.  I will definitely continue with more courses.",
+        "name": "By John L",
+        "date": "Apr 14, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "Your code in video tutorial isn't clear.",
+        "name": "By MOH. H B 5",
+        "date": "Mar 20, 2021",
+        "stars": 4
+    },
+    {
+        "review_text": "Excellent course, the structure of the course itself is well made.  Highly recommended for any individual who wants to start with the basics of Java programming.",
+        "name": "By Divyansh K s",
+        "date": "May 3, 2023",
+        "stars": 5
+    }
+]

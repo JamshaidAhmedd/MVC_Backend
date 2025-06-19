@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Very low quality of the course. The structure of the course is illogical. Also it takes too little effort to accomplish the course. In the beginning  of th course labs contain all the code so a pupil doesn't have to do his/her best to solve tasks. I can just constantly press ctrl+enter and get my certificates. It is not what I expected from the course. Also quizes never contain  coding practice, so to accomplish I just need to show the understanding of the basic aspects of the topic, not the coding skills. The, at the end of the course (after I have lost all the motivation during the first weeks you give us difficult function, including custom functions, never explaining them at all). Have a huge doubt about buying the subscribe for the next month.",
+        "name": "By \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414",
+        "date": "Oct 18, 2018",
+        "stars": 2
+    },
+    {
+        "review_text": "So many mistakes in videos and labs, including spelling errors, misnaming functions and code that causes errors.\nThese have been listed extensively in the course discussion forums, with some complaints from over 6 months ago, and have not been addressed",
+        "name": "By Guy P",
+        "date": "Dec 6, 2018",
+        "stars": 2
+    },
+    {
+        "review_text": "Many typos and other errors. My favorite was the video where they said \"150 - 50 = 50\"",
+        "name": "By Pauli H",
+        "date": "Feb 22, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "Honestly, I'm not sure why this course has such a high rating. I feel like it can't possibly be a reflection of what actual students felt about the course. Reading the other reviews, it's clear some of the issues people had with the course were not the course-designers fault. But,  there were some tissues that are simply inexcusable. For example, typos in the lectures (especially towards the final week) show little to no proofreading was done. A lot of the labs involved \"Warnings\" that the instructors didn't explain to students (and so obviously some students got confused by them, even though they were inconsequential). And the final peer-graded assignment was a complete mess. The first few questions are numbered Question 1, Question 2, Question 3, etc. But the last 4-5 questions are not numbered making it very annoying to upload screenshots for each question. The directions in the assignment were simply wrong. For example, one of the questions didn't even have a prompt, just an empty text box. Someone asked about it in the \"Discussions\" and a staff member replied but it was never fixed in the assignment.  \n\nTrying to put the typos and logistical confusion aside, the course material was oddly organized and students were never really given an explanation as to why the concepts taught were being taught in this way. My least enjoyed course of the whole specialization.",
+        "name": "By Laura M",
+        "date": "Jun 26, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "I am working through the IBM Data Science Certificate courses (in order) and this is easily the best one I have taken so far. Once again, the labs provide a variety of hands-on exercises that help to cement the topics introduced in the lectures (which, to be fair, are very fast-paced). Everything taught is practical and relevant. One request would be to fix the pacing of the videos and lecture quizzes, which often appear to test students' comprehension mere seconds after the topic was discussed! I did also notice a few errors in the labs, but they did not stop me from learning the material. Overall, great course.",
+        "name": "By Amy P",
+        "date": "May 20, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Too many new functions with no option to practice. New and new and new library each week, in the end it's a total mess in the head. \nThis course should contains real excersises, lots of, just pass the test doesn't mean that you become familiar with the material or remember smth.",
+        "name": "By Lolita",
+        "date": "Dec 28, 2018",
+        "stars": 1
+    },
+    {
+        "review_text": "Thoroughly appreciate the effort to put this course together, however there are several problems (I think this is the worst quality course I've seen on Coursera so far .. or maybe all other ones have just been great!) -- a) the instructional videos contain many errors in both code syntax, and, worse, in logic; b) questions on Forums take a long time to be answered, and staff member who responds to most of them appears to be a bot/only provides vague general info; c) course material has ups and downs, for example Inferential Statistics are blazed through within 15-20 minutes, and there is very little discussion of, say, how to identify the distribution of your data, how to decide on parametric/non-parametric tests and so on.",
+        "name": "By Polina S",
+        "date": "Jul 5, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "Great introduction to data manipulation and analysis for common problems that arise in data science. Also allows you to gain a further understanding of Python syntax, specifically the pandas library.",
+        "name": "By Abigail B",
+        "date": "Feb 13, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "perfect for beginner level. all the concepts with code and parameter wise have been explained excellently. overall best course in making anyone eager to learn from basics to handle advances with ease.",
+        "name": "By Rohit P",
+        "date": "Apr 20, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "I'm sure a number of people put loads of time into this, so, thank you!\nThis must be the absolute worst online course I've ever come across ever! First of all, there are so many typos and mistakes in the course material, which is totally unacceptable! Then, there is no logical continuity in the subjects presented. The course is supposed to be intended for beginners, however, there is no background information or reasoning behind what is presented. Many times, one may only copy and paste python commands without knowing why or what it means at all! Unfortunately, This course is a disaster, and hence, NOT RECOMMENDED AT ALL!",
+        "name": "By Hesam R",
+        "date": "Dec 2, 2019",
+        "stars": 1
+    }
+]

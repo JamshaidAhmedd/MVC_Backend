@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Quantum Computing For Everyone - An Introduction",
+        "link": "https://www.coursera.org/learn/quantum-computing-for-everyone-an-introduction",
+        "description": "Skills you'll gain: Computer Science, IBM Cloud, Algorithms, Data Ethics, Computational Thinking, Linear Algebra, Emerging Technologies, Cryptography, Physics, Applied Mathematics",
+        "rating": "4",
+        "reviews": "66 reviews"
+    },
+    {
+        "title": "The Complete Quantum Computing Course for Beginners",
+        "link": "https://www.coursera.org/specializations/packt-the-complete-quantum-computing-course-for-beginners",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Python Programming, Data Structures, Data Manipulation, Computer Programming, Applied Mathematics, Algorithms, Mathematics and Mathematical Modeling, Data Processing, Scripting, Linear Algebra, Probability, Mathematical Modeling, IBM Cloud, Computer Science, Algebra, Software Installation, Probability & Statistics, Theoretical Computer Science, Artificial Intelligence and Machine Learning (AI/ML)",
+        "rating": "4.3",
+        "reviews": "36 reviews"
+    },
+    {
+        "title": "Hands-on quantum error correction with Google Quantum AI",
+        "link": "https://www.coursera.org/learn/quantum-error-correction",
+        "description": "Skills you'll gain: Debugging, Emerging Technologies, Hardware Architecture, Failure Analysis, Simulation and Simulation Software, Theoretical Computer Science, Mathematical Modeling, Computer Architecture, Simulations, Linear Algebra, Computer Science",
+        "rating": "4.5",
+        "reviews": "101 reviews"
+    },
+    {
+        "title": "Comprehensive Introduction to Quantum Mechanics",
+        "link": "https://www.coursera.org/learn/packt-comprehensive-introduction-to-quantum-mechanics-bfuoo",
+        "description": "Skills you'll gain: Physics, Emerging Technologies, Mechanics, Chemistry, Cryptography, Computer Science, Quantitative Research, Mathematical Modeling",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Introduction to Quantum Information",
+        "link": "https://www.coursera.org/learn/introduction-to-quantum-information",
+        "description": "Skills you'll gain: Emerging Technologies, Digital Communications, Encryption, Theoretical Computer Science, Cryptography, Linear Algebra, Algorithms, Computational Thinking, Information Technology, Physics, Simulations, Mathematical Modeling",
+        "rating": "4.2",
+        "reviews": "121 reviews"
+    },
+    {
+        "title": "Quantum Mechanics for Engineers",
+        "link": "https://www.coursera.org/specializations/quantum-mechanics-for-engineers",
+        "description": "Skills you'll gain: Estimation, Linear Algebra, Physics, Mechanics, Engineering Calculations, Probability, Applied Mathematics, Advanced Mathematics, Mathematical Modeling, Engineering Analysis, Mathematical Theory & Analysis, Differential Equations, Physical Science",
+        "rating": "4.4",
+        "reviews": "98 reviews"
+    },
+    {
+        "title": "Advanced Data Structures, RSA and Quantum Algorithms",
+        "link": "https://www.coursera.org/learn/advanced-data-structures-rsa-and-quantum-algorithms",
+        "description": "Skills you'll gain: Public Key Cryptography Standards (PKCS), Cryptography, Data Structures, Algorithms, Encryption, Theoretical Computer Science, Computer Science, Computational Thinking, Linear Algebra, Emerging Technologies, Python Programming",
+        "rating": "4.5",
+        "reviews": "32 reviews"
+    },
+    {
+        "title": "Practical Quantum Computing with IBM Qiskit for Beginners",
+        "link": "https://www.coursera.org/learn/packt-beginners-guide-to-practical-quantum-computing-with-ibm-qiskit-w6mos",
+        "description": "Skills you'll gain: IBM Cloud, Cryptography, Algorithms, Python Programming, Linear Algebra, Programming Principles, Computer Science, Theoretical Computer Science, Emerging Technologies, Test Case, Jupyter, Physics, Simulations, Software Installation, Debugging, Development Environment",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Applied Cryptography & Information Security",
+        "link": "https://www.coursera.org/learn/mq-csa-cryptography",
+        "description": "Skills you'll gain: Cryptography, Encryption, Network Security, Advanced Encryption Standard (AES), Public Key Infrastructure, Data Security, Key Management, Cybersecurity, Blockchain, Virtual Private Networks (VPN), Information Privacy, Wireless Networks, Authentications, Data Integrity, Emerging Technologies",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Introduction to Cloud Computing",
+        "link": "https://www.coursera.org/learn/introduction-to-cloud",
+        "description": "Skills you'll gain: Cloud Computing Architecture, Cloud Services, Cloud Security, Cloud Technologies, Cloud Infrastructure, Cloud Platforms, Cloud Hosting, Cloud Engineering, Cloud Computing, Cloud Solutions, Cloud Development, Cloud Storage, Infrastructure As A Service (IaaS), Emerging Technologies, Cloud-Native Computing, Cloud Management, Hybrid Cloud Computing, Virtual Machines, Serverless Computing, Technical Services",
+        "rating": "4.6",
+        "reviews": "7.3K reviews"
+    },
+    {
+        "title": "Cryptography I",
+        "link": "https://www.coursera.org/learn/crypto",
+        "description": "Skills you'll gain: Cryptography, Data Encryption Standard, Encryption, Key Management, Advanced Encryption Standard (AES), Public Key Cryptography Standards (PKCS), Cybersecurity, Authentications, Data Integrity, Secure Coding, Algorithms",
+        "rating": "4.8",
+        "reviews": "4.4K reviews"
+    },
+    {
+        "title": "Python Programming for Quantum Computing",
+        "link": "https://www.coursera.org/learn/packt-python-programming-for-quantum-computing-9rifk",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Python Programming, Data Structures, Data Manipulation, Computer Programming, Data Processing, Scripting, Software Installation, Development Environment, Jupyter",
+        "rating": "4.3",
+        "reviews": "10 reviews"
+    }
+]
