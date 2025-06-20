@@ -72,12 +72,26 @@ def get_course(course_id: str):
     # Convert embedded reviews to Review Pydantic models (ensuring types)
     reviews = []
     for r in doc.get("reviews", []):
-        reviews.append(Review(
-            review_id=r.get("review_id", ""),
-            text=r.get("text", ""),
-            rating=(float(r["rating"]) if r.get("rating") is not None else None),
-            sentiment_score=(float(r["sentiment_score"]) if r.get("sentiment_score") is not None else None)
-        ))
+        rating_val = r.get("rating")
+        try:
+            rating = float(rating_val) if rating_val is not None else None
+        except (TypeError, ValueError):
+            rating = None
+
+        sentiment_val = r.get("sentiment_score")
+        try:
+            sentiment_score = float(sentiment_val) if sentiment_val is not None else None
+        except (TypeError, ValueError):
+            sentiment_score = None
+
+        reviews.append(
+            Review(
+                review_id=r.get("review_id", ""),
+                text=r.get("text", ""),
+                rating=rating,
+                sentiment_score=sentiment_score,
+            )
+        )
     return CourseDetail(
         course_id=doc["course_id"],
         title=doc.get("title", ""),
