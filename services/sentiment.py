@@ -108,13 +108,18 @@ def rebuild_index(courses):
     )
     log.info("   • Created text index '%s'", TEXT_INDEX)
 
-def main():
+def run_sentiment_enrichment() -> None:
+    """Run the sentiment enrichment pipeline."""
     log.info("=== Phase 2 Enrichment Start ===")
     courses = connect()
     score_reviews(courses)
     aggregate(courses)
     rebuild_index(courses)
     log.info("🎉 Phase 2 complete!")
+
+
+def main() -> None:
+    run_sentiment_enrichment()
     sys.exit(0)
 
 if __name__=="__main__":

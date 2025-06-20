@@ -20,7 +20,8 @@ from datetime import datetime
 from pymongo import MongoClient, UpdateOne, TEXT
 from pymongo.errors import PyMongoError
 
-import category_tagger,keyword_queue, notifications
+from utils import category_tagger, keyword_queue
+from services import notification_service
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 BASE_DIR        = Path(__file__).parent.resolve()
@@ -127,22 +128,34 @@ def step_ingest():
         return False
 
 
-def main():
+def run_ingestion_pipeline() -> bool:
+    """Execute the full ingestion pipeline without exiting."""
     log.info("=== Ingestion Pipeline Start ===")
     start = datetime.now()
 
-    if not step_scrapers():  sys.exit(1)
-    if not step_unify():     sys.exit(1)
-    if not step_ingest():    sys.exit(1)
+    if not step_scrapers():
+        return False
+    if not step_unify():
+        return False
+    if not step_ingest():
+        return False
 
     # Retag all courses according to categories
     category_tagger.retag_all()
 
-    elapsed = datetime.now() - start
-    notifications.process_all()
+    # Process any outstanding notification requests
+    notification_service.process_search_requests()
+    notification_service.dispatch_notifications()
 
+    elapsed = datetime.now() - start
     log.info(f"🎉 Pipeline finished in {elapsed}")
-    sys.exit(0)
+    return True
+
+
+def main() -> None:
+    """Entry point when executed as a script."""
+    success = run_ingestion_pipeline()
+    sys.exit(0 if success else 1)
 
 
 if __name__ == "__main__":

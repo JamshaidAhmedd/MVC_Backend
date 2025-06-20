@@ -49,6 +49,12 @@ def dispatch_notifications() -> None:
         )
 
 
+def run_notify() -> None:
+    """Process pending search requests and dispatch notifications."""
+    process_search_requests()
+    dispatch_notifications()
+
+
 def watch_notifications(interval_hours: int = 4) -> None:
     """Continuously process and dispatch notifications."""
     while True:

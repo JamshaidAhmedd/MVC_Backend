@@ -11,9 +11,9 @@ Runs:
 import logging
 from datetime import datetime, timedelta
 from apscheduler.schedulers.blocking import BlockingScheduler
-from ingestion import main as run_ingest
-from sentiment_enrichment import main as run_enrich
-from notification_dispatcher import run_notify
+from services.data_ingestion import run_ingestion_pipeline
+from services.sentiment import run_sentiment_enrichment
+from services.notification_service import run_notify
 
 # ── SETUP LOGGING ─────────────────────────────────────────────────────
 logging.basicConfig(
@@ -39,7 +39,7 @@ def log_and_run(name, fn):
 
 # Every 4 hours: full scrape → unify → ingest → enrich → notify
 sched.add_job(
-    lambda: log_and_run("Ingestion pipeline", run_ingest),
+    lambda: log_and_run("Ingestion pipeline", run_ingestion_pipeline),
     trigger="interval",
     hours=4,
     id="ingest_job",
@@ -58,7 +58,7 @@ sched.add_job(
 
 # Daily at 02:00: sentiment scoring & aggregation
 sched.add_job(
-    lambda: log_and_run("Sentiment enrichment", run_enrich),
+    lambda: log_and_run("Sentiment enrichment", run_sentiment_enrichment),
     trigger="cron",
     hour=2,
     minute=0,
