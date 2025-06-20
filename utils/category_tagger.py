@@ -115,46 +115,49 @@ def watch_changes():
     categories = db["categories"]
 
     pipeline = [{"$match": {"operationType": {"$in": ["insert","update","replace"]}}}]
-    with categories.watch(pipeline) as stream:
-        for change in stream:
-            cid = change["documentKey"]["_id"]
-            cat = categories.find_one({"_id": cid})
-            if not cat:
-                continue
+    try:
+        with categories.watch(pipeline) as stream:
+            for change in stream:
+                cid = change["documentKey"]["_id"]
+                cat = categories.find_one({"_id": cid})
+                if not cat:
+                    continue
 
-            name = cat["name"]
-            kws  = cat.get("keywords", [])
-            if not name:
-                continue
+                name = cat["name"]
+                kws = cat.get("keywords", [])
+                if not name:
+                    continue
 
-            # 1) clear old tags
-            courses.update_many({}, {"$pull": {"categories": name}})
+                # 1) clear old tags
+                courses.update_many({}, {"$pull": {"categories": name}})
 
-            if not kws:
-                continue
+                if not kws:
+                    continue
 
-            # 2) text‐search and threshold‐tag
-            search_str = " ".join(kws)
-            cursor = courses.find(
-                {"$text": {"$search": search_str}},
-                {"score": {"$meta": "textScore"}, "course_id": 1}
-            ).sort([("score", {"$meta": "textScore"})])
+                # 2) text‐search and threshold‐tag
+                search_str = " ".join(kws)
+                cursor = courses.find(
+                    {"$text": {"$search": search_str}},
+                    {"score": {"$meta": "textScore"}, "course_id": 1}
+                ).sort([("score", {"$meta": "textScore"})])
 
-            docs = list(cursor)
-            if not docs:
-                continue
+                docs = list(cursor)
+                if not docs:
+                    continue
 
-            max_score = docs[0]["score"]
-            thresh    = TAG_THRESHOLD * max_score
-            count     = 0
+                max_score = docs[0]["score"]
+                thresh = TAG_THRESHOLD * max_score
+                count = 0
 
-            for d in docs:
-                if d["score"] < thresh:
-                    break
-                courses.update_one(
-                    {"course_id": d["course_id"]},
-                    {"$addToSet": {"categories": name}}
-                )
-                count += 1
+                for d in docs:
+                    if d["score"] < thresh:
+                        break
+                    courses.update_one(
+                        {"course_id": d["course_id"]},
+                        {"$addToSet": {"categories": name}}
+                    )
+                    count += 1
 
-            log.info(f"Re‐tagged {count} courses for category '{name}'")
+                log.info(f"Re‐tagged {count} courses for category '{name}'")
+    except OperationFailure as e:
+        log.warning("Change streams unavailable, watcher disabled: %s", e)
