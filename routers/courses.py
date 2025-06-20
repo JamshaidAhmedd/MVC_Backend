@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends, Query
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 import math
 from core import security
 from core.config import db, settings
@@ -9,13 +9,30 @@ from utils import keyword_queue
 router = APIRouter(tags=["courses"])
 
 @router.get("/search", response_model=List[CourseSummary])
-def search_courses(query: str = Query(..., min_length=1), top_k: int = Query(10, ge=1, le=100),
-                   current_user: Optional[dict] = Depends(security.get_current_user)):
-    # Use MongoDB text index to find matching courses
+def search_courses(
+    query: str = Query(..., min_length=1),
+    category: Optional[str] = Query(None),
+    provider: Optional[str] = Query(None),
+    top_k: int = Query(10, ge=1, le=100),
+    current_user: Optional[dict] = Depends(security.get_current_user),
+):
+    """Search courses with optional category/provider filters."""
+
+    filter_query: Dict[str, Any] = {"$text": {"$search": query}}
+    if category:
+        filter_query["categories"] = category
+    if provider:
+        filter_query["provider"] = provider
+
     cursor = db["courses"].find(
-        {"$text": {"$search": query}},
-        {"score": {"$meta": "textScore"}, "course_id": 1, "title": 1,
-         "smoothed_sentiment": 1, "num_reviews": 1}
+        filter_query,
+        {
+            "score": {"$meta": "textScore"},
+            "course_id": 1,
+            "title": 1,
+            "smoothed_sentiment": 1,
+            "num_reviews": 1,
+        },
     ).sort([("score", {"$meta": "textScore"})]).limit(top_k * 5)
     docs = list(cursor)
     if not docs:
@@ -55,12 +72,26 @@ def get_course(course_id: str):
     # Convert embedded reviews to Review Pydantic models (ensuring types)
     reviews = []
     for r in doc.get("reviews", []):
-        reviews.append(Review(
-            review_id=r.get("review_id", ""),
-            text=r.get("text", ""),
-            rating=(float(r["rating"]) if r.get("rating") is not None else None),
-            sentiment_score=(float(r["sentiment_score"]) if r.get("sentiment_score") is not None else None)
-        ))
+        rating_val = r.get("rating")
+        try:
+            rating = float(rating_val) if rating_val is not None else None
+        except (TypeError, ValueError):
+            rating = None
+
+        sentiment_val = r.get("sentiment_score")
+        try:
+            sentiment_score = float(sentiment_val) if sentiment_val is not None else None
+        except (TypeError, ValueError):
+            sentiment_score = None
+
+        reviews.append(
+            Review(
+                review_id=r.get("review_id", ""),
+                text=r.get("text", ""),
+                rating=rating,
+                sentiment_score=sentiment_score,
+            )
+        )
     return CourseDetail(
         course_id=doc["course_id"],
         title=doc.get("title", ""),

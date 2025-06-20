@@ -4,6 +4,8 @@ except ImportError:
     # Fallback for older pydantic versions
     from pydantic import BaseSettings
 from pymongo import MongoClient
+import logging
+import os
 
 class Settings(BaseSettings):
     MONGO_URI: str
@@ -23,3 +25,15 @@ settings = Settings()
 # MongoDB client and database
 client = MongoClient(settings.MONGO_URI)
 db = client["course_app"]  # database name is fixed as 'course_app'
+
+# Configure basic logging to logs directory
+LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    handlers=[
+        logging.FileHandler(os.path.join(LOG_DIR, "app.log")),
+        logging.StreamHandler(),
+    ],
+)

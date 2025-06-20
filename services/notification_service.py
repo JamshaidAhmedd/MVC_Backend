@@ -1,46 +1,56 @@
-def process_search_requests():
-    pending = keyword_queue.get_pending()  # get all requests with notified=False
+"""Notification processing and dispatch utilities."""
+
+import logging
+import time
+from datetime import datetime
+
+from bson import ObjectId
+
+from core.config import db
+from models.notification import PyObjectId
+from utils import keyword_queue
+
+log = logging.getLogger(__name__)
+
+
+def process_search_requests() -> None:
+    """Create notifications for pending search requests if results now exist."""
+    pending = keyword_queue.get_pending()
     for req in pending:
         kw = req["keyword"]
         user_id = req["user_id"]
-        # Check if any course now matches the keyword (using text search on courses)
         if db["courses"].count_documents({"$text": {"$search": kw}}) > 0:
-            message = f"New courses are now available for '{kw}'."
-            notification = {
-                "_id": PyObjectId(),  # generate a new ObjectId for the notification
-                "message": message,
+            note = {
+                "_id": PyObjectId(),
+                "message": f"New courses are now available for '{kw}'.",
                 "created_at": datetime.utcnow(),
                 "read": False,
-                "sent": False
+                "sent": False,
             }
-            # Push the notification to the user's notifications array
-            db["users"].update_one({"_id": user_id}, {"$push": {"notifications": notification}})
-            # Mark the search request as notified
+            db["users"].update_one({"_id": user_id}, {"$push": {"notifications": note}})
             keyword_queue.mark_notified(req["_id"])
-            log.info(f"Notification queued for user {user_id} on keyword '{kw}'")
+            log.info("Queued notification for user %s keyword '%s'", user_id, kw)
 
 
-def dispatch_notifications():
-    # Find all notifications that have not been sent yet
+def dispatch_notifications() -> None:
+    """Dispatch unsent notifications (stdout placeholder)."""
     pipeline = [
         {"$unwind": "$notifications"},
         {"$match": {"notifications.sent": False}},
-        {"$project": {"user_id": "$_id", "notification": "$notifications"}}
+        {"$project": {"user_id": "$_id", "notification": "$notifications"}},
     ]
     for doc in db["users"].aggregate(pipeline):
         user_id = doc["user_id"]
-        note = doc["notification"]  # contains _id, message, etc.
-        # "Send" the notification (here we just log it; in real case, send email or push)
-        log.info(f"Dispatching notification to user {user_id}: {note['message']}")
-        # Mark as sent
+        note = doc["notification"]
+        log.info("Dispatching notification to user %s: %s", user_id, note["message"])
         db["users"].update_one(
             {"_id": user_id, "notifications._id": note["_id"]},
-            {"$set": {"notifications.$.sent": True}}
+            {"$set": {"notifications.$.sent": True}},
         )
 
 
-
-def watch_notifications(interval_hours=4):
+def watch_notifications(interval_hours: int = 4) -> None:
+    """Continuously process and dispatch notifications."""
     while True:
         process_search_requests()
         dispatch_notifications()
