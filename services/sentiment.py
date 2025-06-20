@@ -17,7 +17,7 @@ from textblob import TextBlob
 from pymongo import MongoClient, UpdateOne, TEXT
 
 # ── CONFIG ────────────────────────────────────────────────────────
-MONGO_URI    = "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
+MONGO_URI    = "mongodb://localhost:27017"
 PSEUDOCOUNT  = 10    # Adjust up to pull 1‐review courses closer to global mean
 TEXT_INDEX   = "CourseTextIndex"
 # ── END CONFIG ────────────────────────────────────────────────────

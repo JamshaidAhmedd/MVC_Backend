@@ -3,10 +3,7 @@ import logging
 from datetime import datetime
 
 # ── CONFIG ───────────────────────────────────────────────────────
-MONGO_URI = (
-    "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/"
-    "course_app?retryWrites=true&w=majority"
-)
+MONGO_URI = "mongodb://localhost:27017"
 client = MongoClient(MONGO_URI)
 kw_coll = client.course_app.keyword_queue
 db = client["course_app"]

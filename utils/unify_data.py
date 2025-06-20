@@ -13,10 +13,13 @@ import glob
 import logging
 import re
 from datetime import datetime
+from pathlib import Path
 
 # ── CONFIG ───────────────────────────────────────────────────
-OUT_DIR = "unified_data"
-os.makedirs(OUT_DIR, exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parent
+SCRAPER_DIR = BASE_DIR.parent / "scrapers"
+OUT_DIR = BASE_DIR / "unified_data"
+OUT_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger()
@@ -100,7 +103,7 @@ def unify_provider(provider, course_glob, review_glob):
 
     # 3) Write unified files
     for slug, doc in courses.items():
-        out_path = os.path.join(OUT_DIR, f"{provider}__{slug}.json")
+        out_path = OUT_DIR / f"{provider}__{slug}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(doc, f, ensure_ascii=False, indent=2)
     log.info(f"  • Wrote {len(courses)} unified files for {provider}")
@@ -111,12 +114,12 @@ if __name__ == "__main__":
     total = 0
     total += unify_provider(
         "alison",
-        "Alison_scraper/alison_course_data/*.json",
-        "Alison_scraper/alison_reviews_data/*_reviews.json"
+        str(SCRAPER_DIR / "Alison_scraper" / "alison_course_data" / "*.json"),
+        str(SCRAPER_DIR / "Alison_scraper" / "alison_reviews_data" / "*_reviews.json"),
     )
     total += unify_provider(
         "coursera",
-        "Coursera_Scraper/course_data/*.json",
-        "Coursera_Scraper/reviews_data/*_reviews.json"
+        str(SCRAPER_DIR / "Coursera_Scraper" / "course_data" / "*.json"),
+        str(SCRAPER_DIR / "Coursera_Scraper" / "reviews_data" / "*_reviews.json"),
     )
     log.info(f"\n🎉 Total unified files: {total}")

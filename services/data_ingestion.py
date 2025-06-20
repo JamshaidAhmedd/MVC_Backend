@@ -6,7 +6,7 @@ Phase 1 – Scrape, unify, ingest, and categorize courses.
 
 Pipeline steps:
   1) Scrape new keywords from keyword_queue
-  2) Unify raw JSON via unify.py
+  2) Unify raw JSON via utils/unify_data.py
   3) Bulk-upsert unified docs into MongoDB
   4) Retag all courses per category using category_tagger.retag_all()
 """
@@ -34,7 +34,7 @@ COURSERA_SCRIPT = SCRAPER_DIR / "Coursera_Scraper" / "Coursera.py"
 UTILS_DIR       = BASE_DIR.parent / "utils"
 UNIFY_SCRIPT    = UTILS_DIR / "unify_data.py"
 UNIFIED_DIR     = UTILS_DIR / "unified_data"
-MONGO_URI       = "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
+MONGO_URI       = "mongodb://localhost:27017"
 LOG_DIR         = BASE_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE        = LOG_DIR / "ingest.log"

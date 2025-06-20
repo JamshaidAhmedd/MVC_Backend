@@ -58,7 +58,7 @@ Edit `.env` with your actual values:
 
 ```env
 # MongoDB connection
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/course_app?retryWrites=true&w=majority
+MONGO_URI=mongodb://localhost:27017/course_app
 
 # JWT secret (use a strong random value)
 SECRET_KEY=your-super-secret-jwt-key-change-this

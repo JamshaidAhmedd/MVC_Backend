@@ -15,9 +15,7 @@ from pymongo import MongoClient, TEXT
 from pymongo.errors import OperationFailure
 
 # ── CONFIG ────────────────────────────────────────────────────────────────
-MONGO_URI     = os.getenv("MONGO_URI",
-    "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
-)
+MONGO_URI     = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 TEXT_INDEX   = "CourseTextIndex"
 # how “deep” into the relevance list to go (0.2 = top 20%)
 TAG_THRESHOLD = float(os.getenv("TAG_THRESHOLD", "0.2"))
