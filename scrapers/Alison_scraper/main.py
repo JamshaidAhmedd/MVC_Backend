@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
-"""
-Alison Scraper (CLI-Driven)
+"""Alison course and review scraper.
 
-Usage:
-    python main.py --keyword python
-
-This script will:
-  1. Accept a `--keyword` argument.
-  2. Scrape Alison courses for that keyword (up to 12 courses).
-  3. Scrape up to 10 reviews for each course.
-  4. Save JSON outputs into `alison_course_data/` and `alison_reviews_data/` located
-     in the same directory as this script.
+You can pass ``--keyword`` on the command line or run the script interactively.
+The scraper will save course JSON files under ``alison_course_data/`` and review
+files under ``alison_reviews_data/``.
 """
 import os
 import json
@@ -53,13 +46,15 @@ parser = argparse.ArgumentParser(
     description="Scrape Alison courses and reviews for a given keyword."
 )
 parser.add_argument(
-    "--keyword", required=True,
+    "--keyword",
     help="Search term to scrape (e.g., 'computer', 'python')"
 )
 args = parser.parse_args()
-keyword = args.keyword.strip()
+keyword = args.keyword.strip() if args.keyword else ""
 if not keyword:
-    logger.error("❌ Please provide a non-empty --keyword argument.")
+    keyword = input("Enter Alison search keyword: ").strip()
+if not keyword:
+    logger.error("❌ Please provide a search keyword.")
     exit(1)
 
 # ─── DRIVER INIT ───────────────────────────────────────────────────────────

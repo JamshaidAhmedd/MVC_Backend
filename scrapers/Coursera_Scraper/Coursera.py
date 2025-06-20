@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""
-Combined Coursera Scraper (Part 1 & 2)
+"""Coursera course and review scraper.
 
-Accepts --keyword from CLI instead of interactive input.
-Usage:
-    python main.py --keyword python
+You may pass ``--keyword`` via the command line or run the script interactively.
+Course data is written under ``course_data/`` and reviews under ``reviews_data/``.
 """
 import argparse
 import asyncio
@@ -18,14 +16,19 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Parse CLI arguments
-parser = argparse.ArgumentParser(description="Scrape Coursera courses and reviews for a given keyword.")
+parser = argparse.ArgumentParser(
+    description="Scrape Coursera courses and reviews for a given keyword."
+)
 parser.add_argument(
-    "--keyword", required=True, help="Search term to scrape (e.g., 'python', 'data science')"
+    "--keyword",
+    help="Search term to scrape (e.g., 'python', 'data science')"
 )
 args = parser.parse_args()
-keyword = args.keyword.strip()
+keyword = args.keyword.strip() if args.keyword else ""
 if not keyword:
-    logger.error("No keyword provided. Use --keyword to specify a search term.")
+    keyword = input("Enter course keyword to search: ").strip()
+if not keyword:
+    logger.error("Please provide a valid keyword.")
     exit(1)
 
 # Directory for saving course and reviews data
