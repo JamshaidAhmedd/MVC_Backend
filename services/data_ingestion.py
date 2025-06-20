@@ -25,10 +25,15 @@ from services import notification_service
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 BASE_DIR        = Path(__file__).parent.resolve()
-ALISON_SCRIPT   = BASE_DIR / "Alison_scraper"   / "main.py"
-COURSERA_SCRIPT = BASE_DIR / "Coursera_Scraper" / "Coursera.py"
-UNIFY_SCRIPT    = BASE_DIR / "unify.py"
-UNIFIED_DIR     = BASE_DIR / "unified_data"
+# Paths to scraper entry points under the top-level scrapers/ directory
+SCRAPER_DIR     = BASE_DIR.parent / "scrapers"
+ALISON_SCRIPT   = SCRAPER_DIR / "Alison_scraper" / "main.py"
+COURSERA_SCRIPT = SCRAPER_DIR / "Coursera_Scraper" / "Coursera.py"
+
+# Data unification script lives in utils/
+UTILS_DIR       = BASE_DIR.parent / "utils"
+UNIFY_SCRIPT    = UTILS_DIR / "unify_data.py"
+UNIFIED_DIR     = UTILS_DIR / "unified_data"
 MONGO_URI       = "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
 LOG_DIR         = BASE_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
@@ -63,13 +68,7 @@ def run_step(name, cmd, cwd):
 
 def step_scrapers():
     """Run scrapers for each pending keyword."""
-    try:
-        import keyword_queue as kq
-    except ImportError:
-        log.warning("keyword_queue not found; skipping scrapers")
-        return True
-
-    pending = kq.get_pending_keywords()
+    pending = keyword_queue.get_pending_keywords()
     if not pending:
         log.info("✔ No pending keywords to scrape.")
         return True
@@ -81,15 +80,19 @@ def step_scrapers():
         if not run_step("Coursera scraper", ["python", str(COURSERA_SCRIPT), "--keyword", kw], cwd=COURSERA_SCRIPT.parent):
             return False
         try:
-            kq.mark_scraped(kw)
+            keyword_queue.mark_scraped(kw)
         except Exception as e:
             log.warning(f"Could not mark '{kw}' scraped: {e}")
     return True
 
 
 def step_unify():
-    """Merge raw JSON into unified_data/ via unify.py."""
-    return run_step("Data unification", ["python", str(UNIFY_SCRIPT)], cwd=BASE_DIR)
+    """Merge raw JSON into unified_data/ via unify_data.py."""
+    return run_step(
+        "Data unification",
+        ["python", str(UNIFY_SCRIPT)],
+        cwd=UNIFY_SCRIPT.parent,
+    )
 
 
 def step_ingest():

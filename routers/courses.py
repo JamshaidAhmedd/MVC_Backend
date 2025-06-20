@@ -19,7 +19,9 @@ def search_courses(query: str = Query(..., min_length=1), top_k: int = Query(10,
     ).sort([("score", {"$meta": "textScore"})]).limit(top_k * 5)
     docs = list(cursor)
     if not docs:
-        # If no courses found, and user is logged in, record the search for future notifications
+        # Queue the keyword for future scraping
+        keyword_queue.enqueue(query)
+        # If user is logged in, record the search for notifications
         if current_user:
             keyword_queue.add_request(current_user["_id"], query)
         return []
