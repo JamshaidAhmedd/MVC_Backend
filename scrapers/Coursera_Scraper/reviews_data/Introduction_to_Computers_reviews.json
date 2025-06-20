@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "This is a great course, even if you have previous knowledge in computers this can help you to get updated information about new storage options or cloud services.",
+        "name": "By A M",
+        "date": "Jul 22, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "The course provides a great introduction to Computers, hardware, software and network basics, overall you will go from Novice to Computer Literate.",
+        "name": "By Nelson V",
+        "date": "Oct 28, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "The course provided a decent overview of the fundamental aspects of IT work. However, it could have gone more in-depth into how a computer works beyond the hardware basics.\n\nI don't like how the course starts with a large section about how AI works before talking about how \"the CPU is the brain of the computer\". I almost quit the course because the AI section was a slog of information to get through.\n\nI also don't appreciate how much information this course contains about Microsoft products. Yes, many are used in modern office settings, but this course also felt like a plug for Microsoft products. It didn't give me an accurate idea of other common products and software used in various business tasks.",
+        "name": "By Sean D",
+        "date": "Sep 4, 2024",
+        "stars": 3
+    },
+    {
+        "review_text": "\"Learning isn't just about being better at your job: it's so much more than that. Coursera allows me to learn without limits.\"",
+        "name": "By Sarvesh S",
+        "date": "Jul 29, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Insightful information.  A lot to have to recall for the final but very enjoyable.",
+        "name": "By Denise W",
+        "date": "Jul 31, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "I love it. I\u2019m really learning a lot and feeling confident about my future!",
+        "name": "By Abigail C",
+        "date": "Oct 2, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "A very good course for the entry level support engineers and technicians.",
+        "name": "By Nabeel S",
+        "date": "Feb 1, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Disappointing Start to an IT Certification Program\n\nAs a 35-year IT veteran with 15 certifications, a BA and Master's in IT, a scientific research degree, and six years as a university professor, I approached this course with high hopes. I also have over 100 internationally published IT papers. I\u2019m taking this certification to encourage my son in his learning journey, but Course 1 has been a major disappointment for several reasons:\n\nOverwhelming and Misaligned Content:\nThis is supposed to be entry-level training, but it introduces advanced concepts like data lakes that are far beyond the scope of a beginner. The result is a curriculum that feels too broad, shallow, and confusing for someone starting in IT.\n\nLack of Practical Labs:\nSurprisingly, there are no hands-on labs. For a course designed to prepare students for IT support roles, I expected fundamental training in Windows 11 installation, configuration, and troubleshooting. Instead, the course focuses on tedious theoretical concepts with little real-world application.\n\nPoorly Designed Questions:\nThe test questions are unnecessarily tricky, focusing on irrelevant details that frustrate rather than educate. The quality of these assessments undermines the learning experience and risks driving students to quit the program. Whoever designed these tests should take inspiration from Google's Cybersecurity certification exams, which feature well-crafted, practical questions.\n\nRecommendation:\nMicrosoft should revisit its past success with certifications like MCP (Microsoft Certified Professional). That program provided in-depth, hands-on training that built real skills in installing, configuring, and troubleshooting Windows systems. In contrast, after completing a month of studying Course 1 in this program, a student will gain ZERO practical skills.\n\nSo far, this certification is a disappointment. I will reserve final judgment until I evaluate the subsequent courses.",
+        "name": "By Alex P",
+        "date": "Dec 1, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "The course is poorly written, not to mention CompTIA A+, it is not even as good as Google IT Support and IBM IT Support courses. Have you ever seen an introductory course on computers that starts with the so-called security instead of introducing the various components of the hardware, then the operating system, etc., step by step?",
+        "name": "By Jacob L",
+        "date": "Sep 11, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "The Introduction to Computers course provides a solid foundation for anyone looking to build their understanding of basic computer concepts. It\u2019s especially beneficial for beginners or individuals returning to technology after a long break. The course covers essential topics such as hardware and software components, operating systems, file management, internet basics, cybersecurity, and an overview of popular applications like Microsoft Word, Excel, and PowerPoint.\n\nWhat stands out most is how clearly the course breaks down complex terms and functions into easy-to-understand lessons. The pacing is manageable, allowing students to absorb information without feeling overwhelmed. Practical exercises help reinforce what\u2019s taught, and the hands-on approach makes it easier to gain confidence in using a computer.\n\nThe instructor (or course material) maintains an encouraging tone throughout and uses real-world examples that make learning more relatable and engaging. By the end of the course, students not only gain technical knowledge but also develop the confidence to navigate and use computers in their daily life, studies, or workplace.\n\nOverall, this is a great starter course for anyone who wants to become computer literate or improve their digital skills. Highly recommended for both personal development and career readiness.",
+        "name": "By Johnson J",
+        "date": "May 5, 2025",
+        "stars": 5
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Excellent, although, even without having any programming experience except some Visual Basic at school about ten years ago, in my opinion the course could have bee more difficult and the pace quicker.",
+        "name": "By Eduards K",
+        "date": "May 13, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "Extremely basic but Dr. Chuck is so interesting that you never get bored. You can pass the course in a few days with minimum or even no programming knowledge. It's a good starting point for beginners.",
+        "name": "By Rui D",
+        "date": "Jun 23, 2016",
+        "stars": 5
+    },
+    {
+        "review_text": "Lecture videos were broken into small parts whereby it's easy to understand and digest. Assessment given were relevant to what was taught for each segment. Navigating around course contents were easy.",
+        "name": "By Bryan T",
+        "date": "Jan 29, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "first time i had done any course online and this was a wonderful experience \nI learned all the stuff and the explanation provided was good.\ni would like to do more courses from here\nthank you!",
+        "name": "By Taniya M",
+        "date": "Jun 22, 2017",
+        "stars": 5
+    },
+    {
+        "review_text": "Great introduction to Python and programming as a whole. Everything is broken down making it easy to understand. Had zero programming experience before and this class made it easy and fun to get into.",
+        "name": "By Gregory S",
+        "date": "Sep 10, 2018",
+        "stars": 5
+    },
+    {
+        "review_text": "I did not find this course helpful. The assignments seem to ask for more info that you've been taught in any of the videos. My analogy for the course is this: It's like making a newborn baby watch a video on swimming and then throwing it into the ocean and acting shocked when it doesn't know how to swim. The mentors in the discussion forum are condescending and do not help when you don't understand the terms they are using. I would not recommend this course for beginners.",
+        "name": "By Eric V H",
+        "date": "Oct 6, 2017",
+        "stars": 1
+    },
+    {
+        "review_text": "Great introduction to Python and programming as a whole. Everything is broken down making it easy to understand. Had zero programming experience before and this class made it easy and fun to get into.",
+        "name": "By Bittu S",
+        "date": "Aug 25, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "After trying tutorial after tutorial and exploring many different resources to learn Python, I have finally found one that works! This is a very fun course, and the free textbook is simply incredible.",
+        "name": "By Brittany N",
+        "date": "Jan 18, 2016",
+        "stars": 5
+    },
+    {
+        "review_text": "The professor's lecture is so awesome, however, the content is adjust to the new programming learners. I heared extended part of the course is charged,  you can purchased it if you want deeper learning",
+        "name": "By Liang Z",
+        "date": "Sep 5, 2016",
+        "stars": 5
+    },
+    {
+        "review_text": "Very good introduction to basic programming. Very easy for beginners in python who have already some programming background - but still extremely useful to quickly and efficiently learn python basics.",
+        "name": "By Adam K",
+        "date": "Mar 30, 2018",
+        "stars": 5
+    }
+]

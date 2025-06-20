@@ -1,0 +1,165 @@
+[
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Basics of Computer Networking",
+    "duration": "2 - 3 hrs",
+    "enrolled": "49,067 learners",
+    "publisher": "",
+    "outcomes": [
+      "Discuss the benefits and components of a computer network",
+      "Recall the various configurations of the Local Area Network",
+      "State the properties of the different layers of the OSI model"
+    ],
+    "info_url": "https://alison.com/course/basics-of-computer-networking",
+    "start_url": "https://alison.com/course/basics-of-computer-networking?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Introduction to Computer Network Security",
+    "duration": "2 - 3 hrs",
+    "enrolled": "38,767 learners",
+    "publisher": "",
+    "outcomes": [
+      "Describe the different layers of physical security"
+    ],
+    "info_url": "https://alison.com/course/introduction-to-computer-network-security-revised",
+    "start_url": "https://alison.com/course/introduction-to-computer-network-security-revised?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Computer Maintenance and PC Building",
+    "duration": "2 - 3 hrs",
+    "enrolled": "13,721 learners",
+    "publisher": "",
+    "outcomes": [
+      "Explain the key principles of effective computer maintenance",
+      "Identify the critical components of a PC and their functions",
+      "Assess the importance of regular software updates for system security"
+    ],
+    "info_url": "https://alison.com/course/computer-maintenance-and-pc-building",
+    "start_url": "https://alison.com/course/computer-maintenance-and-pc-building?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Introduction to Computer Hardware and Software",
+    "duration": "3-4 hrs",
+    "enrolled": "36,672 learners",
+    "publisher": "",
+    "outcomes": [
+      "Summarise the evolution of computers and identify the main contributors to the field of computer science"
+    ],
+    "info_url": "https://alison.com/course/introduction-to-computer-hardware-and-software",
+    "start_url": "https://alison.com/course/introduction-to-computer-hardware-and-software?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "How to Build Your Own Computer",
+    "duration": "2 - 3 hrs",
+    "enrolled": "12,571 learners",
+    "publisher": "",
+    "outcomes": [
+      "Select the hardware components and parts required for building a microcomputer",
+      "Recall the step-by-step procedures for assembling a microcomputer",
+      "List the peripheral devices that aid the I/O operations in a computer system",
+      "Explain how to install operating systems and software on a microcomputer"
+    ],
+    "info_url": "https://alison.com/course/how-to-build-your-own-computer",
+    "start_url": "https://alison.com/course/how-to-build-your-own-computer?show_modal=true"
+  },
+  {
+    "level": "Intermediate Level",
+    "subject": "Information Technology",
+    "title": "Advanced Diploma in Computer Vision",
+    "duration": "20-30 hrs",
+    "enrolled": "8,918 learners",
+    "publisher": "",
+    "outcomes": [
+      "Outline the principles involved in projective geometry and homography"
+    ],
+    "info_url": "https://alison.com/course/advanced-diploma-in-computer-vision",
+    "start_url": "https://alison.com/course/advanced-diploma-in-computer-vision?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Fundamentals of Human-Computer Information Retrieval",
+    "duration": "2 - 3 hrs",
+    "enrolled": "12,044 learners",
+    "publisher": "",
+    "outcomes": [
+      "Discuss human-computer interaction and how it aids information retrieval"
+    ],
+    "info_url": "https://alison.com/course/fundamentals-of-human-computer-information-retrieval-revised",
+    "start_url": "https://alison.com/course/fundamentals-of-human-computer-information-retrieval-revised?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Diploma in Computer Networking",
+    "duration": "6-10 hrs",
+    "enrolled": "189,451 learners",
+    "publisher": "",
+    "outcomes": [],
+    "info_url": "https://alison.com/course/diploma-in-computer-networking-revised",
+    "start_url": "https://alison.com/course/diploma-in-computer-networking-revised?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Advanced Diploma in Computer Networks and Internet Protocol",
+    "duration": "20-30 hrs",
+    "enrolled": "21,195 learners",
+    "publisher": "",
+    "outcomes": [
+      "Discuss domain name systems, internet mail transfer and file transfer",
+      "Explain transport services and sliding window protocols"
+    ],
+    "info_url": "https://alison.com/course/advanced-diploma-in-computer-networks-and-internet-protocol",
+    "start_url": "https://alison.com/course/advanced-diploma-in-computer-networks-and-internet-protocol?show_modal=true"
+  },
+  {
+    "level": "Intermediate Level",
+    "subject": "Education",
+    "title": "Learn English: Computer Functions and Comparing Adjectives to Adverbs",
+    "duration": "2 - 3 hrs",
+    "enrolled": "21,526 learners",
+    "publisher": "",
+    "outcomes": [
+      "Discuss the difference between adverbs and adjectives"
+    ],
+    "info_url": "https://alison.com/course/learn-english-computer-functions-and-comparing-adjectives-to-adverbs",
+    "start_url": "https://alison.com/course/learn-english-computer-functions-and-comparing-adjectives-to-adverbs?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "An Introduction to Computer Vision",
+    "duration": "3-4 hrs",
+    "enrolled": "3,256 learners",
+    "publisher": "",
+    "outcomes": [
+      "Outline the main developments in computer vision over the last few decades"
+    ],
+    "info_url": "https://alison.com/course/an-introduction-to-computer-vision",
+    "start_url": "https://alison.com/course/an-introduction-to-computer-vision?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Computer Networking - Wired and Wireless Networks and Protocols",
+    "duration": "2 - 3 hrs",
+    "enrolled": "44,423 learners",
+    "publisher": "",
+    "outcomes": [
+      "Describe the structure and function of twisted-pair cable",
+      "Define the terms attenuation and interference in relation to networking"
+    ],
+    "info_url": "https://alison.com/course/computer-networking-wired-and-wireless-networks-and-protocols-revised",
+    "start_url": "https://alison.com/course/computer-networking-wired-and-wireless-networks-and-protocols-revised?show_modal=true"
+  }
+]

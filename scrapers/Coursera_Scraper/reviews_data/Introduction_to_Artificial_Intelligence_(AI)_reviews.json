@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "I found this course very approachable and informative. My background is in psychology and I was able to follow along and complete the course. I now feel much more aware of the current state of AI.",
+        "name": "By Olivia F",
+        "date": "Sep 12, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "It was really an amazing introduction to Artificial Intelligence course with lot of discussions that matter a lot in this field for learning more and more applications of Artificial Intelligence.",
+        "name": "By Muhammad A",
+        "date": "Jul 17, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "DId not feel like a course, just like a bunch of articles strung together.",
+        "name": "By Pat P",
+        "date": "Apr 17, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "This course content was wonderful. I have learned more idea of A.I. with the latest applications. I wish to move forward with an A.I. career. Thank you for such an excellent certification course.",
+        "name": "By LOVELESH G",
+        "date": "Jul 7, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "It was pretty good, except that the final assignment was impossible to complete because the specific IBM Watson tool that you use to create your final piece of work was changed from free to paid a couple of weeks ago and the team has not yet found a way around this.",
+        "name": "By Samuel C",
+        "date": "Oct 23, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "The course design is excellent specially for beginners to study and understand the basic concepts in Artificial Intelligence. The lessons and course material are perfect and apt for this course-level.",
+        "name": "By sudhakar c",
+        "date": "Apr 10, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "It's an excellent course for beginners. My suggestion is that the course should talk about the failures of AI to date. I recognize that data collection is still a big issue, and that AI will not work as robustly with limited data. That was the experience that IBM had in implementing Watson in the healthcare field. There are stumbling blocks (which people should be informed about) and challenges ahead. Thank you.",
+        "name": "By Tristan L",
+        "date": "Jul 3, 2019",
+        "stars": 4
+    },
+    {
+        "review_text": "This introduction course is a great way to start your way in the AI world. It gives some advice that will give an idea to newbies on what to learn particularly they recommended to learn math and stat.",
+        "name": "By James L M",
+        "date": "Aug 3, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "This is an excellent course for the beginners who want to know about AI primarily. The course will help the beginners by giving an initial concept about AI. The quizzes are nicely decorated here.",
+        "name": "By Probal B",
+        "date": "Jul 22, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "This course absolutely helped me a lot to understand the basics of artificial intelligence, the hand-on labs are extremely fascinating to learn practical things on IBM Watson\nThank You, Coursera...!!!",
+        "name": "By Rahul S",
+        "date": "Jun 14, 2020",
+        "stars": 5
+    }
+]

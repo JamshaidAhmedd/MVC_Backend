@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Very insightful. this is my first time  learning computer programming and it was quite informative. i would suggest more questions are added per video followed by demonstrative examples in each video.",
+        "name": "By Lorraine O",
+        "date": "Apr 19, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "As other reviewers have said, the spoken content does not keep pace with the text on the slides which makes for an unsatisfactory experience. Assignment 2 (CSS) was wrongly coded and it took moderators a few days to look at comments from users and finally correct the scoring  algorithm.  The main problem with this course is though, by far, the breakneck pace with which the instructor (otherwise lovely in every way) is forced to go through the material, without stopping to explain the logic behind a coding convention or its practical applications. For CSS, not a single concrete example is given and the very first one such is encountered during the assignment ( no wonder the vast majorty of learnerns failed it, according to Coursera). There are far better courses on these topics  out there (UMich on this platform, all their courses are great, or the WEB3 Consortium's tutorials which are all very well taught- and free!). Sad to say, but I would not recommend this course to anyone - it needs vast improvements if it is to be of any value for someone who actually wants to learn these topics.",
+        "name": "By Ashley",
+        "date": "Jul 8, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "I t is not beginner friendly. It is too fast. I know this is jsut the introduction, but for a beginner who learns it for the first time it is too much. I will not finish this certification even before i begin. Other certifications like W3 School are more user friendly. Please concider the way you are teaching. Espeacially the first course should not be overwhelming from the beginning, since people try it for free and make their decisions based on their experience.",
+        "name": "By Victor M E",
+        "date": "Jul 10, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "Some lab tests are failing because silly things like the ones from the week2 about css in the page styling process are failing because of the css property ordering suggested in the assignment, in the practice we know css properties order doesnt really matter much if we are not overwritting the property. So please take a look at your test cases and check that.",
+        "name": "By Gemma D",
+        "date": "Jul 7, 2022",
+        "stars": 3
+    },
+    {
+        "review_text": "Honestly, pretty solid course.  A lot of people were saying this course isn't for beginners but I would strongly disagree.  I think the difficulty is FAIR, and really gets your brain thinking logically.",
+        "name": "By Shaun G",
+        "date": "Sep 21, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "Extremely basic stuff. The \"course\" served more like an overview of what you need to learn than a real course. They covered very basic HTML, very basic CSS, some Bootstrap and skipped over JavaScript straight to React, where they only broadly defined components and the virtual DOM. The labs offer 100% handholding which I personally dislike, and are very laggy. The quizes were pretty straightforward and don't offer much learning value compared to a more practical approach like a project, which there was none. \nConclusion: I got zero value out of it, but I can see it being somewhat useful for a complete beginner, I just think there are better already existing resources out there for that.  \nPros: good for a confused beginner to get an overview of the things he needs to learn to become a junior front-end web developer.\nCons: labs were way too easy, simplistic, rudimentary, laggy, and straight up offered the solutions instead of only providing the things you need to do, and only after to get the possibility to check what you've done. There was also no project, we didn't build anything. \nGave it 2 stars because I appreciated the attempt from Meta, but they need to work harder if they want to make a course / specialization worth more than the paper it's printed on. See you in the next one.",
+        "name": "By Catalin C",
+        "date": "Sep 7, 2022",
+        "stars": 2
+    },
+    {
+        "review_text": "This is a very well structured and well informed course if you are absolutely new to web development..Covers every basics and also advnace later on..The learning path is very well designed by meta.",
+        "name": "By Avin J",
+        "date": "Jan 7, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "The example given in each video was very helpful in understanding how things work on the internet.\nOverall experience was great as it was basically about basics and introduction to web development.",
+        "name": "By Shahid N",
+        "date": "Nov 2, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "Just finished the full course and received my professional certificate and I am very grateful to Meta and Coursera for providing it. If you are about to start:\n1. TAKE NOTES. I have 4 notebooks full of notes from all of the information. Make cheat sheet type documents in VS Code where you can list out different concepts with examples.\n2. There will be moments where you feel lost. Ask Chat GPT for help, visit Stack Overflow, LTT forums, use YouTube. Do your own research.\n3. Trust the process. There will be times when you feel that they went too quickly on one subject or another. They will come back to it, I promise.\n4. Practice, practice, practice. The course is a lot of theory. It's up to  you to put the learning into action.\n5. Save your very first website and compare it to the one you complete for the final project. It will make for a good laugh.\n\nGood luck!",
+        "name": "By Austin F",
+        "date": "Nov 29, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "experience was great!! the outline and the way of engaging students with lab work was too much great i must recommend newbies to learn from here to improve their skills as a front end web developer.",
+        "name": "By Usman M",
+        "date": "Apr 28, 2023",
+        "stars": 5
+    }
+]

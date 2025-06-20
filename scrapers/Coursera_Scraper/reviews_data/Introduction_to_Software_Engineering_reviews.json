@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "This Introductory course to Software Engineering was all-rounded. After taking this course, the information it delivers is well-rounded and fundamental for a beginner.",
+        "name": "By Obimba S C",
+        "date": "Aug 20, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "If you're into robot voice narration and 1980s style educational editing for laser disk productions, this flashback to the past is for you.",
+        "name": "By Adam R",
+        "date": "May 19, 2023",
+        "stars": 1
+    },
+    {
+        "review_text": "Simple enough to fast track the learning, while it still manages to maintain the depth levels which allows learner to grapsh the main aspects on software engineering",
+        "name": "By Yongchang L",
+        "date": "Jan 4, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "Incredibly boring course. Presented by TikTok voice. A complete waste of time.",
+        "name": "By Zachary W",
+        "date": "Apr 23, 2023",
+        "stars": 1
+    },
+    {
+        "review_text": "The course content is Awesome & i got the overview of the software industry quickly.\nBut they use robot voice. I tried hard to keep focused but it very difficult to keep up with the robot presenter. A real human could made this things more pleasant.",
+        "name": "By Alam",
+        "date": "Feb 8, 2024",
+        "stars": 1
+    },
+    {
+        "review_text": "A great course by all standards, however, I didn't really enjoy the AI or computer generated voice that was reading the lecture notes. I'd prefer a real person took us through the course. I also enjoyed the industry people who gave their experiences in software development at the various work places",
+        "name": "By Ernest K A",
+        "date": "Mar 4, 2023",
+        "stars": 3
+    },
+    {
+        "review_text": "Very bad and very boring.",
+        "name": "By Ondrej R",
+        "date": "May 15, 2023",
+        "stars": 1
+    },
+    {
+        "review_text": "This course is the best introduction course in Coursera in terms of learning everything you need to know about Software Development. You will feel like a pro after completing this course.",
+        "name": "By Lucky A",
+        "date": "Jan 13, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "This is a great course taught by industry experts.\nI find the experts viewpoints very educating because it gives insight into how Software Engineers solve problems daily",
+        "name": "By Saviour A E",
+        "date": "Oct 9, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "This course is a must to enroll for beginners in software engineering. I really like the way they present the lecture, and the hands-on activity.",
+        "name": "By mon m",
+        "date": "Nov 22, 2022",
+        "stars": 5
+    }
+]

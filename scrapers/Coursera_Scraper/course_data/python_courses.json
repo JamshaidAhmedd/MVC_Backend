@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Python for Data Science, AI & Development",
+        "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+        "description": "Skills you'll gain: Jupyter, Automation, Web Scraping, Python Programming, Data Manipulation, Data Import/Export, Scripting, Data Structures, Data Processing, Data Collection, Application Programming Interface (API), Pandas (Python Package), Programming Principles, NumPy, Object Oriented Programming (OOP), Computer Programming",
+        "rating": "4.6",
+        "reviews": "41K reviews"
+    },
+    {
+        "title": "Crash Course on Python",
+        "link": "https://www.coursera.org/learn/python-crash-course",
+        "description": "Skills you'll gain: Programming Principles, Python Programming, Computer Programming, Computational Thinking, Algorithms, Problem Management, Data Structures, Integrated Development Environments, Debugging, Development Environment",
+        "rating": "4.8",
+        "reviews": "39K reviews"
+    },
+    {
+        "title": "Programaci\u00f3n con Python, nivel b\u00e1sico",
+        "link": "https://www.coursera.org/learn/programacion-con-python-basico",
+        "description": "Skills you'll gain: Debugging, Programming Principles, Python Programming, Computer Programming, Computational Thinking, File Management, Data Validation, Algorithms, Data Structures",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Python for Everybody",
+        "link": "https://www.coursera.org/specializations/python",
+        "description": "Skills you'll gain: Web Scraping, Data Processing, Relational Databases, JSON, Database Design, SQL, Network Protocols, Databases, Web Services, Restful API, Data Modeling, Programming Principles, Data Structures, Data Collection, Data Visualization Software, Data Manipulation, Computer Programming, Python Programming, Scripting Languages, Data Import/Export",
+        "rating": "4.8",
+        "reviews": "277K reviews"
+    },
+    {
+        "title": "Programming in Python",
+        "link": "https://www.coursera.org/learn/programming-in-python",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Unit Testing, Test Driven Development (TDD), Programming Principles, Software Testing, Data Structures, Python Programming, Computer Programming, Development Environment, Integrated Development Environments, Debugging",
+        "rating": "4.6",
+        "reviews": "1.7K reviews"
+    },
+    {
+        "title": "Data Analysis with Python",
+        "link": "https://www.coursera.org/learn/data-analysis-with-python",
+        "description": "Skills you'll gain: Predictive Modeling, Exploratory Data Analysis, Data Wrangling, Data Analysis, Data Import/Export, Pandas (Python Package), Statistical Modeling, Data-Driven Decision-Making, Data Manipulation, Scikit Learn (Machine Learning Library), Regression Analysis, Feature Engineering, Matplotlib, Data Cleansing, NumPy, Descriptive Statistics, Supervised Learning, Data Pipelines",
+        "rating": "4.7",
+        "reviews": "19K reviews"
+    },
+    {
+        "title": "Python Basics",
+        "link": "https://www.coursera.org/learn/python-basics",
+        "description": "Skills you'll gain: Debugging, Programming Principles, Python Programming, Data Structures, Scripting Languages, Computer Programming, Pseudocode, Computer Graphics",
+        "rating": "4.8",
+        "reviews": "18K reviews"
+    },
+    {
+        "title": "Microsoft Python Development",
+        "link": "https://www.coursera.org/professional-certificates/microsoft-python-developer",
+        "description": "Skills you'll gain: Web Scraping, Data Structures, Git (Version Control System), Generative AI, Version Control, Matplotlib, Plotly, DevOps, Agile Methodology, Web Development, Data Ethics, Flask (Web Framework), Scripting, GitHub, Debugging, Data Cleansing, Data Manipulation, Restful API, Docker (Software), Test Driven Development (TDD)",
+        "rating": "4.3",
+        "reviews": "223 reviews"
+    },
+    {
+        "title": "Programming for Everybody (Getting Started with Python)",
+        "link": "https://www.coursera.org/learn/python",
+        "description": "Skills you'll gain: Programming Principles, Computer Programming, Python Programming, Scripting Languages, Scripting, Computational Thinking, Development Environment",
+        "rating": "4.8",
+        "reviews": "231K reviews"
+    },
+    {
+        "title": "Get Started with Python",
+        "link": "https://www.coursera.org/learn/get-started-with-python",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Data Analysis, Data Structures, Jupyter, Python Programming, NumPy, Pandas (Python Package), Programming Principles, Scripting, Data Manipulation, Algorithms",
+        "rating": "4.8",
+        "reviews": "1.6K reviews"
+    },
+    {
+        "title": "Python 3 Programming",
+        "link": "https://www.coursera.org/specializations/python-3-programming",
+        "description": "Skills you'll gain: Unified Modeling Language, JSON, Object Oriented Programming (OOP), Software Design, Debugging, Object Oriented Design, Data Processing, Web Scraping, Unit Testing, Programming Principles, Data Import/Export, Restful API, Python Programming, Image Analysis, Data Manipulation, Jupyter, Maintainability, Data Structures, Software Engineering, File Management",
+        "rating": "4.8",
+        "reviews": "23K reviews"
+    },
+    {
+        "title": "Shiny for Python Ultimate - Web Development with Python",
+        "link": "https://www.coursera.org/learn/packt-shiny-for-python-ultimate-web-development-with-python-86fsq",
+        "description": "Skills you'll gain: User Interface (UI), Data Visualization Software, Interactive Data Visualization, UI/UX Strategy, Application Deployment, Web Applications, Data Analysis, Front-End Web Development, Back-End Web Development, Dashboard, Spatial Data Analysis, Web Development, Application Development, Development Environment",
+        "rating": "N/A",
+        "reviews": "N/A"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "Although the course is great from a theoretical point of view, but it has two major flaws. First, it doesn't provide the fundamentals of Machine Learning but instead directly moves to Deep Learning, although building those concepts from ground up. Also, from a practical point of view, this course is really lacking as there is not a single explanation video on any of the coding aspect of Deep Learning and the videos that even exist just ask us to read through the Documentation to learn the practical aspect.",
+        "name": "By Kartik G",
+        "date": "Oct 30, 2019",
+        "stars": 3
+    },
+    {
+        "review_text": "Much weaker than Stanford offerings.  Strange buildup of topics for a breezy, but not particular accurate understanding.  For example:  multiple layers of a neural network is introduced before multiple category classification.  Transfer learning is introduced incorrectly. The matrix representation of multiple features of an example with multiple examples is introduced very late in the course. The instructor is conscientious and seemingly knows the material despite using non-standard terminology.  One wonders if he is primarily a teacher/researcher and rarely a practitioner.  One wonders if Duke is a leader in machine learning research.",
+        "name": "By Lewis C L",
+        "date": "Apr 23, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "The course is okay, the teaching is helpful explaining the concepts of machine learning well. The problem is the connections between theory and practice. The assignments in pytorch are completely decoupled from the course materials and not explained very well. They expect you to code a model directly from mathematical theory with poor explanation of the pytorch framework and syntax.",
+        "name": "By Casper v d V",
+        "date": "Jan 2, 2021",
+        "stars": 3
+    },
+    {
+        "review_text": "This is very wrong thing that happen to us.Coursera tolds that this course if free due to our 9th birthday celebration.But when the time of claiming certificate .Its shows us to buy a certificate.This is cheating .I hate this app ..",
+        "name": "By Vishesh S",
+        "date": "Apr 25, 2021",
+        "stars": 1
+    },
+    {
+        "review_text": "It's really an amazing field to learn new things and from institute is like Amazing to me I've learnt more ...it's not at all boring and we'll will be excited for future experience with you \ud83d\udcaf",
+        "name": "By Preethi C",
+        "date": "May 26, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Thanks Coursera and Duke University for this course. It is very insightful to get understood the basics of ML and applied ML in numerous fields. It really made me to move ahead with ML domain.",
+        "name": "By Nagendhiran",
+        "date": "Nov 27, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "I felt that I took the best descition in taking this course,  because the professors took this course with atmost clarity and made even the difficult concepts understand easily.\nThank you Professors",
+        "name": "By K S S",
+        "date": "Aug 5, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Very good introductory course, I highly recommend it to anyone looking to get a flavour of the methods behind the recent advances in AI without going into super-technical details.",
+        "name": "By Guido C",
+        "date": "Jul 9, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Excellent course. Concepts such as gradient descent and convolutions as they pertain to neural networks are explained without going into the mathematical details but, in my opinion, are explained more intuitively and better, as compared to most other courses. The course does include some ungraded Jupyter notebooks exemplifying key elements of deep learning networks. Highly recommended to 'cement' understanding of neural networks.",
+        "name": "By Michael B",
+        "date": "Sep 30, 2018",
+        "stars": 5
+    },
+    {
+        "review_text": "The course covers all the topic's regarding the machine learning and has an excellent explanation of concepts and the slides are very easy to understand thank you for such a wonderful course !",
+        "name": "By Manoj k K",
+        "date": "May 19, 2021",
+        "stars": 5
+    }
+]

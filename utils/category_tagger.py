@@ -1,59 +1,175 @@
-"""Utility functions for tagging courses with categories."""
+#!/usr/bin/env python3
+"""
+category_tagger.py
 
+Score-thresholded category tagger:
+
+  • Only tag courses whose textScore ≥ TAG_THRESHOLD × max_score
+  • Backfill all categories in one pass
+  • Watch for category changes and re-tag incrementally
+"""
+
+import os
 import logging
-import time
-from typing import List
-from pymongo import TEXT
+from pymongo import MongoClient, TEXT
+from pymongo.errors import OperationFailure
 
-from core.config import db, settings
+# ── CONFIG ────────────────────────────────────────────────────────────────
+MONGO_URI      = os.getenv(
+    "MONGO_URI",
+    "mongodb+srv://admin:admin@cluster0.hpskmws.mongodb.net/course_app?retryWrites=true&w=majority"
+)
+TEXT_INDEX     = "CourseTextIndex"
+# how “deep” into the relevance list to go (0.2 = top 20%)
+TAG_THRESHOLD  = float(os.getenv("TAG_THRESHOLD", "0.2"))
+# ── END CONFIG ────────────────────────────────────────────────────────────
 
-TEXT_INDEX = "CourseTextIndex"
-log = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
+log = logging.getLogger("category_tagger")
 
 
-def ensure_text_index() -> None:
-    """Ensure the text index on the courses collection exists."""
-    coll = db["courses"]
+def ensure_text_index():
+    """
+    Ensure a consistent text-index on courses(title, description, reviews.text).
+    Any other text indexes are dropped first.
+    """
+    client = MongoClient(MONGO_URI)
+    coll   = client["course_app"]["courses"]
+
+    # drop old text indexes
     for idx in coll.list_indexes():
-        if "text" in idx["key"].values() and idx["name"] != TEXT_INDEX:
-            coll.drop_index(idx["name"])
+        # if any key in the index is of type text, and it's not our desired one, drop it
+        if any(v == "text" for v in idx["key"].values()) and idx["name"] != TEXT_INDEX:
+            try:
+                coll.drop_index(idx["name"])
+                log.info(f"Dropped old text index: {idx['name']}")
+            except OperationFailure as e:
+                log.warning(f"Could not drop {idx['name']}: {e}")
+
+    # create our canonical index
     coll.create_index(
         [("title", TEXT), ("description", TEXT), ("reviews.text", TEXT)],
-        name=TEXT_INDEX,
+        name=TEXT_INDEX
     )
-    log.info("Ensured text index '%s' exists", TEXT_INDEX)
+    log.info(f"Ensured text index '{TEXT_INDEX}'")
 
 
-def retag_all() -> None:
-    """Recompute category tags for all courses."""
+def retag_all():
+    """
+    Backfill categories: for each category, re-compute which courses
+    have textScore ≥ TAG_THRESHOLD × max_score and tag only those.
+    """
+    log.info(f"Backfilling categories with score threshold {TAG_THRESHOLD:.2f}…")
+    client     = MongoClient(MONGO_URI)
+    db         = client["course_app"]
+    courses    = db["courses"]
+    categories = db["categories"]
+
     ensure_text_index()
-    coll_courses = db["courses"]
-    for cat in db["categories"].find():
-        name = cat["name"]
-        keywords: List[str] = cat.get("keywords", [])
-        if not keywords:
+
+    for cat in categories.find():
+        name = cat.get("name")
+        kws  = cat.get("keywords", [])
+        if not name or not kws:
             continue
-        search = " ".join(keywords)
-        cursor = coll_courses.find({"$text": {"$search": search}}, {"score": {"$meta": "textScore"}})
+
+        # 1) clear old tags
+        courses.update_many({}, {"$pull": {"categories": name}})
+
+        # 2) text-search on all keywords
+        search_str = " ".join(kws)
+        cursor = courses.find(
+            {"$text": {"$search": search_str}},
+            {"score": {"$meta": "textScore"}, "course_id": 1}
+        ).sort([("score", {"$meta": "textScore"})])
+
         docs = list(cursor)
         if not docs:
+            log.info(f" • No matches for '{name}'")
             continue
-        max_score = max(d.get("score", 0.0) for d in docs) or 1.0
-        threshold = settings.TAG_THRESHOLD * max_score
-        ids = [d["_id"] for d in docs if d.get("score", 0.0) >= threshold]
-        if ids:
-            coll_courses.update_many({"_id": {"$in": ids}}, {"$addToSet": {"categories": name}})
-    log.info("Category retagging complete")
+
+        max_score = docs[0]["score"]
+        thresh    = TAG_THRESHOLD * max_score
+        tagged    = 0
+
+        for d in docs:
+            if d["score"] < thresh:
+                break
+            courses.update_one(
+                {"course_id": d["course_id"]},
+                {"$addToSet": {"categories": name}}
+            )
+            tagged += 1
+
+        log.info(f" • Tagged {tagged} of {len(docs)} courses under '{name}'")
+
+    log.info("Backfill complete.")
 
 
-def watch_changes(poll_interval: int = 60) -> None:
-    """Poll for new courses and tag them."""
-    ensure_text_index()
-    coll = db["courses"]
-    last_count = coll.count_documents({})
-    while True:
-        time.sleep(poll_interval)
-        new_count = coll.count_documents({})
-        if new_count > last_count:
-            retag_all()
-            last_count = new_count
+def watch_changes():
+    """
+    Watch `categories` change-stream and re-tag incrementally.
+    Applies the same score-threshold logic.
+    """
+    log.info("Starting category change-stream watcher…")
+    client     = MongoClient(MONGO_URI)
+    db         = client["course_app"]
+    courses    = db["courses"]
+    categories = db["categories"]
+
+    pipeline = [
+        {"$match": {"operationType": {"$in": ["insert", "update", "replace"]}}}
+    ]
+
+    try:
+        stream = categories.watch(pipeline)
+    except Exception as e:
+        log.error(f"Could not open change stream (is this a replica set?): {e}")
+        return
+
+    with stream:
+        for change in stream:
+            cid = change["documentKey"]["_id"]
+            cat = categories.find_one({"_id": cid})
+            if not cat:
+                continue
+
+            name = cat.get("name")
+            kws  = cat.get("keywords", [])
+            if not name:
+                continue
+
+            # 1) clear old tags
+            courses.update_many({}, {"$pull": {"categories": name}})
+
+            if not kws:
+                continue
+
+            # 2) text-search and threshold-tag
+            search_str = " ".join(kws)
+            cursor = courses.find(
+                {"$text": {"$search": search_str}},
+                {"score": {"$meta": "textScore"}, "course_id": 1}
+            ).sort([("score", {"$meta": "textScore"})])
+
+            docs = list(cursor)
+            if not docs:
+                continue
+
+            max_score = docs[0]["score"]
+            thresh    = TAG_THRESHOLD * max_score
+            count     = 0
+
+            for d in docs:
+                if d["score"] < thresh:
+                    break
+                courses.update_one(
+                    {"course_id": d["course_id"]},
+                    {"$addToSet": {"categories": name}}
+                )
+                count += 1
+
+            log.info(f"Re-tagged {count} courses for category '{name}'")

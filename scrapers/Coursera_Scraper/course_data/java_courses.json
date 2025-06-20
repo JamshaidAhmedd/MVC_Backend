@@ -1,0 +1,86 @@
+[
+    {
+        "title": "IBM Java Developer",
+        "link": "https://www.coursera.org/professional-certificates/java-developer",
+        "description": "Skills you'll gain: Spring Framework, Prompt Engineering, HTML and CSS, Cloud-Native Computing, Software Development Life Cycle, Software Architecture, Hibernate (Java), Database Design, Docker (Software), Containerization, Git (Version Control System), GitHub, Software Design, Microservices, Object Oriented Programming (OOP), Large Language Modeling, Spring Boot, Object-Relational Mapping, Java Programming, Interviewing Skills",
+        "rating": "4.6",
+        "reviews": "5.5K reviews"
+    },
+    {
+        "title": "Java Programming and Software Engineering Fundamentals",
+        "link": "https://www.coursera.org/specializations/java-programming",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Java, Hypertext Markup Language (HTML), Software Design, Software Design Patterns, Data Structures, HTML and CSS, Debugging, Software Engineering, Cascading Style Sheets (CSS), Web Development, Programming Principles, Computer Programming, Javascript, Encryption, Algorithms, AI Personalization, Web Design, Data Processing, Statistical Analysis",
+        "rating": "4.6",
+        "reviews": "22K reviews"
+    },
+    {
+        "title": "Introduction to Java",
+        "link": "https://www.coursera.org/learn/java-introduction",
+        "description": "Skills you'll gain: Eclipse (Software), Java, Java Programming, Integrated Development Environments, Development Environment, Software Installation, Computer Programming, Programming Principles, Program Development, Object Oriented Programming (OOP)",
+        "rating": "4.6",
+        "reviews": "2.1K reviews"
+    },
+    {
+        "title": "Learn Java Programming",
+        "link": "https://www.coursera.org/learn/learn-java-programming",
+        "description": "Skills you'll gain: Object Oriented Programming (OOP), Java, Java Programming, Computer Programming, Programming Principles, Software Development",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Core Java",
+        "link": "https://www.coursera.org/specializations/core-java",
+        "description": "Skills you'll gain: Java Programming, Spring Framework, Java, Eclipse (Software), Object Oriented Programming (OOP), Object Oriented Design, Integrated Development Environments, Development Environment, Java Platform Enterprise Edition (J2EE), Software Design, Software Installation, Computer Programming, Programming Principles, Program Development, Virtual Machines, Debugging, Package and Software Management, Data Structures, File Management",
+        "rating": "4.6",
+        "reviews": "2.6K reviews"
+    },
+    {
+        "title": "Object Oriented Programming in Java",
+        "link": "https://www.coursera.org/specializations/object-oriented-programming",
+        "description": "Skills you'll gain: Unit Testing, Data Structures, Event-Driven Programming, Interactive Data Visualization, Java, Object Oriented Programming (OOP), Development Testing, User Interface (UI), Debugging, Java Programming, Software Testing, Computer Programming, Software Engineering, Algorithms, Performance Tuning, Encryption, Programming Principles, Data Analysis, Statistical Analysis, Software Design",
+        "rating": "4.6",
+        "reviews": "15K reviews"
+    },
+    {
+        "title": "Java Development Capstone Project",
+        "link": "https://www.coursera.org/learn/java-development-capstone-project",
+        "description": "Skills you'll gain: Database Design, Continuous Integration, Restful API, User Requirements Documents, Containerization, Docker (Software), Model View Controller, Agile Methodology, Front-End Web Development, Databases, User Story, CI/CD, Spring Framework, Java, Application Programming Interface (API), HTML and CSS, Full-Stack Web Development, Spring Boot, Back-End Web Development, Application Frameworks",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "AI Agents in Java with Generative AI",
+        "link": "https://www.coursera.org/specializations/ai-agents-java",
+        "description": "Skills you'll gain: Prompt Engineering, ChatGPT, Generative AI Agents, Productivity, Java, Agentic systems, OpenAI, Generative AI, Artificial Intelligence, Large Language Modeling, Software Design, Creative Thinking, Ingenuity, Brainstorming, Software Architecture, Software Development Tools, Secure Coding, Application Development, Business Logic, Systems Integration",
+        "rating": "4.8",
+        "reviews": "5.9K reviews"
+    },
+    {
+        "title": "Java FullStack Developer",
+        "link": "https://www.coursera.org/specializations/java-fullstack",
+        "description": "Skills you'll gain: Angular, Web Applications, HTML and CSS, Web Development, Eclipse (Software), JavaScript Frameworks, Spring Boot, Object Oriented Programming (OOP), Restful API, Java Programming, Model View Controller, Object Oriented Design, Hypertext Markup Language (HTML), Front-End Web Development, Spring Framework, Java, Web Services, Javascript, Integrated Development Environments, Back-End Web Development",
+        "rating": "4.4",
+        "reviews": "660 reviews"
+    },
+    {
+        "title": "Mastering Java - From Beginner to Intermediate",
+        "link": "https://www.coursera.org/specializations/packt-mastering-java-from-beginner-to-intermediate",
+        "description": "Skills you'll gain: IntelliJ IDEA, Java, Object Oriented Programming (OOP), Integrated Development Environments, Software Development Life Cycle, Program Development, Java Programming, Computer Programming, Development Environment, Data Structures, Debugging, Software Development, Programming Principles, Linux, Command-Line Interface",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "AI Agent Architecture in Java with Generative AI",
+        "link": "https://www.coursera.org/learn/ai-agents-architecture-java",
+        "description": "Skills you'll gain: Java, Agentic systems, OpenAI, Generative AI, Prompt Engineering, ChatGPT, Artificial Intelligence, Large Language Modeling, Secure Coding, Business Logic, Software Design Documents, Collaborative Software, Persona Development",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "AI Agents in Java with Generative AI",
+        "link": "https://www.coursera.org/learn/ai-agents-java",
+        "description": "Skills you'll gain: Generative AI Agents, Java, Agentic systems, Software Design, Artificial Intelligence, Software Architecture, OpenAI, ChatGPT, Software Development Tools, Application Development, Prompt Engineering, Systems Integration, Large Language Modeling",
+        "rating": "4.4",
+        "reviews": "9 reviews"
+    }
+]

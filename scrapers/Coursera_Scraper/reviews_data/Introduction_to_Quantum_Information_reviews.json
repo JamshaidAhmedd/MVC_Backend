@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "The positive aspects of this course is the technical depth. The course covers a range of key topics in quantum information from quantum gates, entanglement, quantum channels, and measurements. The materials fit a first semester graduate course on the topic.\nHowever, I believe this course is poorly structured. First of all, the lecture videos are very jargon heavy and often new terms and concepts are introduced without any definition. The instructor is often unclear about a step and hand waves details when showing a proof or explanation. There is little to no time dedicated to motivation for certain topics. I found the videos only useful when used as a secondary source with a textbook such as \u201cQuantum Computation and Quantum Information\u201d by Nielsen and Chuang. (Which by the way is something I found on my own as there is no additional resources recommended by the course).\nThe assignments and the one exam are all multiple choice based and no explanation is given on the correct answer. While the problems are interesting, the majority are geared towards determining if you\u2019ve watched the videos and recall certain statements or steps. Very rarely does it synthesize multiple topics together to gauge a deeper understanding of the concepts. Overall, each assignment can be completed in at most half an hour.\nOverall my recommendation is to use the topics selected by the instructor as a guide to learn the topic from another source. I think that the topics are important but I do not think a student who is not already somewhat familiar with the topics will learn much from this course.",
+        "name": "By Yifan L",
+        "date": "Feb 26, 2023",
+        "stars": 2
+    },
+    {
+        "review_text": "Challenging quizzes and final exam; understanding solutions to problems boosts understanding of the topic. Many topics clearly, albeit rapidly, covered.Review with self-reading contextualizes material",
+        "name": "By Anerudh K",
+        "date": "Dec 18, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "no intuitions or explanation given",
+        "name": "By Richard K",
+        "date": "Aug 7, 2022",
+        "stars": 1
+    },
+    {
+        "review_text": "I have some engineering/physics background but no formal training on quantum information. Am trying to understand more through self-learning. \nTried this course after going through some basic quantum computing books on qubits and gates. Found this to be useful to introduce deeper topics to me and push me to work out problems to learn some of these concepts. \nWould have been nicer if Dr Bae could provide some reference answers or help in the forums as I'm still not confident that my understanding of problems was correct even though I passed the quizzes.",
+        "name": "By YS T",
+        "date": "Jul 14, 2022",
+        "stars": 4
+    },
+    {
+        "review_text": "Good material; it would be nice to have some example calculations. In some cases, the jump from general theory to concrete calculation in the exercises is a bit large.",
+        "name": "By Merlin C",
+        "date": "Mar 28, 2022",
+        "stars": 4
+    },
+    {
+        "review_text": "More clarifications could be expected in some mathematical concepts and in the notations. Some answers proposed in a few exerices seem not coherent of the right answer. This  can lead to misunderstandings. Moreover, we could expect a detailed correction of the exercices when the course is paid in order to better understand the correct results and how to achieve it.",
+        "name": "By Laurent D V",
+        "date": "Dec 3, 2022",
+        "stars": 2
+    },
+    {
+        "review_text": "The course was challenging as an Introductory course. I had to read through books and solve problems before taking the test, as the lectures and assignments required a fair bit of formalization.",
+        "name": "By Deleted A",
+        "date": "Aug 28, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "Good course for beginners to understand the basic concepts on Quantum theory and its applications in theory.",
+        "name": "By Akshay U",
+        "date": "Jun 29, 2023",
+        "stars": 5
+    },
+    {
+        "review_text": "One of the best courses. It's really worth your time and it's well structured.",
+        "name": "By Aryan k",
+        "date": "Aug 2, 2022",
+        "stars": 5
+    },
+    {
+        "review_text": "Prepare to spend a lot more hours to study if you really want to understand the lectures fully.",
+        "name": "By Kuan-Wen C",
+        "date": "Feb 10, 2023",
+        "stars": 4
+    }
+]

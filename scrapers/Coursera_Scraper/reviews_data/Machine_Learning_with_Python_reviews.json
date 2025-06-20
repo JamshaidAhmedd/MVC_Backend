@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "The course concentrates more on Maths rather than explaining how algorithm can be implemented in Python. This is difficult for a someone with less knowledge in Maths. \nThe lab exercises when compared to rest of the course is not satisfactory because in lab sessions, the algorithms were not explained and lacks Student excercise. It also lacks clarity around when to use which algorithm.",
+        "name": "By Radhika K",
+        "date": "Feb 8, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "Errors in the presentations and in the Jupyter workbooks, plenty of typos. Not professional at all.\nThe course does cover the topics and give us some practice exercises, but when I don't get the right result I cannot know if I don't understand a topic properly or if the instructor made a mistake without checking on other web resources. Plus, some approaches are just dubious, like normalizing by dividing by the max value. There are many other ways to do so that make no assumption on the data distribution.",
+        "name": "By Vincent L",
+        "date": "Sep 14, 2018",
+        "stars": 2
+    },
+    {
+        "review_text": "Good theoretical background on how some machine learning tasks actually work mathematically, but, to be quite frank, much of it is a) not necessary, (i.e. I've used regression as a prime aspect of my job for approaching 3 decades now, and have never known that it used partial derivatives to determine what elements to vary, but, quite frankly, that knowledge has never been required or even vaguely useful for either its use or explanation) b) presented in a way that, as soon as it begins to get interesting from an algorithmic standpoint, stops with a \"beyond the scope of this class,\" (to be fair, I have a -major- pet peeve about that phrase from working with developers for decades) and c) if such depth of knowledge was considered important, it should have been split up amongst more classes - i.e. at the point someone takes this class, they've been through 7 other classes in the IBM Data Science track, and only 3 of them have presented enough and important enough info that I've even bothered to keep notes for future reference.  Instead of 4 classes that effectively wasted all of our time, (including the two whole intro classes) if the background mathematics is important, (again, I would venture that, to a non-expert-level general practitioner, which this class is aimed at, it's just not) move some of it out of this class and into some of the others so that we don't end up with effectively two important classes out of 9 - the Data Analysis with Python class, for being the most challenging mechanically, (i.e. what -exactly- should I be typing in at the command prompt to get what I want to happen) and this one, for being the most challenging theoretically.  Would very much like to see a re-work of the overall curriculum to better space out the effort vs time invested relationship.",
+        "name": "By Dylan H",
+        "date": "Jun 10, 2019",
+        "stars": 3
+    },
+    {
+        "review_text": "It's really not very good. It's extremely frustrating and poorly made. It barely helps equip you with any practical python machine learning knowledge.\n \nGood points:\nVideos provide a good overview of the overall concepts and ideas\n The videos and quizes are logically set out\n\nBad points:\nThe practice notebooks contain a lot of code and information which is not explained and didn't really come up on the videos. Often, you do not know why the code is there, how to make it, or what it does. So you hardly get any practice using code for machine learning.\nThe final project is a joke. The instructions are not clear, insufficient, confusing, and contains grammatical/spelling mistakes. For example, the instructions for the final project as you to find values that are impossible for the type of model you're making. The course makers obviously just copied and pasted stuff and didn't check it. \nTo make it worse, people have pointed out the mistakes and errors in the forums, but the course makers are either too lazy or don't care enough to fix it.\nThe forum is full of people asking for help and there is barely any clarification from the staff. \n \n \nThe course could be improved so much by having clearer and more instructions/annotations. However, it seems like IBM is satisfied ignoring the glaring problems present in the course.\n \nYou money and time would be much better spend on another machine learning course. But if you're like me and have done the other (comparatively better) IBM data analysis courses i guess you have no choice but to do this one in order to get the final certificate.",
+        "name": "By Sean E B",
+        "date": "Oct 16, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "This course must be taken off from Coursera. Here is just a couple of reasons: There is very confusing typo and bad description of the final assignment, even though it has been reported, they didn't take 2 minutes to fix it. The final assignment is peer graded (which is really stupid, how do other clueless students know if I did it correctly or not) they provide an answer sheet (not the solution) and I think a lot of students thought it was the solution and marked my assignment incorrectly. The quality of the content provided is poor... If someone knows Python already, then they're wasting their time really, if they don't - this course does not teach them anything... Don't waste your time and money - there are much better options out there.",
+        "name": "By Siavash A",
+        "date": "Nov 7, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "The course was highly informative and very well presented. It was very easier to follow. Many complicated concepts were clearly explained. It improved my confidence with respect to programming skills.",
+        "name": "By Rama S C",
+        "date": "Feb 7, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "The instructor was awesome. His voice was crisp and to the point. The course is actually well laid out with proper structure. Altogether a great learning experience. Cheers... Keep up the good work.",
+        "name": "By SIDDHANT K",
+        "date": "Aug 5, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Very confusing and very limited details. I am not sure I understood anything. It is not explained very well at all. All the topics were just read by the narrator/author/professor. I will not recommend this course to Non-math background people like me. Extremely difficult to understand any concepts mentioned in this entire Course.",
+        "name": "By Girish O",
+        "date": "Mar 20, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "This was my favorite course in the specialization and hence the only one that gets my 5* rating!\nEverything was well explained and thorough meaning I did not get lost. The quizzes were challenging but fair. The final project was spot on and related perfectly with what has been learnt (unlike many other final projects in this specialization). Overall a very good experience.\nThe only constructive criticism I would give would be for the videos to give a quick overview/introduction of the code used in Python for the algorithms, which is then practiced in the labs. At the moment, the videos give an excellent explanation to everything but you don't see the actual code used until the lab.",
+        "name": "By Karim C N",
+        "date": "Jun 5, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Labs were incredibly useful as a practical learning tool which therefore helped in the final assignment! I wouldn't have done well in the final assignment without it together with the lecture videos!",
+        "name": "By Rishi K N",
+        "date": "May 26, 2020",
+        "stars": 5
+    }
+]

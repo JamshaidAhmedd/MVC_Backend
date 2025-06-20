@@ -1,0 +1,172 @@
+[
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Diploma in Ethical Hacking",
+    "duration": "10-15 hrs",
+    "enrolled": "120,685 learners",
+    "publisher": "",
+    "outcomes": [
+      "Explain how network scan, port scan and vulnerability scan work",
+      "Explain how to use Metasploit for penetration into Windows and Linux operating systems",
+      "Explain the meaning of the term"
+    ],
+    "info_url": "https://alison.com/course/diploma-in-ethical-hacking",
+    "start_url": "https://alison.com/course/diploma-in-ethical-hacking?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "Professional Ethical Hacking",
+    "duration": "6-10 hrs",
+    "enrolled": "26,202 learners",
+    "publisher": "",
+    "outcomes": [
+      "Distinguish between ethical hacking and penetration testing",
+      "Discuss the impact of denial of service attacks on an available IT resource",
+      "Discuss the impact of social engineering in the IT industry"
+    ],
+    "info_url": "https://alison.com/course/professional-ethical-hacking",
+    "start_url": "https://alison.com/course/professional-ethical-hacking?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Ethical Hacking; Basic Concepts of Networking",
+    "duration": "2 - 3 hrs",
+    "enrolled": "17,956 learners",
+    "publisher": "",
+    "outcomes": [
+      "Outline the different ways through which entry into a system can be gained",
+      "Discuss the roles of security and penetration testers"
+    ],
+    "info_url": "https://alison.com/course/ethical-hacking-basic-concepts-of-networking",
+    "start_url": "https://alison.com/course/ethical-hacking-basic-concepts-of-networking?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Information Technology",
+    "title": "ChatGPT (Open AI) Security, Privacy & Ethical Hacking",
+    "duration": "4-5 hrs",
+    "enrolled": "16,577 learners",
+    "publisher": "",
+    "outcomes": [
+      "Define various artificial intelligence (AI), machine learning (ML) types and modules",
+      "Describe various online scams and explain how to overcome them using ChatGPT"
+    ],
+    "info_url": "https://alison.com/course/chatgpt-open-ai-security-privacy-and-ethical-hacking",
+    "start_url": "https://alison.com/course/chatgpt-open-ai-security-privacy-and-ethical-hacking?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Business",
+    "title": "Diploma in Ethical Hacking Techniques for Beginners and Experts",
+    "duration": "10-15 hrs",
+    "enrolled": "32,926 learners",
+    "publisher": "",
+    "outcomes": [
+      "Recall the steps in installing and setting up the Kali Linux machine on your computer"
+    ],
+    "info_url": "https://alison.com/course/diploma-in-ethical-hacking-techniques-for-beginners-and-experts",
+    "start_url": "https://alison.com/course/diploma-in-ethical-hacking-techniques-for-beginners-and-experts?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Ethical Hacking; Information Security",
+    "duration": "2 - 3 hrs",
+    "enrolled": "22,087 learners",
+    "publisher": "",
+    "outcomes": [
+      "Describe the four types of security attacksExplain the active and passive classification of security attacksOutline five categories of desirable security servicesDiscuss the Network Access Security ModelExplain the working mechanism of private and public-key cryptographyDefine Cryptographic Hash FunctionsOutline the types of Cryptographic Hash FunctionsExplain the desirable properties of hash functionsSummarize the meaning and history of steganographyExplain the meaning of steganography and digital watermarkingDescribe the examples of steganography in image files",
+      "Explain the active and passive classification of security attacks"
+    ],
+    "info_url": "https://alison.com/course/ethical-hacking-information-security",
+    "start_url": "https://alison.com/course/ethical-hacking-information-security?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Ethical Hacking; Network Analysis and Vulnerability Scanning",
+    "duration": "10-15 hrs",
+    "enrolled": "17,876 learners",
+    "publisher": "",
+    "outcomes": [
+      "Describe how web applications are hacked through penetration testing",
+      "Explain the process of network scanning using the Nmap tool",
+      "Explain the concept of Cross-Site Scripting (XSS) Vulnerabilities"
+    ],
+    "info_url": "https://alison.com/course/ethical-hacking-network-analysis-and-vulnerability-scanning",
+    "start_url": "https://alison.com/course/ethical-hacking-network-analysis-and-vulnerability-scanning?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Information Technology",
+    "title": "Diploma in Cyber Security",
+    "duration": "6-10 hrs",
+    "enrolled": "98,510 learners",
+    "publisher": "",
+    "outcomes": [
+      "Identify and mitigate various cyber threats and attack vectors",
+      "Summarise conduct vulnerability assessments and apply patch management effectively",
+      "Discuss the basics of cyber security and their relevance in the Digital Age",
+      "Explain how to ‘harden’ operating systems and manage user accounts for enhanced system security"
+    ],
+    "info_url": "https://alison.com/course/diploma-in-cyber-security",
+    "start_url": "https://alison.com/course/diploma-in-cyber-security?show_modal=true"
+  },
+  {
+    "level": "Intermediate Level",
+    "subject": "Information Technology",
+    "title": "API Pentesting for CEH",
+    "duration": "3-4 hrs",
+    "enrolled": "5,335 learners",
+    "publisher": "",
+    "outcomes": [
+      "Analyze, pentest and investigate API security vulnerabilities",
+      "Recognize intel and learn to use powerful query, proxy and ethical hacking tools for pentesting APIs"
+    ],
+    "info_url": "https://alison.com/course/certificate-in-api-pentesting-and-ethical-hacking-cap-ceh",
+    "start_url": "https://alison.com/course/certificate-in-api-pentesting-and-ethical-hacking-cap-ceh?show_modal=true"
+  },
+  {
+    "level": "Intermediate Level",
+    "subject": "Business",
+    "title": "Introduction to Ethics and Ethical Theories",
+    "duration": "3-4 hrs",
+    "enrolled": "9,339 learners",
+    "publisher": "",
+    "outcomes": [
+      "Analyze the implication of the sustainable development on ethical corporations"
+    ],
+    "info_url": "https://alison.com/course/introduction-to-ethics-and-ethical-theories",
+    "start_url": "https://alison.com/course/introduction-to-ethics-and-ethical-theories?show_modal=true"
+  },
+  {
+    "level": "Beginner Level",
+    "subject": "Business",
+    "title": "Ethical Intelligence in Business",
+    "duration": "3-4 hrs",
+    "enrolled": "8,265 learners",
+    "publisher": "",
+    "outcomes": [
+      "Describe mirror neurons and the importance of recognizing our judgement traps",
+      "Discuss the IWK Health Centre scandal and the importance of ethics in business"
+    ],
+    "info_url": "https://alison.com/course/ethical-intelligence-in-business",
+    "start_url": "https://alison.com/course/ethical-intelligence-in-business?show_modal=true"
+  },
+  {
+    "level": "Advanced Level",
+    "subject": "Business",
+    "title": "Ethical Dilemmas in the Workplace: Examples and Solutions",
+    "duration": "2 - 3 hrs",
+    "enrolled": "3,070 learners",
+    "publisher": "",
+    "outcomes": [
+      "Discuss how habits and conscience work together to develop character"
+    ],
+    "info_url": "https://alison.com/course/ethical-dilemmas-in-the-workplace-examples-and-solutions",
+    "start_url": "https://alison.com/course/ethical-dilemmas-in-the-workplace-examples-and-solutions?show_modal=true"
+  }
+]

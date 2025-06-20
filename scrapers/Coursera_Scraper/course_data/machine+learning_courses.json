@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Machine Learning",
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "description": "Skills you'll gain: Unsupervised Learning, Supervised Learning, Machine Learning Methods, Classification And Regression Tree (CART), Artificial Intelligence and Machine Learning (AI/ML), Applied Machine Learning, Machine Learning Algorithms, Machine Learning, Jupyter, Data Ethics, Decision Tree Learning, Tensorflow, Scikit Learn (Machine Learning Library), Artificial Intelligence, NumPy, Predictive Modeling, Deep Learning, Reinforcement Learning, Random Forest Algorithm, Feature Engineering",
+        "rating": "4.9",
+        "reviews": "34K reviews"
+    },
+    {
+        "title": "Machine Learning with Python",
+        "link": "https://www.coursera.org/learn/machine-learning-with-python",
+        "description": "Skills you'll gain: Supervised Learning, Feature Engineering, Jupyter, Unsupervised Learning, Scikit Learn (Machine Learning Library), Python Programming, Predictive Modeling, Machine Learning, Dimensionality Reduction, Classification And Regression Tree (CART), Matplotlib, NumPy, Regression Analysis, Statistical Modeling",
+        "rating": "4.7",
+        "reviews": "17K reviews"
+    },
+    {
+        "title": "IBM Machine Learning",
+        "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning",
+        "description": "Skills you'll gain: Exploratory Data Analysis, Feature Engineering, Unsupervised Learning, Supervised Learning, Generative AI, Regression Analysis, Dimensionality Reduction, Reinforcement Learning, Deep Learning, Data Analysis, Statistical Inference, Applied Machine Learning, Predictive Modeling, Data Processing, Statistical Analysis, Data Access, Anomaly Detection, Machine Learning Algorithms, Classification And Regression Tree (CART), Scikit Learn (Machine Learning Library)",
+        "rating": "4.6",
+        "reviews": "3.1K reviews"
+    },
+    {
+        "title": "Data and Machine Learning for Technical Product Managers",
+        "link": "https://www.coursera.org/learn/data-and-machine-learning-for-technical-product-managers",
+        "description": "Skills you'll gain: Technical Communication, Technical Product Management, Workflow Management, Performance Metric, Data Analysis, Agile Methodology, Project Management, Stakeholder Communications, Communication, Data-Driven Decision-Making, Machine Learning, Artificial Intelligence and Machine Learning (AI/ML), Large Language Modeling, R Programming",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Python for Data Science, AI & Development",
+        "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+        "description": "Skills you'll gain: Jupyter, Automation, Web Scraping, Python Programming, Data Manipulation, Data Import/Export, Scripting, Data Structures, Data Processing, Data Collection, Application Programming Interface (API), Pandas (Python Package), Programming Principles, NumPy, Object Oriented Programming (OOP), Computer Programming",
+        "rating": "4.6",
+        "reviews": "41K reviews"
+    },
+    {
+        "title": "Mathematics for Machine Learning and Data Science",
+        "link": "https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science",
+        "description": "Skills you'll gain: Descriptive Statistics, Bayesian Statistics, Statistical Hypothesis Testing, Probability & Statistics, Sampling (Statistics), Probability Distribution, Probability, Linear Algebra, Statistical Inference, Applied Mathematics, NumPy, Calculus, Dimensionality Reduction, Numerical Analysis, Mathematical Modeling, Machine Learning, Machine Learning Methods, Python Programming, Jupyter, Data Manipulation",
+        "rating": "4.6",
+        "reviews": "2.7K reviews"
+    },
+    {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "link": "https://www.coursera.org/learn/introduction-to-ai",
+        "description": "Skills you'll gain: Large Language Modeling, Artificial Intelligence, Generative AI, Data Ethics, Artificial Intelligence and Machine Learning (AI/ML), ChatGPT, Deep Learning, Machine Learning, Artificial Neural Networks, Prompt Engineering, Governance, Automation, Business Transformation, Applied Machine Learning, Computer Vision, Ethical Standards And Conduct, Natural Language Processing",
+        "rating": "4.7",
+        "reviews": "19K reviews"
+    },
+    {
+        "title": "Mastering Machine Learning Algorithms using Python",
+        "link": "https://www.coursera.org/specializations/packt-mastering-machine-learning-algorithms-using-python",
+        "description": "Skills you'll gain: Dimensionality Reduction, Exploratory Data Analysis, Unsupervised Learning, Deep Learning, Random Forest Algorithm, Data Manipulation, Python Programming, Probability & Statistics, Pandas (Python Package), Data Science, Statistical Analysis, Data Processing, Predictive Modeling, NumPy, Applied Machine Learning, Classification And Regression Tree (CART), Data Analysis, Machine Learning Algorithms, Machine Learning, Regression Analysis",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Introduction to AI and Machine Learning",
+        "link": "https://www.coursera.org/learn/aws-introduction-ai-machine-learning",
+        "description": "Skills you'll gain: AWS SageMaker, Artificial Intelligence and Machine Learning (AI/ML), Computer Vision, Natural Language Processing, Amazon Web Services, Supervised Learning, Machine Learning Algorithms, Feature Engineering, Machine Learning, Artificial Neural Networks, Deep Learning, Data Processing, Data Wrangling",
+        "rating": "N/A",
+        "reviews": "N/A"
+    },
+    {
+        "title": "Fundamentals of Machine Learning and Artificial Intelligence",
+        "link": "https://www.coursera.org/learn/fundamentals-of-machine-learning-and-artificial-intelligence",
+        "description": "Skills you'll gain: Artificial Intelligence and Machine Learning (AI/ML), Generative AI, Deep Learning, Artificial Intelligence, AWS SageMaker, Amazon Web Services, Applied Machine Learning, Machine Learning, Digital Transformation",
+        "rating": "4.5",
+        "reviews": "487 reviews"
+    },
+    {
+        "title": "Introduction to Machine Learning",
+        "link": "https://www.coursera.org/learn/machine-learning-duke",
+        "description": "Skills you'll gain: PyTorch (Machine Learning Library), Reinforcement Learning, Image Analysis, Applied Machine Learning, Deep Learning, Machine Learning, Natural Language Processing, Supervised Learning, Unsupervised Learning, Artificial Neural Networks, Computer Vision, Medical Imaging",
+        "rating": "4.7",
+        "reviews": "3.7K reviews"
+    },
+    {
+        "title": "Matrix Calculus for Data Science & Machine Learning",
+        "link": "https://www.coursera.org/learn/packt-matrix-calculus-for-data-science-machine-learning-zeb7g",
+        "description": "Skills you'll gain: Calculus, Applied Mathematics, NumPy, Linear Algebra, Applied Machine Learning, Tensorflow, Machine Learning, Derivatives, Algorithms, Development Environment",
+        "rating": "N/A",
+        "reviews": "N/A"
+    }
+]

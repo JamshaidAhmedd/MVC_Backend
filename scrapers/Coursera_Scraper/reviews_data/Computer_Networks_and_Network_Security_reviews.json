@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "The sound quality of most lectures is bad. Some lectures seem chaotic/unstructured and not very well prepared. In week three there are two videos of 8 minutes which contain only one slide, which could have been divided into more slides. Some slides have a too small script. One video seems just like an advertisement for one of IBM's software products. Although the instructors are experts in their respective field, they do not seem to have much expertise in giving lectures.",
+        "name": "By Marvin B",
+        "date": "Nov 3, 2019",
+        "stars": 2
+    },
+    {
+        "review_text": "The content is basic overview of network security. I would say that the lecture videos of the first 2 weeks were just 'okay'. But the practice quizes made the content easily understandable.",
+        "name": "By Adhesh S H",
+        "date": "Jun 15, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Great course, meticulous facilitators. Thanks you all. I was once a novice in Cybersecurity but now I am well tutored to take on challenging problems and provide solution.",
+        "name": "By Oluwafemi M A",
+        "date": "Jul 6, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "There's a lot of good information in this course and I did learn a lot, however the presentation is very, very poor. The info in this course deserves a 4 star review, but the audio is absolutely terrible. Also some of the videos have extreme;y poor visuals. This course actually makes IBM look like a company with no quality assurance department.",
+        "name": "By Maurice H",
+        "date": "Jan 29, 2021",
+        "stars": 2
+    },
+    {
+        "review_text": "All chapters are of poor technical quality. Especial the audio quality in close to inaceptable. Some chapters are also of badly presented content. Only two are at least informative. Some refernces are not technically not usable",
+        "name": "By armin m",
+        "date": "Dec 19, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "very good ..network part is little puzzle..very good course for network security and database vulnerabitities.This course gonna give you the confident you need as cyber security analyst.km hasan",
+        "name": "By Km H",
+        "date": "Oct 31, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "I have found this course very useful to understand fundamental of Network Security. Information on  Database Vulnerabilities ellobarated very effectively. This course will definatly very useful not only for IT Security developer, but also for application developer who wants to undertand how network security works and how to prevent database vulnerabilities.  For additional information, Both topics are mutually exclusive and in course also there is no reference of first two weeks content in next 2 week content or vice-versa. Thanks a lot.",
+        "name": "By Hardik D",
+        "date": "Jun 3, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "This course gave me great insights into the network security domain while explaining different types of  DB vulnerabilities. A quick revision of my Cyber Security and Computer Networks subjects.  ;>",
+        "name": "By SWARIKA B",
+        "date": "Aug 27, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "the Cybersecurity Fundamentals series course is good for the basic level only.  \nWe need IBM to create a more advance level course in the near future.",
+        "name": "By Calvin B",
+        "date": "Apr 5, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "This section leaves a little to be desired, as the instructors on a few videos are difficult to understand due to poor recordings.  Some of the subject matter presented is gone over too quickly to actually help the student understand.",
+        "name": "By Jason L",
+        "date": "Feb 7, 2021",
+        "stars": 2
+    }
+]

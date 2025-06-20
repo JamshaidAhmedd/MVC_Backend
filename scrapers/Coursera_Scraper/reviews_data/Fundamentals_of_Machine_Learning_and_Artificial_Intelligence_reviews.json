@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "\"This course is an excellent introduction to the core concepts of machine learning and artificial intelligence, offering a well-structured curriculum for beginners and professionals alike. It provides a strong theoretical foundation while emphasizing practical applications, including supervised and unsupervised learning, neural networks, and basic AI algorithms.\n\nWhat sets this course apart is its focus on making complex topics accessible through clear explanations, hands-on projects, and real-world examples. Whether you're exploring AI for the first time or strengthening your existing knowledge, the course bridges the gap between theory and practice effectively.\n\nAs someone aiming to build a career in software engineering, the course aligns with my goals by equipping me with essential skills in AI and ML, which are rapidly transforming industries. It prepares learners to solve real-world problems and develop intelligent systems, making it a valuable addition to both academic and professional journeys.\"",
+        "name": "By Chinthoju S",
+        "date": "Dec 21, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "A nice, very didactic course, it explains in a comprehensive manner what AI is and how it works, going through its different branches as Machine Learning, Deep Learning and Generative AI. It's a beginner friendly way to be introduced to this world.",
+        "name": "By Emerson R",
+        "date": "May 30, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "This is was actually helpful in terms understanding the Applications of Ai making us aware the situation we will face while working ahead..Thanks for creating such course.",
+        "name": "By Ayush A",
+        "date": "Nov 2, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "AWS Fundamentals of Machine Learning and AI gave me an insight of how ML trains the AI and I also gained knowledge about the different models and deep learning.",
+        "name": "By Woon Y Y",
+        "date": "Dec 18, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Very brilliant designed. It helped me to fully understand which area of AI I should work at for my future career",
+        "name": "By Ilia F R",
+        "date": "Apr 18, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Great course! It provided a clear, practical introduction to AINML, making complex topics easy to understand.",
+        "name": "By CHANEL C",
+        "date": "Nov 10, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Didn't think it would be this valuable. Really quick and core understanting of what is what in AI field.",
+        "name": "By Cem A Y",
+        "date": "Apr 12, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Great fundamental and basic learning and has made me very excited to continue my growth in this field.",
+        "name": "By Samuel T",
+        "date": "Apr 23, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Gave me a birds eye view of AWS, AI and ML! A great segue to understanding the basic concepts of AI",
+        "name": "By Sudeep M",
+        "date": "Mar 25, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Una buena introducci\u00f3n para reflexionar sobre las utilidades de AWS sobre Machine y Deep learning.",
+        "name": "By Alfonso B F",
+        "date": "Dec 22, 2024",
+        "stars": 5
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "This is my experience as a 100% newbie: \nFrom what I understand, this course is intended for beginners, but after completing the course, I can't say that it is for true beginners. It is possible to complete the course, but if you are true beginner (i.e. someone who has never used or seen HTML, JavaScript, or CSS mark-up language or coding), you might struggle a lot to even understand what the various parts of each language are. \nFor example, to complete the optional assignment for the the HTML section, I had to pause, search for, and complete the Coursera Introduction to HTML Guided Project first; in the guided project, the instructor went slowly, explained HTML properties, and then walked us through the process of working with HTML; I took what I learned in the guided project and completed the optional web development assignment with much greater understanding, knowledge, confidence.  If learning is supposed to be the sweet spot between activating or being exposed to knowledge and reaching a clear goal through level-appropriate challenge, I don't think the goal of learning was 100% reached, at least in my case.\nAs you progress through the course, you will see that  the instructor has a lot of pre-made documents that he uses, and he doesn't consistently explain what he did to get those code lines/language lines or why he is utilizing them. The explicit part of teaching isn't consistent in the course, and as things progress, it is easy to feel lost, confused, and unsure of how to recreate the functions that the teacher is able to create.  \nThe course does emphasize the importance of practice, but it seems to overlook the fact we best practice/manipulate after we are given tools that we understand. I didn't feel like the course was planned with that in mind.  We are asked to do progressively more difficult tasks, as we should be in a course, but unfortunately, the support explicit explanation of \"what do to/how to do it\" in the course lectures does not make it always possible (at least in my experience).  \nI passed the course, but it was a difficult road; I needed to consult another course, outside explanatory blogs, and YouTube videos to fill-in (or completely explain) background knowledge that I needed to complete the tasks for this class.",
+        "name": "By KB",
+        "date": "Aug 27, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "this was a nice introductory course to get basic knowledge of the vast field of web development. i highly recommend this course for those who want to start their new journey in the field of web-d.",
+        "name": "By ANSHUMAN J",
+        "date": "Apr 28, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Good to learn about Web Development.\nIt helped me a lot for learning and developing a site.\nI like this course and I'll prefer those to choose this course who want to become a web developer.",
+        "name": "By Vikas K G",
+        "date": "Sep 5, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "This course deals with all client side fundamentals of web development. It starts from teaching of HTML to javascript validation of HTML forms. Overall this course is a must for beginners.",
+        "name": "By Md S",
+        "date": "Feb 20, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "A fair chunk of the course is reading verbatim from w3schools pages. Some of the assignment inputs have been bugged for months and the lecturer hasn't bothered fixing them. Really regret ponying up money for a certificate for this rather than a more in-depth course.",
+        "name": "By Roy H",
+        "date": "Jan 9, 2019",
+        "stars": 1
+    },
+    {
+        "review_text": "It was very helpful and I understood things so easily. A beginner in this field will surely be benefited.  Also the extra material is very helpful. This helped me take up full stack web development.",
+        "name": "By Arya H",
+        "date": "May 2, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Its a great course and you will definitively learn the basics to web dev. Things like HTML, CSS and JavaScript are the core of client side development and they all are learned here. The only bad thing is the peer-grade system where you sometimes get wrong reviews of your assignments from people that don't even try to do it right.",
+        "name": "By Anuar R A",
+        "date": "Jun 13, 2017",
+        "stars": 4
+    },
+    {
+        "review_text": "It`s a fantastic course for a beginner. I could feel the effort that was put into to make sure people understood. Thank you Coursera, when I become one the greatest, I will remember this beginning.",
+        "name": "By Ayaan R B",
+        "date": "Jul 19, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "A great course for beginners. Easily taught. Practice exercises are very engaging. Overall , the course is good enough for you to create a basic website with lots of validations and CSS.",
+        "name": "By shivam s y",
+        "date": "Jun 11, 2019",
+        "stars": 5
+    },
+    {
+        "review_text": "Has the instructor actually done any serious web development work? Continually recommending GoDaddy is what makes me question this. GoDaddy is an OK registrar but support for web hosting is very poor. They have even been known to lose a database - a big NO-No for a web host.\nI just cannot get past the intro section because of a few problems with the instructors knowledge.",
+        "name": "By Donald E S",
+        "date": "Jun 21, 2017",
+        "stars": 2
+    }
+]

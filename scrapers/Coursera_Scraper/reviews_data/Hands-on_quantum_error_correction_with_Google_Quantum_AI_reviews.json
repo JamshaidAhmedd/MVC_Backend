@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "The lectures are great but the assessments as pretty challenging and will require you to seek other resources for help. I would not recommend this course to a beginner with no experience in quantum computing because its pretty technical. However, it is well constructed and very informative. I will take it again to grasp the concepts even more.",
+        "name": "By Kevin R",
+        "date": "Jan 7, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "where is my certificate",
+        "name": "By Krrish S",
+        "date": "Feb 6, 2025",
+        "stars": 1
+    },
+    {
+        "review_text": "Up until completing this course, my knowledge about the surface code was stitched together by reading multiple articles, often cross-referencing to understand terminology, and getting confused by mismatching notations. This course presents a first-of-its-kind coherent, concise and logically progressing explanation of stabilizers, the surface code, decoding and everything related to QEC. As an upcoming researcher in QEC, this course has been invaluable for solidifying my fundamentals in this field.",
+        "name": "By Gunagya S M",
+        "date": "Jan 4, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Not self-contained hence difficult. There are Youtube videos online that introduce Stim  more gently.",
+        "name": "By Cathy L",
+        "date": "Jan 30, 2025",
+        "stars": 3
+    },
+    {
+        "review_text": "Great introductory course to QEC that covers a lot in a short amount of time and definitely piques interest for further learning. It was particularly satisfying to learn, through the lab work, how exponential error reduction can be achieved.",
+        "name": "By Alen R",
+        "date": "Jan 6, 2025",
+        "stars": 5
+    },
+    {
+        "review_text": "Excellent overall exposure to people new to quantum technology. Maybe online Stim and Crumble console would help learn and try as download and trying offline may not be a first choice for new learners",
+        "name": "By Shilpi S",
+        "date": "Dec 11, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "The fundamental principles of quantum error correction (QEC) are presented with remarkable clarity and precision. Let's hope for a future module on \"Magic state cultivation\" as a Christmas gift ;)",
+        "name": "By Alain C",
+        "date": "Dec 15, 2024",
+        "stars": 5
+    },
+    {
+        "review_text": "Great introductory course. A couple of things were left out and needed external supplement in order to do the practice exercises. For example, a separate video of minimum weight perfect matching would have helped to understand the classical repetition code exercises.",
+        "name": "By Manqoba H",
+        "date": "Jan 30, 2025",
+        "stars": 4
+    },
+    {
+        "review_text": "1.) No certificate 2.) uninspiring lecturer, 3.) non consistent content",
+        "name": "By Michael S",
+        "date": "Feb 15, 2025",
+        "stars": 2
+    },
+    {
+        "review_text": "I recently completed this course, and it was fantastic! \ud83d\ude80 It offers a truly hands-on approach to quantum error correction (QEC), with practical exercises using Google\u2019s quantum platform. The content is well-structured, covering everything from stabilizer codes to real-device implementations.  \n\n\u2705 Hands-on QEC experiments\n\u2705 Great balance of theory & practice\n\u2705 Access to Google\u2019s quantum hardware\n\nWhile prior knowledge of quantum mechanics helps, the course is an incredible deep dive into QEC. Highly recommended for anyone serious about quantum computing!  \n\n\u2b50  5/5 \u2013 One of the best quantum courses I\u2019ve taken!\ud83d\udca1\ud83d\udd2c",
+        "name": "By Bhavik L",
+        "date": "Feb 14, 2025",
+        "stars": 5
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "review_text": "I loved the Google IT Support Certificate program and was so looking forward to loving this first course in a new Google Certificate program, Python for Automation. Sadly, I cannot recommend this course to anyone, really. Especially not beginners. \nIt's like an AirBnB property that looks like its going to have everything you need, but then you commit and discover you are actually left to fend for yourself on Survivor Island. The short videos are easy to watch, but do not prepare you for the exercises. Sure, it was a good prompt to spend hours and hours teaching myself what the Python basics needed to complete the quizzes and projects. But this isn't what I signed up for a Coursera/Google course for. I doubt I would have started if I really new the time it would take me to finish, with 95% self-taught.\nAs others wrote here, as this course stands, it makes more sense to learn for free with great You-Tube tutorial (esp Corey Schafer), and with the free Downey book, Think Python and I may check out the less expensive popular Udemy course, among many others. I really can't see the value-add here. Just so so so different than the IT Support Certificate which was pitched perfectly.  \nSure, people learn in different way, and my experience might not be yours. The main reason for my strong position on this course has to do with how the course is marketed - as empowering women and encouraging a more diverse talent pipeline. I would love to see the data on how this course empowered new women and diverse new talent to begin IT careers. How many new users start, filled with anticipation, and drop out by Week 3. Why not solve this problem with course revisions? Get feedback from your users. Please fill in the gaps between the encouraging video content and the (sometimes) \"now we be Navy Seals\" problem sets by providing abundant bridging exercises and relevant resources to encourage new users. I hope Coursera will look at the data and provide time estimates equal to what your intended user group actually needed to succeed in this course - and not drop out. I can honestly say this was one of the most unpleasant courses I've ever taken - and that's saying something.",
+        "name": "By Nancy A",
+        "date": "Feb 16, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "the coding videos are relatively short and concise while the questions are extremely hard and does not match to the actual content. not really a buiggener friendly",
+        "name": "By Mark S",
+        "date": "Jan 28, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "I can't give this course higher than 1 star until they fix the bugs in the quizzes.\nFor those of you who say \"It works for me, it's a problem in your code\", you may not have enough experience with these types of bugs. \nFor Week 3 Quiz - While Loops, problems 3 & 4:\nBug observations: \n1) Works intermittently. In problem 3, it kept saying \"No Output\" when running it. I switched from Edge (Chromium) browser to Chrome, and it worked. Same code. Then, I retook the test (still in Chrome), and problem 3 timed out even though it passed previously and the code was the same. \n2) Code works fine in an external IDE such as VS Code and PyCharm, but when typed in manually into Coursera, it will time out or say \"No Output\". \n3) Problem 4 will keep outputting a progress bar when you run it with messages saying \"Compiling, uploading, going to the moon and back,...\" before finally outputting the correct solution. Then when submitting the quiz, it \"Times Out After 5\" No doubt due to 'going to the Moon and back'.\nMy credentials:\nI am a professional Software Engineer with over 13 years of experience working at Amazon and Microsoft. I have written production code in Java, C#, and Python among other languages.",
+        "name": "By Jonathan L",
+        "date": "Jan 20, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "This course lacks appropriate explanations. Quizzes are not reviewed with you and must be completed in a very specific fashion, or you'll get the program wrong. I wish more explanations and material was given. Great idea, poor execution.",
+        "name": "By Roman H",
+        "date": "Jan 31, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "As I had some previous Python experience, I completed this course in about a week.  There is nothing here that you cannot get from free tutorials on YouTube.  The auto-graders for the assignments are buggy and some of the concepts in the quizzes are not taught in the lecture videos.  If you want to learn the basics of Python, you can do so for free on your own and do not need to pay for this course.",
+        "name": "By Michael M",
+        "date": "Feb 5, 2020",
+        "stars": 1
+    },
+    {
+        "review_text": "This course was really helpful in developing my coding skills in python.The exercises helped me to test my knowledge .Overall it was a really good for people like me who are just beginning with python",
+        "name": "By Shruthi r",
+        "date": "Apr 1, 2020",
+        "stars": 5
+    },
+    {
+        "review_text": "Despite actually have some decent foundations in Python and programming, I did not enjoy the course. The instructor is super friendly and the videos are fun enough, but the assignments got more annoying and more annoying with every subsequent quiz (where the focus, IMO, seems to be more on Math skills than actually learning the basics of a programming language). Certainly, you go on StackoverFlow to find the solutions, but then that's not truly learning, is it? The worst part is that the videos not prepare you for the assignments mentioned above. \nIf you enjoy a challenge, sure stick around, but - if you're like me and were actually interested in getting some practical word done in Python (I signed up to do an individual project - then you'll probably run out of patience. \nTo be honest, if I had been a true beginner, this would have put me off programming altogether. If you want to learn Python, just get: https://automatetheboringstuff.com/ or have a look at  https://www.goodreads.com/book/show/8341335-learn-python-the-hard-way. There are countless free resources out there that are much more useful than this. Cancelled my subscription.",
+        "name": "By ANITA P",
+        "date": "Jun 14, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "Examples are easy.. Labs are not for beginners..",
+        "name": "By Alex",
+        "date": "Feb 4, 2020",
+        "stars": 2
+    },
+    {
+        "review_text": "Course presentation is good. Topic selection is good. Selected Strings, Lists, tuples and Dictionaries, using these program logic can be build. Examples are good and interesting. assignments are good.",
+        "name": "By Nelakanti R",
+        "date": "Aug 16, 2021",
+        "stars": 5
+    },
+    {
+        "review_text": "This course is not totally for beginners. The practice problems of this course won't be solved only having the ideas from the videos in this course. I got away with this course as I am not a pure beginner.The main disgusting part of this course was the final project.  It included some stuffs that were too much advanced for a beginner. Also, the coding environment here used for the final project have some bugs which made me feel really frustrated.Even, the discussion forum of this course is the worst among the courses I have completed in coursera. No staff responds to any problem of the learners. There is a mentor who just replies with  a same single message to about 90% of the problems of the forum. He just vanishes after replying without following up the thread and don't reply to further problem. So, the support in this course is not good at all.That are the reason for my \"One Star\" rating.",
+        "name": "By Sabbir A",
+        "date": "Jun 20, 2020",
+        "stars": 1
+    }
+]
