@@ -2,9 +2,9 @@ from fastapi import APIRouter, HTTPException, Depends, Response
 from typing import List
 from pymongo import ReturnDocument
 from bson import ObjectId
-from core import security
-from core.config import db
-from models.user import UserOut
+from app.core import security
+from app.core.config import db
+from app.models.user import UserOut
 
 router = APIRouter(prefix="/admin/users", tags=["admin"])
 

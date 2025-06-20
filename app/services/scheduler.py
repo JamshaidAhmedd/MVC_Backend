@@ -1,5 +1,5 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
-from services import data_ingestion, sentiment, notification_service
+from app.services import data_ingestion, sentiment, notification_service
 
 sched = BlockingScheduler(timezone="UTC")
 # Job: run full ingestion pipeline every 4 hours

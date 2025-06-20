@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 
-from core import security
-from services import data_ingestion, sentiment, notification_service
+from app.core import security
+from app.services import data_ingestion, sentiment, notification_service
 
 router = APIRouter(prefix="/admin/tasks", tags=["admin"])
 

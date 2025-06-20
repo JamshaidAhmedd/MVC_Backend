@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from typing import List
 import math
-from core.config import db, settings
-from models.category import CategoryOut
-from models.course import CourseSummary
+from app.core.config import db, settings
+from app.models.category import CategoryOut
+from app.models.course import CourseSummary
 
 router = APIRouter(prefix="/categories", tags=["categories"])
 

@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException, Depends
 from typing import List
 from pymongo import ReturnDocument
-from core import security
-from core.config import db
-from models.user import UserOut, UserUpdate, FavoriteIn
+from app.core import security
+from app.core.config import db
+from app.models.user import UserOut, UserUpdate, FavoriteIn
 
 router = APIRouter(prefix="/users", tags=["users"])
 

@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ```bash
 # Start the FastAPI server
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### 4. Access the API
@@ -149,7 +149,7 @@ The application uses the following MongoDB collections:
 ### Running with Auto-reload
 
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### Code Style

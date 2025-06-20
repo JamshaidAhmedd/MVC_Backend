@@ -1,7 +1,7 @@
 from typing import List, Dict, Any
 from datetime import datetime
 from bson import ObjectId
-from core.config import db
+from app.core.config import db
 
 # Collections
 kw_coll = db["keyword_queue"]

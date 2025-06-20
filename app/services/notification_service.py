@@ -6,9 +6,9 @@ from datetime import datetime
 
 from bson import ObjectId
 
-from core.config import db
-from models.notification import PyObjectId
-from utils import keyword_queue
+from app.core.config import db
+from app.models.notification import PyObjectId
+from app.utils import keyword_queue
 
 log = logging.getLogger(__name__)
 

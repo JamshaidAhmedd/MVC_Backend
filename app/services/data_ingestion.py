@@ -6,8 +6,8 @@ from typing import Dict, List, Tuple
 
 from pymongo import UpdateOne
 
-from core.config import db
-from utils import category_tagger, keyword_queue, unify_data
+from app.core.config import db
+from app.utils import category_tagger, keyword_queue, unify_data
 from . import sentiment, notification_service
 
 log = logging.getLogger(__name__)

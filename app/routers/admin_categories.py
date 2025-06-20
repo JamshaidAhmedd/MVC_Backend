@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends, Response
 from bson import ObjectId
-from core import security
-from core.config import db
-from models.category import CategoryIn, CategoryOut
+from app.core import security
+from app.core.config import db
+from app.models.category import CategoryIn, CategoryOut
 
 router = APIRouter(prefix="/admin/categories", tags=["admin"])
 

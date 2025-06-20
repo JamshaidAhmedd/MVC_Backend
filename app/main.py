@@ -1,13 +1,13 @@
 from fastapi import FastAPI
-from routers.auth import router as auth_router
-from routers.users import router as users_router
-from routers.courses import router as courses_router
-from routers.categories import router as categories_router
-from routers.admin_users import router as admin_users_router
-from routers.admin_categories import router as admin_categories_router
-from routers.admin_tasks import router as admin_tasks_router
-from utils import category_tagger
-from services import notification_service
+from .routers.auth import router as auth_router
+from .routers.users import router as users_router
+from .routers.courses import router as courses_router
+from .routers.categories import router as categories_router
+from .routers.admin_users import router as admin_users_router
+from .routers.admin_categories import router as admin_categories_router
+from .routers.admin_tasks import router as admin_tasks_router
+from app.utils import category_tagger
+from app.services import notification_service
 import threading
 
 app = FastAPI(

@@ -5,7 +5,7 @@ import time
 from typing import List
 from pymongo import TEXT
 
-from core.config import db, settings
+from app.core.config import db, settings
 
 TEXT_INDEX = "CourseTextIndex"
 log = logging.getLogger(__name__)

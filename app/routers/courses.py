@@ -1,10 +1,10 @@
 from fastapi import APIRouter, HTTPException, Depends, Query
 from typing import List, Optional, Dict, Any
 import math
-from core import security
-from core.config import db, settings
-from models.course import CourseSummary, CourseDetail, Review
-from utils import keyword_queue
+from app.core import security
+from app.core.config import db, settings
+from app.models.course import CourseSummary, CourseDetail, Review
+from app.utils import keyword_queue
 
 router = APIRouter(tags=["courses"])
 

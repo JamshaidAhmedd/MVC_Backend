@@ -7,7 +7,7 @@ from typing import List
 from textblob import TextBlob
 from pymongo import TEXT, UpdateOne
 
-from core.config import db, settings
+from app.core.config import db, settings
 
 log = logging.getLogger(__name__)
 
