@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends, Query
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 import math
 from core import security
 from core.config import db, settings
@@ -9,13 +9,30 @@ from utils import keyword_queue
 router = APIRouter(tags=["courses"])
 
 @router.get("/search", response_model=List[CourseSummary])
-def search_courses(query: str = Query(..., min_length=1), top_k: int = Query(10, ge=1, le=100),
-                   current_user: Optional[dict] = Depends(security.get_current_user)):
-    # Use MongoDB text index to find matching courses
+def search_courses(
+    query: str = Query(..., min_length=1),
+    category: Optional[str] = Query(None),
+    provider: Optional[str] = Query(None),
+    top_k: int = Query(10, ge=1, le=100),
+    current_user: Optional[dict] = Depends(security.get_current_user),
+):
+    """Search courses with optional category/provider filters."""
+
+    filter_query: Dict[str, Any] = {"$text": {"$search": query}}
+    if category:
+        filter_query["categories"] = category
+    if provider:
+        filter_query["provider"] = provider
+
     cursor = db["courses"].find(
-        {"$text": {"$search": query}},
-        {"score": {"$meta": "textScore"}, "course_id": 1, "title": 1,
-         "smoothed_sentiment": 1, "num_reviews": 1}
+        filter_query,
+        {
+            "score": {"$meta": "textScore"},
+            "course_id": 1,
+            "title": 1,
+            "smoothed_sentiment": 1,
+            "num_reviews": 1,
+        },
     ).sort([("score", {"$meta": "textScore"})]).limit(top_k * 5)
     docs = list(cursor)
     if not docs:
