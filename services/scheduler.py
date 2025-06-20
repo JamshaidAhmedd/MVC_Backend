@@ -52,7 +52,7 @@ sched.add_job(
     hours=4,
     id="notify_job",
     max_instances=1,
-    # start 5 minutes after the ingestion job
+    # run every 4h starting 5 minutes after the scheduler begins
     start_date=datetime.now() + timedelta(minutes=5)
 )
 
