@@ -9,20 +9,22 @@ Runs:
 """
 
 import logging
+from datetime import datetime, timedelta
 from apscheduler.schedulers.blocking import BlockingScheduler
 from ingestion import main as run_ingest
 from sentiment_enrichment import main as run_enrich
 from notification_dispatcher import run_notify
 
-# ── SETUP LOGGING ─────────────────────────────────────────────────────────────
+# ── SETUP LOGGING ─────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 log = logging.getLogger()
 
-# ── SCHEDULER ─────────────────────────────────────────────────────────────────
+# ── SCHEDULER ───────────────────────────────────────────────────────
 sched = BlockingScheduler()
+
 
 def log_and_run(name, fn):
     log.info(f"→ Starting {name}")
@@ -31,6 +33,9 @@ def log_and_run(name, fn):
         log.info(f"✓ {name} succeeded")
     except Exception as e:
         log.error(f"✗ {name} failed: {e}")
+
+
+# ── JOBS ───────────────────────────────────────────────────────────
 
 # Every 4 hours: full scrape → unify → ingest → enrich → notify
 sched.add_job(
@@ -47,8 +52,8 @@ sched.add_job(
     hours=4,
     id="notify_job",
     max_instances=1,
-    # offset notify slightly after ingestion
-    next_run_time=None
+    # start 5 minutes after the ingestion job
+    start_date=datetime.now() + timedelta(minutes=5)
 )
 
 # Daily at 02:00: sentiment scoring & aggregation

@@ -40,7 +40,7 @@ async def scrape_courses(keyword):
     """
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)  # Use headless=False for debugging
-        context = await browser.new_context()
+        context = await browser.new_context(ignore_https_errors=True)
         page = await context.new_page()
 
         search_url = f"https://www.coursera.org/courses?query={keyword}"
@@ -112,7 +112,7 @@ async def extract_reviews(course_link, course_title):
     """
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)  # Debugging mode
-        context = await browser.new_context()
+        context = await browser.new_context(ignore_https_errors=True)
         page = await context.new_page()
 
         logger.info(f"Navigating to course reviews link: {course_link}")

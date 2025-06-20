@@ -17,6 +17,7 @@ import json
 import time
 import logging
 import argparse
+from pathlib import Path
 from urllib.parse import urlencode, urlparse, urlunparse
 
 from selenium import webdriver
@@ -77,6 +78,13 @@ def init_driver(headless: bool = True) -> webdriver.Chrome:
     # Disable images for speed
     prefs = {"profile.managed_default_content_settings.images": 2}
     options.add_experimental_option("prefs", prefs)
+    chrome_bin = os.environ.get("CHROME_BINARY")
+    if not chrome_bin:
+        pw_chrome = Path.home() / ".cache" / "ms-playwright" / "chromium-1169" / "chrome-linux" / "chrome"
+        if pw_chrome.exists():
+            chrome_bin = str(pw_chrome)
+    if chrome_bin:
+        options.binary_location = chrome_bin
 
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
