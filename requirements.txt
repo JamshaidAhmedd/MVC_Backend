@@ -8,3 +8,5 @@ python-dotenv
 textblob
 pydantic
 pydantic-settings
+PyYAML==6.0.2
+python-multipart
