@@ -6,8 +6,8 @@ from .routers.categories import router as categories_router
 from .routers.admin_users import router as admin_users_router
 from .routers.admin_categories import router as admin_categories_router
 from .routers.admin_tasks import router as admin_tasks_router
-from app.utils import category_tagger
-from app.services import notification_service
+from app.utils import category_tagger, keyword_queue
+from app.services import notification_service, data_ingestion
 import threading
 
 app = FastAPI(
@@ -43,6 +43,8 @@ def health_check():
 @app.on_event("startup")
 def startup_event() -> None:
     """Run startup tasks."""
+    keyword_queue.seed_defaults(["python", "data science", "web development"])
+    threading.Thread(target=data_ingestion.run_ingestion_pipeline, daemon=True).start()
     category_tagger.retag_all()
     threading.Thread(
         target=category_tagger.watch_changes, daemon=True

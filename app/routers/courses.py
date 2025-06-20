@@ -5,6 +5,8 @@ from app.core import security
 from app.core.config import db, settings
 from app.models.course import CourseSummary, CourseDetail, Review
 from app.utils import keyword_queue
+from app.services import data_ingestion
+import threading
 
 router = APIRouter(tags=["courses"])
 
@@ -36,9 +38,10 @@ def search_courses(
     ).sort([("score", {"$meta": "textScore"})]).limit(top_k * 5)
     docs = list(cursor)
     if not docs:
-        # If no courses found, and user is logged in, record the search for future notifications
+        keyword_queue.enqueue(query)
         if current_user:
             keyword_queue.add_request(current_user["_id"], query)
+        threading.Thread(target=data_ingestion.run_ingestion_pipeline, daemon=True).start()
         return []
     # Compute max text score for normalization
     max_score = max(d.get("score", 0) for d in docs) or 1.0
